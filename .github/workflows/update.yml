@@ -1,0 +1,93 @@
+name: Angebote aktualisieren
+
+# Donnerstag 04:00 UTC = 06:00 Wiener Zeit (Sommer) bzw. 05:00 (Winter).
+# AT-Flugblaetter starten meist Do/Fr -> einmal woechentlich reicht.
+on:
+  schedule:
+    - cron: "0 4 * * 4"
+  workflow_dispatch:        # erlaubt manuelles Ausloesen im Actions-Tab
+
+permissions:
+  contents: write           # zum Zurueckschreiben der Preishistorie
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhaengigkeiten
+        run: pip install --quiet httpx
+
+      - name: Tests (offline, muessen gruen sein)
+        run: |
+          set -e
+          for t in test_discount test_quantity test_billa test_marktguru \
+                   test_marktguru_fixes test_resilience; do
+            echo "--- $t"
+            python "tests/$t.py"
+          done
+
+      - name: Angebote holen
+        id: run
+        run: |
+          set +e
+          python pipeline.py --plz "${{ vars.PLZ || '4652' }}" \
+                             --min-pct "${{ vars.MIN_PCT || '30' }}"
+          rc=$?
+          set -e
+          echo "rc=$rc" >> "$GITHUB_OUTPUT"
+          # rc=2 heisst: Lauf lief durch, meldet aber ein Problem (z.B. eine
+          # Quelle ohne Treffer). Dann trotzdem deployen, aber sichtbar warnen.
+          if [ "$rc" = "2" ]; then
+            echo "::warning::Lauf meldet ein Problem - Details im Log oben."
+          elif [ "$rc" != "0" ]; then
+            echo "::error::Lauf fehlgeschlagen (Code $rc)."
+            exit "$rc"
+          fi
+
+      - name: Seite vorbereiten
+        run: |
+          set -e
+          test -s out/angebote.html
+          cp out/angebote.html out/index.html
+          # Nicht in Suchmaschinen: die Liste ist fuer den privaten Kreis.
+          printf 'User-agent: *\nDisallow: /\n' > out/robots.txt
+          ls -lh out/
+
+      - name: Preishistorie zurueckschreiben
+        run: |
+          git config user.name "prospekt-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history.jsonl data/last_run.json
+          if git diff --staged --quiet; then
+            echo "Historie unveraendert."
+          else
+            git commit -m "Preishistorie: Lauf vom $(date +%F)"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

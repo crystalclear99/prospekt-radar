@@ -1,0 +1,52 @@
+# Suchbegriffe fuer den marktguru-Adapter (eine pro Zeile).
+# Diese Liste bestimmt, welche Produktgruppen bei marktguru abgefragt werden.
+# Zeilen mit # werden ignoriert. Ist die Datei leer/fehlt, greift die
+# eingebaute Default-Liste (siehe sources/marktguru.py).
+#
+# Tipp: Auf deine tatsaechlichen Einkaeufe zuschneiden -> weniger Rauschen,
+# gezieltere Treffer (vgl. "Merkliste statt Giesskanne" im Prompt).
+
+milch
+butter
+käse
+joghurt
+topfen
+obers
+eier
+brot
+semmel
+mehl
+zucker
+nudeln
+reis
+öl
+kaffee
+tee
+schokolade
+kekse
+wurst
+schinken
+faschiertes
+hühnerfilet
+schnitzel
+speck
+lachs
+thunfisch
+apfel
+banane
+tomaten
+gurke
+kartoffel
+zwiebel
+salat
+tiefkühl
+pizza
+eis
+waschmittel
+klopapier
+windeln
+bier
+wein
+wasser
+saft
+cola

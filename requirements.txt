@@ -1,0 +1,5 @@
+# Prospekt-Radar - Laufzeit-Abhaengigkeiten (Python 3.11+)
+httpx>=0.27
+# Nur noetig, falls spaeter HTML-Adapter dazukommen:
+# beautifulsoup4>=4.12
+# python-dateutil>=2.9

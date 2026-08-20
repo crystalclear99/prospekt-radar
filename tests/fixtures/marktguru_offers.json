@@ -1,0 +1,6631 @@
+{
+ "results": [
+  {
+   "brand": {
+    "uniqueName": "Saint Agur",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 11378,
+    "name": "Saint Agur",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "eurospar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12730",
+     "name": "EUROSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3342100,
+   "description": "(ca. 33% Fett abs.), aus past. Kuhmilch aus der Region Auvergne hergestellter und mindestens 8 Wochen gereifter, würziger Blauschimmelkäse, in der Käse-Feinkostabteilung, 100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.39,
+   "oldPrice": 3.19,
+   "referencePrice": 23.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 280285,
+    "name": "Käse",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "milbona",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4051,
+    "name": "Milbona",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348559,
+   "description": "Verschiedene Sorten Je 220 g",
+   "volume": 0.22,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.49,
+   "oldPrice": 2.79,
+   "referencePrice": 11.32,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 443401,
+    "name": "Käse Snack",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "alpengut",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4052,
+    "name": "Alpengut",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348538,
+   "description": "oder Südsteirer Je 200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": 2.15,
+   "referencePrice": 9.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 150265,
+    "name": "Käse Innviertler",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "ein-gutes-stueck-heimat",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 7686,
+    "name": "Ein Gutes Stück Heimat",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348868,
+   "description": "Verschiedene Sorten 175 g",
+   "volume": 0.175,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.79,
+   "oldPrice": 2.99,
+   "referencePrice": 15.94,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 278070,
+    "name": "Bio Bergbauern Heumilch Käsescheiben",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "gmundner-milch",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 3736,
+    "name": "Gmundner Milch",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348499,
+   "description": "HINWEIS: MIT LIDL PLUS APP 1.99 € Verschiedene Sorten Je 150 g",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.29,
+   "oldPrice": null,
+   "referencePrice": 15.27,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-22T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 5439,
+    "name": "Käsescheiben",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "spar-natur-pur",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4643,
+    "name": "Spar Natur pur",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3332992,
+   "description": "aus Heumilch g.t.S. aus Österreich, versch. Sorten, Schnitt- bzw. Hartkäse mit einem je nach Sorte milden bis würzigen Geschmack oder mit feiner Rauchnote 175 g",
+   "volume": 0.175,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.99,
+   "oldPrice": null,
+   "referencePrice": 17.09,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-05T22:00:00Z",
+     "to": "2026-09-02T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 7076,
+    "name": "Bio-Käsescheiben",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "schaerdinger",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 9359,
+    "name": "Schärdinger",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3349258,
+   "description": "HINWEIS: MIT LIDL PLUS APP 6.99 € im Stück 1 kg",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 7.49,
+   "oldPrice": null,
+   "referencePrice": 7.49,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-23T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 25565,
+    "name": "Gouda",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "alpengut",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4052,
+    "name": "Alpengut",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3349252,
+   "description": "in Scheiben 800 g",
+   "volume": 0.8,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 5.99,
+   "oldPrice": null,
+   "referencePrice": 7.49,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-23T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 209080,
+    "name": "Tilsiter",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "noem",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 8248,
+    "name": "Nöm",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3349240,
+   "description": "200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.19,
+   "oldPrice": null,
+   "referencePrice": 5.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-23T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 353812,
+    "name": "Cottage Cheese Natur",
+    "description": ""
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "schaerdinger",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 9359,
+    "name": "Schärdinger",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3349186,
+   "description": "Scheiben 750 g",
+   "volume": 0.75,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 5.99,
+   "oldPrice": null,
+   "referencePrice": 7.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-22T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 27931,
+    "name": "Bergbaron",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "salakis",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 5018,
+    "name": "Salakis",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3349183,
+   "description": "180 g",
+   "volume": 0.18,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.29,
+   "oldPrice": null,
+   "referencePrice": 12.72,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-22T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 117567,
+    "name": "Schafkäse",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "gusteria",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 11605,
+    "name": "Gusteria",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3349000,
+   "description": "100 g",
+   "volume": 0.1,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": null,
+   "referencePrice": 19.9,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 371290,
+    "name": "Fadenkäse Geräuchert",
+    "description": ""
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "milbona",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4051,
+    "name": "Milbona",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348973,
+   "description": "gerieben 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 3.79,
+   "oldPrice": null,
+   "referencePrice": 7.58,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 249016,
+    "name": "Mozzarella",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "alma",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 2433,
+    "name": "Alma",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348904,
+   "description": "Versch. Sorten 150 g",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.99,
+   "oldPrice": 2.69,
+   "referencePrice": 13.27,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-22T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 1976,
+    "name": "Schmelzkäse",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "milbona",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4051,
+    "name": "Milbona",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348871,
+   "description": "Verschiedene Sorten 150 g",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.95,
+   "oldPrice": 1.19,
+   "referencePrice": 6.33,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 88684,
+    "name": "Crefée Frischkäse",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "alma",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 2433,
+    "name": "Alma",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348862,
+   "description": "Verschiedene Sorten 150 g",
+   "volume": 0.15,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.69,
+   "oldPrice": 2.79,
+   "referencePrice": 17.93,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 1976,
+    "name": "Schmelzkäse",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "milbona",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4051,
+    "name": "Milbona",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348859,
+   "description": "Verschiedene Sorten 200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.89,
+   "oldPrice": 1.99,
+   "referencePrice": 9.45,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 24725,
+    "name": "Weichkäse",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "milbona",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4051,
+    "name": "Milbona",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348850,
+   "description": "gerieben 250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.79,
+   "oldPrice": 2.99,
+   "referencePrice": 11.16,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 83484,
+    "name": "Emmentaler",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "milbona",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4051,
+    "name": "Milbona",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348847,
+   "description": "gerieben 250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": 2.49,
+   "referencePrice": 7.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 4715,
+    "name": "Gouda",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "alpengut",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4052,
+    "name": "Alpengut",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348568,
+   "description": "in Scheiben Verschiedene Sorten Je 350 g",
+   "volume": 0.35,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 3.45,
+   "oldPrice": 3.59,
+   "referencePrice": 9.86,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 137019,
+    "name": "Landbaron",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "milbona",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4051,
+    "name": "Milbona",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348565,
+   "description": "Je 125 g",
+   "volume": 0.125,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.29,
+   "oldPrice": 1.39,
+   "referencePrice": 10.32,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 223365,
+    "name": "Bio-Mozzarella",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "milbona",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4051,
+    "name": "Milbona",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348553,
+   "description": "In Scheiben 175 g Gerieben oder im Stück 200 g",
+   "volume": 0.175,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.25,
+   "oldPrice": 2.39,
+   "referencePrice": 12.86,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 171701,
+    "name": "Britischer Cheddar",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "milbona",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4051,
+    "name": "Milbona",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348547,
+   "description": "Je 400 g",
+   "volume": 0.4,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 3.19,
+   "oldPrice": 3.99,
+   "referencePrice": 7.97,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 83484,
+    "name": "Emmentaler",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "milbona",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4051,
+    "name": "Milbona",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348529,
+   "description": "Je 200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": 2.19,
+   "referencePrice": 9.95,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 284310,
+    "name": "Brie Spitze",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "milbona",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4051,
+    "name": "Milbona",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 320,
+     "name": "Käse",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3348526,
+   "description": "Jung Scheiben Je 400 g",
+   "volume": 0.4,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.89,
+   "oldPrice": 2.99,
+   "referencePrice": 7.22,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 4715,
+    "name": "Gouda",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "noem",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 8248,
+    "name": "Nöm",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 323,
+     "name": "Butter",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3350617,
+   "description": "250 g.",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.89,
+   "oldPrice": 2.66,
+   "referencePrice": 7.56,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/noem-teebutter-00402187?utm_campaign=digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 5632,
+    "name": "Teebutter",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "meggle",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 6394,
+    "name": "Meggle",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 323,
+     "name": "Butter",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3349261,
+   "description": "HINWEIS: MIT LIDL PLUS APP 1.19 € oder Aioli 80 ml",
+   "volume": 0.08,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.29,
+   "oldPrice": null,
+   "referencePrice": 16.13,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-23T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 179311,
+    "name": "Kräuterbutter Tube",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "Lätta",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 5982,
+    "name": "Lätta",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "penny",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12802",
+     "name": "PENNY",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 323,
+     "name": "Butter",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3347608,
+   "description": "450 g",
+   "volume": 0.45,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.99,
+   "oldPrice": 2.79,
+   "referencePrice": 4.42,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 6872,
+    "name": "Original",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "milfina",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 11015,
+    "name": "Milfina",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "hofer",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12747",
+     "name": "HOFER",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 323,
+     "name": "Butter",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3346345,
+   "description": "verschiedene Sorten 250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.89,
+   "oldPrice": 1.49,
+   "referencePrice": 3.56,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-16T22:00:00Z",
+     "to": "2026-08-20T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 92319,
+    "name": "Streichfein Mischfettbutter",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "pinzgau-milch",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 8650,
+    "name": "Pinzgau Milch",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar-gourmet",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12817",
+     "name": "SPAR-Gourmet",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 323,
+     "name": "Butter",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3343537,
+   "description": "HINWEIS: MIT SPAR-APP-GUTSCHEIN 1.47 € 250-g-Packung.",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.66,
+   "oldPrice": 2.56,
+   "referencePrice": 6.64,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 55562,
+    "name": "Teebutter",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "pinzgau-milch",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 8650,
+    "name": "Pinzgau Milch",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "interspar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12753",
+     "name": "INTERSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 323,
+     "name": "Butter",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3343333,
+   "description": "HINWEIS: MIT SPAR-APP-GUTSCHEIN 1.47 € 250-g-Packung",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.66,
+   "oldPrice": 2.56,
+   "referencePrice": 6.64,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 55562,
+    "name": "Teebutter",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "pinzgau-milch",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 8650,
+    "name": "Pinzgau Milch",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 323,
+     "name": "Butter",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3342709,
+   "description": "HINWEIS: MIT SPAR-APP-GUTSCHEIN 1.47 € 250 g (Abgabe in Haushaltsmengen - maximal 10 Pkg.)",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.66,
+   "oldPrice": 2.56,
+   "referencePrice": 6.64,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 55562,
+    "name": "Teebutter",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "pinzgau-milch",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 8650,
+    "name": "Pinzgau Milch",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "eurospar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12730",
+     "name": "EUROSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 323,
+     "name": "Butter",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3342118,
+   "description": "HINWEIS: MIT SPAR-APP-GUTSCHEIN 1.47 € aus Österreich, 250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.66,
+   "oldPrice": 2.56,
+   "referencePrice": 6.64,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 55562,
+    "name": "Teebutter",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "thisisnobrand123",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 1617,
+    "name": "thisisnobrand123",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 339,
+     "name": "Kuchen & Feinbackwaren",
+     "description": null,
+     "parentId": 116
+    }
+   ],
+   "id": 3350674,
+   "description": "per Stk.",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.54,
+   "oldPrice": 1.09,
+   "referencePrice": 0.54,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/butter-laugencroissant-00734000?utm_campaign=digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 26376,
+    "name": "Butter-Laugencroissant",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "back-box",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 10789,
+    "name": "Back Box",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "hofer",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12747",
+     "name": "HOFER",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 339,
+     "name": "Kuchen & Feinbackwaren",
+     "description": null,
+     "parentId": 116
+    }
+   ],
+   "id": 3346336,
+   "description": "per Stück",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.79,
+   "oldPrice": 1.09,
+   "referencePrice": 0.79,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-16T22:00:00Z",
+     "to": "2026-08-20T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 83623,
+    "name": "Butter-Topfengolatsche",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "spar",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 5112,
+    "name": "Spar",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar-gourmet",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12817",
+     "name": "SPAR-Gourmet",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 339,
+     "name": "Kuchen & Feinbackwaren",
+     "description": null,
+     "parentId": 116
+    }
+   ],
+   "id": 3343417,
+   "description": "Plunder mit feiner, saftiger Topfenfüllung, mit 100% Mehl aus Österreich 1 Stk.",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.74,
+   "oldPrice": 2.39,
+   "referencePrice": 1.74,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 146291,
+    "name": "Butter-Riesentopfentasche",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "spar",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 5112,
+    "name": "Spar",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 339,
+     "name": "Kuchen & Feinbackwaren",
+     "description": null,
+     "parentId": 116
+    }
+   ],
+   "id": 3342658,
+   "description": "Plunder mit feiner, saftiger Topfenfüllung 1 Stk.",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.74,
+   "oldPrice": 2.39,
+   "referencePrice": 1.74,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 146291,
+    "name": "Butter-Riesentopfentasche",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "spar",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 5112,
+    "name": "Spar",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "interspar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12753",
+     "name": "INTERSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 394,
+     "name": "Küchenzubehör",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3351979,
+   "description": "Details im Prospekt",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 4.99,
+   "oldPrice": 6.99,
+   "referencePrice": 4.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-09-09T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://www.interspar.at/shop/haushalt/spar-butterdose/p/2020005913080?ecid=at_ecom_420",
+   "product": {
+    "id": 401833,
+    "name": "Butterdose",
+    "description": ""
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "thijs-belgian",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 26311,
+    "name": "Thijs Belgian",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 314,
+     "name": "Kekse",
+     "description": null,
+     "parentId": 112
+    }
+   ],
+   "id": 3350740,
+   "description": "155 g Packung",
+   "volume": 0.155,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 2.49,
+   "oldPrice": 2.89,
+   "referencePrice": 16.06,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": "https://shop.billa.at/?utm_campaign=digitales_flugblatt_2023&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 443680,
+    "name": "Mini-Butterwaffeln",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "alpengut",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4052,
+    "name": "Alpengut",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 319,
+     "name": "Milch",
+     "description": null,
+     "parentId": 61
+    }
+   ],
+   "id": 3349471,
+   "description": "HINWEIS: MIT LIDL PLUS APP Natur 0,5 l.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.79,
+   "oldPrice": 0.79,
+   "referencePrice": 1.58,
+   "requiresLoyalityMembership": true,
+   "validityDates": [
+    {
+     "from": "2026-08-23T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 27279,
+    "name": "Buttermilch",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "Alt Wien Kaffee",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 10983,
+    "name": "Alt Wien Kaffee",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "interspar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12753",
+     "name": "INTERSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3350944,
+   "description": "500 g. Erhältlich bei allen Wiener Interspar-Märkten.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 16.9,
+   "oldPrice": null,
+   "referencePrice": 33.8,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 210470,
+    "name": "Hakuna Matata",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "cafe-hag",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 10560,
+    "name": "Cafe Hag",
+    "industryId": 6
+   },
+   "advertisers": [
+    {
+     "uniqueName": "metro",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12781",
+     "name": "METRO",
+     "industryId": 6
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3352246,
+   "description": "gemahlen 500-g-Pkg. Bei den abgebildeten Preisen handelt es sich um Nettopreise.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 9.19,
+   "oldPrice": null,
+   "referencePrice": 18.38,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-09-02T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 11528,
+    "name": "Kaffee",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "spar-natur-pur",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4643,
+    "name": "Spar Natur pur",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "interspar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12753",
+     "name": "INTERSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3352063,
+   "description": "Fairtrade zertifiziert. Ganze Bohne oder gemahlen, 500-g-Packung",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 8.99,
+   "oldPrice": null,
+   "referencePrice": 17.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 26762,
+    "name": "Bio-Kaffee",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "spar-natur-pur",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4643,
+    "name": "Spar Natur pur",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3332962,
+   "description": "ganze Bohne oder gemahlen Fairtrade-zertifiziert, 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 8.99,
+   "oldPrice": null,
+   "referencePrice": 17.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-05T22:00:00Z",
+     "to": "2026-09-02T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 26762,
+    "name": "Bio-Kaffee",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "regio",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 10549,
+    "name": "Regio",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3342787,
+   "description": "ganze Bohne oder gemahlen oder Mild und Wunderbar 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 7.32,
+   "oldPrice": 10.99,
+   "referencePrice": 14.64,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 288863,
+    "name": "Kaffee Beste Selektion",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "regio",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 10549,
+    "name": "Regio",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "eurospar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12730",
+     "name": "EUROSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3341980,
+   "description": "Bohne oder gemahlen, 500 g",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 7.32,
+   "oldPrice": 10.99,
+   "referencePrice": 14.64,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 288863,
+    "name": "Kaffee Beste Selektion",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "jacobs",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5472,
+    "name": "Jacobs",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3342784,
+   "description": "versch. Sorten, 8-21 Kapseln",
+   "volume": 1.0,
+   "quantity": 8.0,
+   "isMultiProduct": true,
+   "price": 5.99,
+   "oldPrice": 7.99,
+   "referencePrice": 0.75,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 26184,
+    "name": "Tassimo Kaffeekapseln",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "starbucks",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5034,
+    "name": "Starbucks",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "mueller",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12788",
+     "name": "Müller",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3352237,
+   "description": "HINWEIS: MIT MÜLLER APP 3.99 € Auf alle Starbucks 10er Kapseln 51g oder 53g oder 57g",
+   "volume": 1.0,
+   "quantity": 10.0,
+   "isMultiProduct": true,
+   "price": 4.49,
+   "oldPrice": null,
+   "referencePrice": 0.45,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-16T22:00:00Z",
+     "to": "2026-08-23T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 140021,
+    "name": "Nespresso",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "hell",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 19907,
+    "name": "Hell",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3351169,
+   "description": "oder Eiskaffee Cappuccino 250 ml",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.74,
+   "oldPrice": 1.49,
+   "referencePrice": 2.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 421120,
+    "name": "Eiskaffee Latte",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "jacobs",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5472,
+    "name": "Jacobs",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa-plus",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12780",
+     "name": "BILLA PLUS",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3350440,
+   "description": "od. Origins div. Sorten 1 Kilo Packung. Warengruppenrabatt zusätzlich gültig.",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 23.99,
+   "oldPrice": null,
+   "referencePrice": 23.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/jacobs-caffe-crema-classico-ganze-bohne-00428774?utm_campaign=bp_digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 158736,
+    "name": "Cafè Crema",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "j-hornig",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 112,
+    "name": "J. Hornig",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa-plus",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12780",
+     "name": "BILLA PLUS",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3350239,
+   "description": "div. Sorten 1 Kilo Packung. Warengruppenrabatt zusätzlich gültig.",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 24.99,
+   "oldPrice": null,
+   "referencePrice": 24.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/j-hornig-caffe-crema-ganze-bohne-00733273?utm_campaign=bp_digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 47653,
+    "name": "Caffè Crema",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "segafredo",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 11060,
+    "name": "Segafredo",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa-plus",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12780",
+     "name": "BILLA PLUS",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3350236,
+   "description": "div. Sorten 1 Kilo Packung. Warengruppenrabatt zusätzlich gültig.",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 21.99,
+   "oldPrice": null,
+   "referencePrice": 21.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/segafredo-selezione-crema-ganze-bohne-00504043?utm_campaign=bp_digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 31957,
+    "name": "Selezione Crema",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "lor-espresso",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 1640,
+    "name": "L'OR Espresso",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa-plus",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12780",
+     "name": "BILLA PLUS",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3350227,
+   "description": "div. Sorten 10 Portionen, 52 g., Warengruppenrabatt zusätzlich gültig.",
+   "volume": 0.052,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 3.99,
+   "oldPrice": 4.99,
+   "referencePrice": 76.73,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/lor-kapsel-lungo-profondo-00654384?utm_campaign=bp_digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 368134,
+    "name": "Lungo Profondo Nespressokompatible Alukapseln",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "lavazza",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5993,
+    "name": "Lavazza",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3350068,
+   "description": "div. Sorten 30 Portionen, 165 g – 174 g Packung. Warengruppenrabatt zusätzlich gültig.",
+   "volume": 0.171,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 11.99,
+   "oldPrice": null,
+   "referencePrice": 70.12,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/lavazza-espresso-maestro-classico-kapseln-00596660?utm_campaign=digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 414646,
+    "name": "Espresso Maestro Classico Kapseln",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "starbucks",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5034,
+    "name": "Starbucks",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3350065,
+   "description": "div. Sorten 10 Portionen, 51 g – 57 g Packung. Warengruppenrabatt zusätzlich gültig.",
+   "volume": 0.053,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 5.49,
+   "oldPrice": null,
+   "referencePrice": 103.58,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/starbucks-pike-place-roast-kapseln-00360951?utm_campaign=digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 283628,
+    "name": "Pike Place Roast Kapseln",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "julius-meinl",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4908,
+    "name": "Julius Meinl",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3350035,
+   "description": "od. Crema Intenso 1 Kilo Packung. Warengruppenrabatt zusätzlich gültig.",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 21.99,
+   "oldPrice": null,
+   "referencePrice": 21.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/julius-meinl-trend-collection-caffe-crema-intenso-ganze-bohne-00968214?utm_campaign=digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 169521,
+    "name": "Espresso Classico",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "nescafe",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 7465,
+    "name": "Nescafé",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3350032,
+   "description": "div. Sorten 8 – 18 Portionen, 90 g – 256 g Packung. Warengruppenrabatt zusätzlich gültig.",
+   "volume": 0.16,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 6.49,
+   "oldPrice": null,
+   "referencePrice": 40.56,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/nescafe-dolce-gusto-cafe-au-lait-00668834?utm_campaign=digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 352885,
+    "name": "Dolce Gusto Cafe au lait",
+    "description": ""
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "jacobs",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5472,
+    "name": "Jacobs",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3349831,
+   "description": "od. Origins div. Sorten 1 Kilo Packung. Warengruppenrabatt zusätzlich gültig",
+   "volume": 1.0,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 23.99,
+   "oldPrice": null,
+   "referencePrice": 23.99,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/jacobs-caffe-crema-classico-ganze-bohne-00428774?utm_campaign=digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 29541,
+    "name": "Caffè Crema Classico",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "nescafe",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 7465,
+    "name": "Nescafé",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3349468,
+   "description": "HINWEIS: MIT LIDL PLUS APP 0.95 € Latte, Caramel oder Cappuccino 250 ml.",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.99,
+   "oldPrice": null,
+   "referencePrice": 3.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-23T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 255852,
+    "name": "Eiskaffee",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "nescafe",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 7465,
+    "name": "Nescafé",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3349084,
+   "description": "HINWEIS: MIT LIDL PLUS APP 6.99 € oder Crema Versch. Sorten Je 200 g",
+   "volume": 0.2,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 7.49,
+   "oldPrice": 14.49,
+   "referencePrice": 37.45,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-23T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 13273,
+    "name": "Classic",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "frankly-coffee",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 26278,
+    "name": "Frankly Coffee",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "interspar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12753",
+     "name": "INTERSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3343870,
+   "description": "250 ml. Erhältlich bei allen Wiener Interspar-Märkten.",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.89,
+   "oldPrice": null,
+   "referencePrice": 7.56,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 442858,
+    "name": "Chicory Oat Latte",
+    "description": ""
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "hell",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 19907,
+    "name": "Hell",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "interspar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12753",
+     "name": "INTERSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3343138,
+   "description": "oder Hell Eiskaffee Cappuccino 250-ml-Einweg-Dose",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.74,
+   "oldPrice": 1.49,
+   "referencePrice": 2.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 421120,
+    "name": "Eiskaffee Latte",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "senseo",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 2412,
+    "name": "Senseo",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3342790,
+   "description": "Strong oder Café Hag Pads versch. Sorten, 16 Pads",
+   "volume": 1.0,
+   "quantity": 16.0,
+   "isMultiProduct": true,
+   "price": 2.99,
+   "oldPrice": 4.99,
+   "referencePrice": 0.19,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 427069,
+    "name": "Classic Pads",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "hell",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 19907,
+    "name": "Hell",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3342406,
+   "description": "oder Eiskaffee Cappuccino gesüßt, 250 ml",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.74,
+   "oldPrice": 1.49,
+   "referencePrice": 2.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 421120,
+    "name": "Eiskaffee Latte",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "hell",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 19907,
+    "name": "Hell",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "eurospar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12730",
+     "name": "EUROSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 583,
+     "name": "Kaffee",
+     "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.at/c/kaffeemaschinen) gibt es beispielsweise bei [Media Markt](https://www.marktguru.at/rp/mediamarkt-prospekte) oder [Saturn](https://www.marktguru.at/rp/mediamarkt-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.at/b/dallmayr), [Jacobs](https://www.marktguru.at/b/jacobs) oder [Melitta](https://www.marktguru.at/b/melitta) sein soll.",
+     "parentId": 341
+    }
+   ],
+   "id": 3342094,
+   "description": "oder Hell Eiskaffee Cappuccino 250 ml",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.74,
+   "oldPrice": 1.49,
+   "referencePrice": 2.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 421120,
+    "name": "Eiskaffee Latte",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "silan",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 10605,
+    "name": "Silan",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa-plus",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12780",
+     "name": "BILLA PLUS",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3350407,
+   "description": "div. Sorten 126 – 130 Waschgänge, per Flasche",
+   "volume": 1.0,
+   "quantity": 126.0,
+   "isMultiProduct": true,
+   "price": 6.99,
+   "oldPrice": 7.99,
+   "referencePrice": 0.06,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 197208,
+    "name": "Waschmittel",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "coral",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 3289,
+    "name": "Coral",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "dm",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12723",
+     "name": "dm drogerie markt",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3354976,
+   "description": "div. Sorten 25WL",
+   "volume": 1.0,
+   "quantity": 25.0,
+   "isMultiProduct": true,
+   "price": 5.95,
+   "oldPrice": null,
+   "referencePrice": 0.24,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-09-09T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://www.dm.at/p/d/1896288/coral-colorwaschmittel-fluessig-optimal-color?wt_mc=cooperations-marktguru.link.always-on.sonstige.flugblatt",
+   "product": {
+    "id": 136858,
+    "name": "Waschmittel Flüssig",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "lenor",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 6015,
+    "name": "Lenor",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "bipa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12693",
+     "name": "BIPA",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3352696,
+   "description": "div. Sorten 25 WG",
+   "volume": 1.0,
+   "quantity": 25.0,
+   "isMultiProduct": true,
+   "price": 7.29,
+   "oldPrice": null,
+   "referencePrice": 0.29,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-09-02T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 49401,
+    "name": "Waschmittel Flüssig",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "dr-beckmann",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 3994,
+    "name": "Dr. Beckmann",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "bipa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12693",
+     "name": "BIPA",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3352567,
+   "description": "div. Sorten 30 Stück",
+   "volume": 1.0,
+   "quantity": 30.0,
+   "isMultiProduct": true,
+   "price": 5.09,
+   "oldPrice": 6.79,
+   "referencePrice": 0.17,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-09-02T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://www.bipa.at/c/dr.-beckmann",
+   "product": {
+    "id": 342064,
+    "name": "Waschmittel Blätter",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "s-budget",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 1793,
+    "name": "S Budget",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3350830,
+   "description": "40 WG",
+   "volume": 1.0,
+   "quantity": 40.0,
+   "isMultiProduct": false,
+   "price": 3.99,
+   "oldPrice": null,
+   "referencePrice": 0.1,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 443686,
+    "name": "Waschmittel Lavendel",
+    "description": ""
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "persil",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 7139,
+    "name": "Persil",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "bipa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12693",
+     "name": "BIPA",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    },
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 639,
+     "name": "Henkel-Haushaltsartikel",
+     "description": null,
+     "parentId": null
+    }
+   ],
+   "id": 3352633,
+   "description": "Flüssig 130 WG, Pulver 120 WG od. Discs 100 WG div. Sorten",
+   "volume": 1.0,
+   "quantity": 130.0,
+   "isMultiProduct": true,
+   "price": 24.99,
+   "oldPrice": 34.99,
+   "referencePrice": 0.19,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-09-02T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 196,
+    "name": "Waschmittel",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "fewa",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 4460,
+    "name": "Fewa",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "dm",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12723",
+     "name": "dm drogerie markt",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    },
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 639,
+     "name": "Henkel-Haushaltsartikel",
+     "description": null,
+     "parentId": null
+    }
+   ],
+   "id": 3317791,
+   "description": "div. Sorten 20WL",
+   "volume": 1.0,
+   "quantity": 20.0,
+   "isMultiProduct": true,
+   "price": 4.95,
+   "oldPrice": null,
+   "referencePrice": 0.25,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-07-29T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://www.dm.at/p/d/1918934/fewa-sportwaschmittel-renew?wt_mc=cooperations-marktguru.link.always-on.sonstige.flugblatt",
+   "product": {
+    "id": 8318,
+    "name": "Waschmittel",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "frosch",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4671,
+    "name": "Frosch",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "dm",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12723",
+     "name": "dm drogerie markt",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3354979,
+   "description": "22WL",
+   "volume": 1.0,
+   "quantity": 22.0,
+   "isMultiProduct": false,
+   "price": 6.95,
+   "oldPrice": null,
+   "referencePrice": 0.32,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-09-09T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://www.dm.at/p/d/3073091/frosch-kraft-waschmittel-fluessig-aktiv-soda?wt_mc=cooperations-marktguru.link.always-on.sonstige.flugblatt",
+   "product": {
+    "id": 444202,
+    "name": "Kraft-Waschmittel Aktiv Soda",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "persil",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 7139,
+    "name": "Persil",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "dm",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12723",
+     "name": "dm drogerie markt",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    },
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 639,
+     "name": "Henkel-Haushaltsartikel",
+     "description": null,
+     "parentId": null
+    }
+   ],
+   "id": 3317437,
+   "description": "div. Sorten 44WL",
+   "volume": 1.0,
+   "quantity": 44.0,
+   "isMultiProduct": true,
+   "price": 14.95,
+   "oldPrice": null,
+   "referencePrice": 0.34,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-07-29T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://www.dm.at/p/d/1918861/persil-universalwaschmittel-discs-4in1-tiefenrein?wt_mc=cooperations-marktguru.link.always-on.sonstige.flugblatt",
+   "product": {
+    "id": 117025,
+    "name": "Discs Waschmittel",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "persil",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 7139,
+    "name": "Persil",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "dm",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12723",
+     "name": "dm drogerie markt",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    },
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 639,
+     "name": "Henkel-Haushaltsartikel",
+     "description": null,
+     "parentId": null
+    }
+   ],
+   "id": 3317443,
+   "description": "div. Sorten 23WL",
+   "volume": 1.0,
+   "quantity": 23.0,
+   "isMultiProduct": true,
+   "price": 9.45,
+   "oldPrice": null,
+   "referencePrice": 0.41,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-07-29T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://www.dm.at/p/d/1908175/persil-vollwaschmittel-megaperls-sensitive?wt_mc=cooperations-marktguru.link.always-on.sonstige.flugblatt",
+   "product": {
+    "id": 153990,
+    "name": "Sensitiv Megaperls Waschmittel",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "ariel",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 10804,
+    "name": "Ariel",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3349876,
+   "description": "div. Sorten 19 – 25 Waschgänge.",
+   "volume": 1.0,
+   "quantity": 19.0,
+   "isMultiProduct": true,
+   "price": 6.99,
+   "oldPrice": 8.49,
+   "referencePrice": 0.37,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/ariel-all-in-one-waschmittelpods-00770885?utm_campaign=digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 438748,
+    "name": "Waschmittelpods All in One",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "weisser-riese",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 1248,
+    "name": "Weißer Riese",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3342703,
+   "description": "HINWEIS: MIT SPAR-APP-GUTSCHEIN 6.99 € 45 WG oder Gel 50 WG versch. Sorten.",
+   "volume": 1.0,
+   "quantity": 45.0,
+   "isMultiProduct": true,
+   "price": 7.99,
+   "oldPrice": 9.99,
+   "referencePrice": 0.18,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 14842,
+    "name": "Vollwaschmittel Pulver",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "frosch",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4671,
+    "name": "Frosch",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "dm",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12723",
+     "name": "dm drogerie markt",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3317716,
+   "description": "40WL",
+   "volume": 1.0,
+   "quantity": 40.0,
+   "isMultiProduct": false,
+   "price": 6.45,
+   "oldPrice": null,
+   "referencePrice": 0.16,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-07-29T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://www.dm.at/p/d/1880190/frosch-fein-und-wollwaschmittel-fluessig-mandel?wt_mc=cooperations-marktguru.link.always-on.sonstige.flugblatt",
+   "product": {
+    "id": 440800,
+    "name": "Fein- und Wollwaschmittel Flüssig Mandel",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "fewa",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 4460,
+    "name": "Fewa",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "bipa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12693",
+     "name": "BIPA",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    },
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 639,
+     "name": "Henkel-Haushaltsartikel",
+     "description": null,
+     "parentId": null
+    }
+   ],
+   "id": 3352627,
+   "description": "div. Sorten 20 WG",
+   "volume": 1.0,
+   "quantity": 20.0,
+   "isMultiProduct": true,
+   "price": 4.99,
+   "oldPrice": 6.99,
+   "referencePrice": 0.25,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-09-02T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 37801,
+    "name": "Spezialwaschmittel",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "Denkmit",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 392,
+    "name": "Denkmit",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "dm",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12723",
+     "name": "dm drogerie markt",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3354967,
+   "description": "50Stk.",
+   "volume": 1.0,
+   "quantity": 50.0,
+   "isMultiProduct": false,
+   "price": 2.45,
+   "oldPrice": null,
+   "referencePrice": 0.05,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-09-09T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://www.dm.at/p/d/1490306/denkmit-farb-und-schmutzfangtuecher?wt_mc=cooperations-marktguru.link.always-on.sonstige.flugblatt",
+   "product": {
+    "id": 118222,
+    "name": "Farb-Schmutzfangtücher",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "vanish",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 292,
+    "name": "Vanish",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "bipa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12693",
+     "name": "BIPA",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3352699,
+   "description": "250 g",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 3.89,
+   "oldPrice": null,
+   "referencePrice": 15.56,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-09-02T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 440485,
+    "name": "Oxi Action Pulver",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "lenor",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 6015,
+    "name": "Lenor",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa-plus",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12780",
+     "name": "BILLA PLUS",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3350398,
+   "description": "div. Sorten 12 Waschgänge",
+   "volume": 1.0,
+   "quantity": 12.0,
+   "isMultiProduct": true,
+   "price": 3.14,
+   "oldPrice": 6.29,
+   "referencePrice": 0.26,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://shop.billa.at/?utm_campaign=bp_digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 349858,
+    "name": "Wäscheparfüm",
+    "description": ""
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "dash",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 15722,
+    "name": "Dash",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3349243,
+   "description": "HINWEIS: MIT LIDL PLUS APP 9.99 € oder Flüssig 100 WG",
+   "volume": 1.0,
+   "quantity": 100.0,
+   "isMultiProduct": true,
+   "price": 11.99,
+   "oldPrice": null,
+   "referencePrice": 0.12,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-22T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 126500,
+    "name": "Waschpulver",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "dr-beckmann",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 3994,
+    "name": "Dr. Beckmann",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3349237,
+   "description": "oder Fleckenbürste 250 ml",
+   "volume": 0.25,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 2.49,
+   "oldPrice": null,
+   "referencePrice": 9.96,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-22T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 98187,
+    "name": "Gallseife Fleckenspray",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "calgon",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 2434,
+    "name": "Calgon",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3348514,
+   "description": "HINWEIS: MIT LIDL PLUS APP 9.99 € 52 WG oder Gel 36 WG",
+   "volume": 1.0,
+   "quantity": 52.0,
+   "isMultiProduct": true,
+   "price": 10.99,
+   "oldPrice": null,
+   "referencePrice": 0.21,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-22T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 322000,
+    "name": "Pulver",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "vanish",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 292,
+    "name": "Vanish",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "interspar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12753",
+     "name": "INTERSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3343555,
+   "description": "Pink oder Weiß 1,65-kg-Dose",
+   "volume": 1.65,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 13.99,
+   "oldPrice": null,
+   "referencePrice": 8.48,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 421117,
+    "name": "Pulver",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "vanish",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 292,
+    "name": "Vanish",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "eurospar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12730",
+     "name": "EUROSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    }
+   ],
+   "id": 3343030,
+   "description": "Pink oder Weiss, 1,65-kg-Dose",
+   "volume": 1.65,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 13.99,
+   "oldPrice": null,
+   "referencePrice": 8.48,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "kg",
+    "id": 2,
+    "name": "Kilogramm"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 421117,
+    "name": "Pulver",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "silan",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 10605,
+    "name": "Silan",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "bipa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12693",
+     "name": "BIPA",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    },
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 639,
+     "name": "Henkel-Haushaltsartikel",
+     "description": null,
+     "parentId": null
+    }
+   ],
+   "id": 3352630,
+   "description": "div. Sorten 46/50 WG",
+   "volume": 1.0,
+   "quantity": 46.0,
+   "isMultiProduct": true,
+   "price": 2.69,
+   "oldPrice": 3.49,
+   "referencePrice": 0.06,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-09-02T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 14832,
+    "name": "Weichspüler",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "persil",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 7139,
+    "name": "Persil",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "dm",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12723",
+     "name": "dm drogerie markt",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    },
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 639,
+     "name": "Henkel-Haushaltsartikel",
+     "description": null,
+     "parentId": null
+    }
+   ],
+   "id": 3317431,
+   "description": "div. Sorten 30WL",
+   "volume": 1.0,
+   "quantity": 30.0,
+   "isMultiProduct": true,
+   "price": 8.75,
+   "oldPrice": null,
+   "referencePrice": 0.29,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-07-29T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://www.dm.at/p/d/1919776/persil-universalwaschmittel-gel-aktiv-tiefenrein?wt_mc=cooperations-marktguru.link.always-on.sonstige.flugblatt",
+   "product": {
+    "id": 56577,
+    "name": "Gel",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "persil",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 7139,
+    "name": "Persil",
+    "industryId": 17
+   },
+   "advertisers": [
+    {
+     "uniqueName": "dm",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12723",
+     "name": "dm drogerie markt",
+     "industryId": 17
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 425,
+     "name": "Waschmittel",
+     "description": null,
+     "parentId": 131
+    },
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 639,
+     "name": "Henkel-Haushaltsartikel",
+     "description": null,
+     "parentId": null
+    }
+   ],
+   "id": 3317425,
+   "description": "28WL",
+   "volume": 1.0,
+   "quantity": 28.0,
+   "isMultiProduct": false,
+   "price": 8.95,
+   "oldPrice": null,
+   "referencePrice": 0.32,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-07-29T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "Stk",
+    "id": 3,
+    "name": "Stück"
+   },
+   "externalUrl": "https://www.dm.at/p/d/1918013/persil-universalwaschmittel-pulver-tiefenrein?wt_mc=cooperations-marktguru.link.always-on.sonstige.flugblatt",
+   "product": {
+    "id": 4013,
+    "name": "Universal Waschpulver",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "schwechater",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5027,
+    "name": "Schwechater",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "interspar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12753",
+     "name": "INTERSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3344092,
+   "description": "0,5-Liter-Dose",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.92,
+   "oldPrice": 1.38,
+   "referencePrice": 1.84,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 720,
+    "name": "Bier",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "pilsner-urquell",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 8001,
+    "name": "Pilsner Urquell",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "interspar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12753",
+     "name": "INTERSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3344062,
+   "description": "0,5-Liter-MEHRWEG-Flasche",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.19,
+   "oldPrice": 1.49,
+   "referencePrice": 2.38,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 27443,
+    "name": "Bier",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "heineken",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5183,
+    "name": "Heineken",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "eurospar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12730",
+     "name": "EUROSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3343009,
+   "description": "oder Desperados 0,5 Liter",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.72,
+   "oldPrice": 2.16,
+   "referencePrice": 3.44,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 9267,
+    "name": "Bier",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "pilsner-urquell",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 8001,
+    "name": "Pilsner Urquell",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "eurospar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12730",
+     "name": "EUROSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3343006,
+   "description": "0,5 Liter",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.19,
+   "oldPrice": 1.49,
+   "referencePrice": 2.38,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 27443,
+    "name": "Bier",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "schwechater",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5027,
+    "name": "Schwechater",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "eurospar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12730",
+     "name": "EUROSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3342934,
+   "description": "0,5 Liter.",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.92,
+   "oldPrice": 1.38,
+   "referencePrice": 1.84,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 720,
+    "name": "Bier",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "schwechater",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5027,
+    "name": "Schwechater",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3342175,
+   "description": "0,5 Liter",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.92,
+   "oldPrice": 1.38,
+   "referencePrice": 1.84,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 720,
+    "name": "Bier",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "corona",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 2222,
+    "name": "Corona",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3350476,
+   "description": "od. 0,0% 0,355 Liter",
+   "volume": 0.355,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.12,
+   "oldPrice": 2.25,
+   "referencePrice": 3.15,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/corona-extra-00721783?utm_campaign=digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 316105,
+    "name": "Bier Extra",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "corona",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 2222,
+    "name": "Corona",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa-plus",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12780",
+     "name": "BILLA PLUS",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3350299,
+   "description": "od. 0,0 % 0,355 Liter",
+   "volume": 0.355,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 1.12,
+   "oldPrice": 2.25,
+   "referencePrice": 3.15,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/corona-extra-00721783?utm_campaign=bp_digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 316105,
+    "name": "Bier Extra",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "Chang",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 9057,
+    "name": "Chang",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3348682,
+   "description": "320 ml.",
+   "volume": 0.32,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.82,
+   "oldPrice": 0.99,
+   "referencePrice": 2.56,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-22T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 236403,
+    "name": "Lager Bier",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "puntigamer",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5138,
+    "name": "Puntigamer",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "interspar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12753",
+     "name": "INTERSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3344140,
+   "description": "0,5-Liter-MEHRWEG-Flasche",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.06,
+   "oldPrice": 1.49,
+   "referencePrice": 2.12,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 57183,
+    "name": "Das Bierige Bier",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "puntigamer",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5138,
+    "name": "Puntigamer",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "interspar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12753",
+     "name": "INTERSPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3344089,
+   "description": "0,5-Liter-Dose",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.99,
+   "oldPrice": 1.54,
+   "referencePrice": 1.98,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 57183,
+    "name": "Das Bierige Bier",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "puntigamer",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5138,
+    "name": "Puntigamer",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3342136,
+   "description": "0,5 Liter",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.06,
+   "oldPrice": 1.49,
+   "referencePrice": 2.12,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-12T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 57183,
+    "name": "Das Bierige Bier",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "goesser",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4360,
+    "name": "Gösser",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "spar",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12816",
+     "name": "SPAR",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3351178,
+   "description": "0,5 Liter",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 1.19,
+   "oldPrice": 1.59,
+   "referencePrice": 2.38,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 280210,
+    "name": "Biostoff Lager Bier",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "ottakringer",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4249,
+    "name": "Ottakringer",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3350554,
+   "description": "od. Lager 0,5 Liter",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.69,
+   "oldPrice": 1.33,
+   "referencePrice": 1.38,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/ottakringer-helles-0021847?utm_campaign=digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 26397,
+    "name": "Helles",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "puntigamer",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 5138,
+    "name": "Puntigamer",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3350521,
+   "description": "0,5 Liter",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.77,
+   "oldPrice": 1.54,
+   "referencePrice": 1.54,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/puntigamer-das-bierige-bier-00769767?utm_campaign=digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 5397,
+    "name": "Märzen",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "samson",
+    "indexOffer": false,
+    "indexLeaflet": false,
+    "id": 5582,
+    "name": "Samson",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3350479,
+   "description": "0,5 Liter, 1 Kiste = 20 Flaschen",
+   "volume": 0.5,
+   "quantity": 20.0,
+   "isMultiProduct": false,
+   "price": 10.2,
+   "oldPrice": null,
+   "referencePrice": 1.02,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": "https://shop.billa.at/?utm_campaign=digitales_flugblatt_2023&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 99048,
+    "name": "Premium Lager",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "wieselburger",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4693,
+    "name": "Wieselburger",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3350470,
+   "description": "0,5 Liter, auch im 6er-Träger, 1 Kiste = 20 Flaschen",
+   "volume": 0.5,
+   "quantity": 20.0,
+   "isMultiProduct": false,
+   "price": 14.8,
+   "oldPrice": null,
+   "referencePrice": 1.48,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": "https://shop.billa.at/?utm_campaign=digitales_flugblatt_2023&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 39212,
+    "name": "Gold",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "stiegl",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 9483,
+    "name": "Stiegl",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3350464,
+   "description": "Hell, 0,0% od. Radler versch. Sorten 0,5 Liter",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.79,
+   "oldPrice": 1.59,
+   "referencePrice": 1.58,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/stiegl-goldbraeu-00769535?utm_campaign=digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 24863,
+    "name": "Goldbräu",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "goesser",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4360,
+    "name": "Gösser",
+    "industryId": 14
+   },
+   "advertisers": [
+    {
+     "uniqueName": "billa",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12810",
+     "name": "BILLA",
+     "industryId": 14
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3350461,
+   "description": "Naturradler od. Naturradler 0,0% 0,5 Liter",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.79,
+   "oldPrice": 1.59,
+   "referencePrice": 1.58,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": "https://shop.billa.at/produkte/goesser-maerzen-00770444?utm_campaign=digitales_flugblatt_2026&utm_source=marktguru&utm_medium=partner_integration&utm_content=produkt_shop_verlinkung",
+   "product": {
+    "id": 26728,
+    "name": "Märzen",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "stiegl",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 9483,
+    "name": "Stiegl",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3349141,
+   "description": "Radler oder Alkoholfrei Versch. Sorten 0.5 l. Preis exkl. Pfand. Max. Abgabemenge: 4 Kisten",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.72,
+   "oldPrice": 1.48,
+   "referencePrice": 1.44,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-22T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 144403,
+    "name": "Hell",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "stiegl",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 9483,
+    "name": "Stiegl",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3349138,
+   "description": "Hell oder Alkoholfrei 0.5 l. Preis exkl. Pfand. Max. Abgabemenge: 120 Dosen",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": true,
+   "price": 0.79,
+   "oldPrice": 1.59,
+   "referencePrice": 1.58,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-22T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 24863,
+    "name": "Goldbräu",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "zipfer",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4582,
+    "name": "Zipfer",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3349099,
+   "description": "0,5 l",
+   "volume": 0.5,
+   "quantity": 1.0,
+   "isMultiProduct": false,
+   "price": 0.77,
+   "oldPrice": 1.55,
+   "referencePrice": 1.54,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-23T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 29787,
+    "name": "Märzen",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "ottakringer",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4249,
+    "name": "Ottakringer",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3349066,
+   "description": "Radler, Lager, Wiener Spezial oder Null Komma Josef 6x 0,5 l",
+   "volume": 0.5,
+   "quantity": 6.0,
+   "isMultiProduct": true,
+   "price": 4.32,
+   "oldPrice": 8.34,
+   "referencePrice": 1.44,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-23T22:00:00Z",
+     "to": "2026-08-26T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 26397,
+    "name": "Helles",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "stiegl",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 9483,
+    "name": "Stiegl",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3348517,
+   "description": "HINWEIS: MIT LIDL PLUS APP 13.80 € Je 20x 0,5 l Preis exkl. Pfand",
+   "volume": 0.5,
+   "quantity": 20.0,
+   "isMultiProduct": false,
+   "price": 14.4,
+   "oldPrice": null,
+   "referencePrice": 1.44,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-22T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 24863,
+    "name": "Goldbräu",
+    "description": null
+   }
+  },
+  {
+   "brand": {
+    "uniqueName": "wieselburger",
+    "indexOffer": true,
+    "indexLeaflet": false,
+    "id": 4693,
+    "name": "Wieselburger",
+    "industryId": 16
+   },
+   "advertisers": [
+    {
+     "uniqueName": "lidl",
+     "indexOffer": true,
+     "indexLeaflet": true,
+     "id": "retailers/12769",
+     "name": "Lidl",
+     "industryId": 16
+    }
+   ],
+   "categories": [
+    {
+     "uniqueName": null,
+     "indexOffer": false,
+     "indexLeaflet": false,
+     "id": 252,
+     "name": "Bier",
+     "description": null,
+     "parentId": 54
+    }
+   ],
+   "id": 3348502,
+   "description": "HINWEIS: MIT LIDL PLUS APP 13.40 € Je 20x 0,5 l Preis exkl. Pfand",
+   "volume": 0.5,
+   "quantity": 20.0,
+   "isMultiProduct": false,
+   "price": 14.4,
+   "oldPrice": 26.8,
+   "referencePrice": 1.44,
+   "requiresLoyalityMembership": false,
+   "validityDates": [
+    {
+     "from": "2026-08-19T22:00:00Z",
+     "to": "2026-08-22T21:59:00Z"
+    }
+   ],
+   "unit": {
+    "shortName": "l",
+    "id": 1,
+    "name": "Liter"
+   },
+   "externalUrl": null,
+   "product": {
+    "id": 39212,
+    "name": "Gold",
+    "description": null
+   }
+  }
+ ]
+}

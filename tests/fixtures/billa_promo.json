@@ -1,0 +1,2072 @@
+{
+ "facets": [
+  {
+   "type": "multiSelect",
+   "pluralLabel": "weitere Marken",
+   "labelPlural": "weitere Marken",
+   "terms": [
+    {
+     "label": "Almdudler",
+     "term": "almdudler",
+     "count": 4
+    },
+    {
+     "label": "Alnatura",
+     "term": "alnatura",
+     "count": 6
+    },
+    {
+     "label": "Alpro",
+     "term": "alpro",
+     "count": 9
+    },
+    {
+     "label": "Ariel",
+     "term": "ariel",
+     "count": 10
+    },
+    {
+     "label": "Bacardi",
+     "term": "bacardi",
+     "count": 3
+    },
+    {
+     "label": "Bahlsen",
+     "term": "bahlsen",
+     "count": 6
+    },
+    {
+     "label": "Barettino",
+     "term": "barettino",
+     "count": 6
+    },
+    {
+     "label": "Barilla",
+     "term": "barilla",
+     "count": 24
+    },
+    {
+     "label": "Beefeater",
+     "term": "beefeater",
+     "count": 3
+    },
+    {
+     "label": "Ben's Original",
+     "term": "ben-s-original",
+     "count": 13
+    },
+    {
+     "label": "bi good",
+     "term": "bi-good",
+     "count": 4
+    },
+    {
+     "label": "BILLA Bio",
+     "term": "billa-bio",
+     "count": 9
+    },
+    {
+     "label": "Billa immer gut",
+     "term": "billa-immer-gut",
+     "count": 21
+    },
+    {
+     "label": "Brunch",
+     "term": "brunch",
+     "count": 6
+    },
+    {
+     "label": "Carefree",
+     "term": "carefree",
+     "count": 5
+    },
+    {
+     "label": "CLEVER",
+     "term": "clever",
+     "count": 10
+    },
+    {
+     "label": "Coca Cola",
+     "term": "coca-cola",
+     "count": 7
+    },
+    {
+     "label": "Corny",
+     "term": "corny",
+     "count": 7
+    },
+    {
+     "label": "d'aucy",
+     "term": "d-aucy",
+     "count": 6
+    },
+    {
+     "label": "Delamaris",
+     "term": "delamaris",
+     "count": 3
+    },
+    {
+     "label": "Demak'Up",
+     "term": "demak-up",
+     "count": 1
+    },
+    {
+     "label": "Die Grillerei",
+     "term": "die-grillerei",
+     "count": 3
+    },
+    {
+     "label": "Dr. Oetker",
+     "term": "dr--oetker",
+     "count": 1
+    },
+    {
+     "label": "Dubioza",
+     "term": "dubioza",
+     "count": 1
+    },
+    {
+     "label": "Duni",
+     "term": "duni",
+     "count": 1
+    },
+    {
+     "label": "Ebly",
+     "term": "ebly",
+     "count": 1
+    },
+    {
+     "label": "Eco By Naty",
+     "term": "eco-by-naty",
+     "count": 1
+    },
+    {
+     "label": "Eduscho",
+     "term": "eduscho",
+     "count": 5
+    },
+    {
+     "label": "Efko",
+     "term": "efko",
+     "count": 4
+    },
+    {
+     "label": "Egger",
+     "term": "egger",
+     "count": 3
+    },
+    {
+     "label": "Erzherzog Johann",
+     "term": "erzherzog-johann",
+     "count": 1
+    },
+    {
+     "label": "Eskimo",
+     "term": "eskimo",
+     "count": 32
+    },
+    {
+     "label": "Etno",
+     "term": "etno",
+     "count": 1
+    },
+    {
+     "label": "Fairy",
+     "term": "fairy",
+     "count": 2
+    },
+    {
+     "label": "Fanta",
+     "term": "fanta",
+     "count": 1
+    },
+    {
+     "label": "Feelfood",
+     "term": "feelfood",
+     "count": 3
+    },
+    {
+     "label": "Felix",
+     "term": "felix",
+     "count": 17
+    },
+    {
+     "label": "Ferrero",
+     "term": "ferrero",
+     "count": 2
+    },
+    {
+     "label": "Fewa",
+     "term": "fewa",
+     "count": 5
+    },
+    {
+     "label": "Fini's Feinstes",
+     "term": "fini-s-feinstes",
+     "count": 1
+    },
+    {
+     "label": "Foodspring",
+     "term": "foodspring",
+     "count": 1
+    },
+    {
+     "label": "Frosch",
+     "term": "frosch",
+     "count": 2
+    },
+    {
+     "label": "Fruchtbar",
+     "term": "fruchtbar",
+     "count": 1
+    },
+    {
+     "label": "Ganic",
+     "term": "ganic",
+     "count": 4
+    },
+    {
+     "label": "Gatorade",
+     "term": "gatorade",
+     "count": 2
+    },
+    {
+     "label": "Gautier Mückstein",
+     "term": "gautier-mueckstein",
+     "count": 2
+    },
+    {
+     "label": "Gebrüder Nittnaus",
+     "term": "gebrueder-nittnaus",
+     "count": 5
+    },
+    {
+     "label": "Goldeck",
+     "term": "goldeck",
+     "count": 1
+    },
+    {
+     "label": "Gösser",
+     "term": "goesser",
+     "count": 2
+    },
+    {
+     "label": "Gourmet",
+     "term": "gourmet",
+     "count": 29
+    },
+    {
+     "label": "Grey Goose",
+     "term": "grey-goose",
+     "count": 1
+    },
+    {
+     "label": "Griesson",
+     "term": "griesson",
+     "count": 5
+    },
+    {
+     "label": "Gurktaler",
+     "term": "gurktaler",
+     "count": 1
+    },
+    {
+     "label": "Hakle",
+     "term": "hakle",
+     "count": 3
+    },
+    {
+     "label": "Hakuma",
+     "term": "hakuma",
+     "count": 1
+    },
+    {
+     "label": "Hakuma Ice Tea",
+     "term": "hakuma-ice-tea",
+     "count": 2
+    },
+    {
+     "label": "Hardys",
+     "term": "hardys",
+     "count": 1
+    },
+    {
+     "label": "Hela",
+     "term": "hela",
+     "count": 1
+    },
+    {
+     "label": "Hink Wien",
+     "term": "hink-wien",
+     "count": 5
+    },
+    {
+     "label": "Hipp",
+     "term": "hipp",
+     "count": 3
+    },
+    {
+     "label": "Hochriegl",
+     "term": "hochriegl",
+     "count": 5
+    },
+    {
+     "label": "Hofstädter",
+     "term": "hofstaedter",
+     "count": 8
+    },
+    {
+     "label": "HOLY",
+     "term": "holy",
+     "count": 2
+    },
+    {
+     "label": "iglo",
+     "term": "iglo",
+     "count": 35
+    },
+    {
+     "label": "Il Conte",
+     "term": "il-conte",
+     "count": 1
+    },
+    {
+     "label": "Innocent",
+     "term": "innocent",
+     "count": 20
+    },
+    {
+     "label": "J. Hornig",
+     "term": "j--hornig",
+     "count": 2
+    },
+    {
+     "label": "Ja! Natürlich",
+     "term": "ja--natuerlich",
+     "count": 14
+    },
+    {
+     "label": "Jacobs",
+     "term": "jacobs",
+     "count": 5
+    },
+    {
+     "label": "Jimmys",
+     "term": "jimmys",
+     "count": 2
+    },
+    {
+     "label": "Jolie-Pitt & Perrin",
+     "term": "jolie-pitt---perrin",
+     "count": 1
+    },
+    {
+     "label": "Julius Meinl",
+     "term": "julius-meinl",
+     "count": 2
+    },
+    {
+     "label": "Kaiserin Elisabeth",
+     "term": "kaiserin-elisabeth",
+     "count": 1
+    },
+    {
+     "label": "Kalle",
+     "term": "kalle",
+     "count": 1
+    },
+    {
+     "label": "Kaltenburger",
+     "term": "kaltenburger",
+     "count": 1
+    },
+    {
+     "label": "Kärntnermilch",
+     "term": "kaerntnermilch",
+     "count": 1
+    },
+    {
+     "label": "Kelly's",
+     "term": "kelly-s",
+     "count": 18
+    },
+    {
+     "label": "Kikkoman",
+     "term": "kikkoman",
+     "count": 1
+    },
+    {
+     "label": "Kinder",
+     "term": "kinder",
+     "count": 6
+    },
+    {
+     "label": "Kinley",
+     "term": "kinley",
+     "count": 2
+    },
+    {
+     "label": "KitKat",
+     "term": "kitkat",
+     "count": 2
+    },
+    {
+     "label": "Knabber Nossi",
+     "term": "knabber-nossi",
+     "count": 4
+    },
+    {
+     "label": "Knorr",
+     "term": "knorr",
+     "count": 24
+    },
+    {
+     "label": "Knusperli",
+     "term": "knusperli",
+     "count": 9
+    },
+    {
+     "label": "Kombuchery",
+     "term": "kombuchery",
+     "count": 2
+    },
+    {
+     "label": "Kotányi",
+     "term": "kotanyi",
+     "count": 2
+    },
+    {
+     "label": "Kuwopa",
+     "term": "kuwopa",
+     "count": 1
+    },
+    {
+     "label": "L'OR",
+     "term": "l-or",
+     "count": 5
+    },
+    {
+     "label": "La Molisana",
+     "term": "la-molisana",
+     "count": 1
+    },
+    {
+     "label": "Larsen",
+     "term": "larsen",
+     "count": 1
+    },
+    {
+     "label": "Lattella",
+     "term": "lattella",
+     "count": 6
+    },
+    {
+     "label": "Lavazza",
+     "term": "lavazza",
+     "count": 9
+    },
+    {
+     "label": "Lavera",
+     "term": "lavera",
+     "count": 4
+    },
+    {
+     "label": "Leibniz",
+     "term": "leibniz",
+     "count": 2
+    },
+    {
+     "label": "Lenor",
+     "term": "lenor",
+     "count": 5
+    },
+    {
+     "label": "Lindt",
+     "term": "lindt",
+     "count": 8
+    },
+    {
+     "label": "Loctite",
+     "term": "loctite",
+     "count": 1
+    },
+    {
+     "label": "Lorenz",
+     "term": "lorenz",
+     "count": 21
+    },
+    {
+     "label": "Lutz",
+     "term": "lutz",
+     "count": 2
+    },
+    {
+     "label": "Mad",
+     "term": "mad",
+     "count": 1
+    },
+    {
+     "label": "Madini",
+     "term": "madini",
+     "count": 1
+    },
+    {
+     "label": "Maksuzija",
+     "term": "maksuzija",
+     "count": 1
+    },
+    {
+     "label": "Malat",
+     "term": "malat",
+     "count": 1
+    },
+    {
+     "label": "Manner",
+     "term": "manner",
+     "count": 7
+    },
+    {
+     "label": "Marinus",
+     "term": "marinus",
+     "count": 2
+    },
+    {
+     "label": "Martini",
+     "term": "martini",
+     "count": 1
+    },
+    {
+     "label": "Merci",
+     "term": "merci",
+     "count": 5
+    },
+    {
+     "label": "Metaxa",
+     "term": "metaxa",
+     "count": 1
+    },
+    {
+     "label": "Mikado",
+     "term": "mikado",
+     "count": 3
+    },
+    {
+     "label": "Milka",
+     "term": "milka",
+     "count": 39
+    },
+    {
+     "label": "Mix It",
+     "term": "mix-it",
+     "count": 1
+    },
+    {
+     "label": "Monkey 47",
+     "term": "monkey-47",
+     "count": 1
+    },
+    {
+     "label": "Monogram",
+     "term": "monogram",
+     "count": 2
+    },
+    {
+     "label": "Monster",
+     "term": "monster",
+     "count": 13
+    },
+    {
+     "label": "Nescafé",
+     "term": "nescafe-",
+     "count": 13
+    },
+    {
+     "label": "Nestlé",
+     "term": "nestle-",
+     "count": 9
+    },
+    {
+     "label": "Neuburger",
+     "term": "neuburger",
+     "count": 1
+    },
+    {
+     "label": "Niemetz",
+     "term": "niemetz",
+     "count": 2
+    },
+    {
+     "label": "nimm2",
+     "term": "nimm2",
+     "count": 4
+    },
+    {
+     "label": "Nivea",
+     "term": "nivea",
+     "count": 29
+    },
+    {
+     "label": "Nöm",
+     "term": "noem",
+     "count": 1
+    },
+    {
+     "label": "Nutella",
+     "term": "nutella",
+     "count": 1
+    },
+    {
+     "label": "Nuts",
+     "term": "nuts",
+     "count": 1
+    },
+    {
+     "label": "Oatly",
+     "term": "oatly",
+     "count": 11
+    },
+    {
+     "label": "Ölz",
+     "term": "oelz",
+     "count": 5
+    },
+    {
+     "label": "Omis Schmankerl",
+     "term": "omis-schmankerl",
+     "count": 3
+    },
+    {
+     "label": "Oreo",
+     "term": "oreo",
+     "count": 3
+    },
+    {
+     "label": "Ottakringer",
+     "term": "ottakringer",
+     "count": 2
+    },
+    {
+     "label": "Parodontax",
+     "term": "parodontax",
+     "count": 2
+    },
+    {
+     "label": "Peeroton",
+     "term": "peeroton",
+     "count": 1
+    },
+    {
+     "label": "Perfect Fit",
+     "term": "perfect-fit",
+     "count": 6
+    },
+    {
+     "label": "Pez",
+     "term": "pez",
+     "count": 1
+    },
+    {
+     "label": "Pfanner",
+     "term": "pfanner",
+     "count": 5
+    },
+    {
+     "label": "Piccini",
+     "term": "piccini",
+     "count": 1
+    },
+    {
+     "label": "Pomito",
+     "term": "pomito",
+     "count": 2
+    },
+    {
+     "label": "Prickler",
+     "term": "prickler",
+     "count": 2
+    },
+    {
+     "label": "Prinzen Rolle",
+     "term": "prinzen-rolle",
+     "count": 1
+    },
+    {
+     "label": "Professorado",
+     "term": "professorado",
+     "count": 1
+    },
+    {
+     "label": "Purina Felix",
+     "term": "purina-felix",
+     "count": 37
+    },
+    {
+     "label": "Radatz",
+     "term": "radatz",
+     "count": 3
+    },
+    {
+     "label": "Rana",
+     "term": "rana",
+     "count": 1
+    },
+    {
+     "label": "Rapso",
+     "term": "rapso",
+     "count": 1
+    },
+    {
+     "label": "Rauch",
+     "term": "rauch",
+     "count": 25
+    },
+    {
+     "label": "Red Bull",
+     "term": "red-bull",
+     "count": 15
+    },
+    {
+     "label": "Reisetbauer",
+     "term": "reisetbauer",
+     "count": 1
+    },
+    {
+     "label": "Rummo",
+     "term": "rummo",
+     "count": 2
+    },
+    {
+     "label": "Saint Albray",
+     "term": "saint-albray",
+     "count": 1
+    },
+    {
+     "label": "Salakis",
+     "term": "salakis",
+     "count": 4
+    },
+    {
+     "label": "SalzburgMilch",
+     "term": "salzburgmilch",
+     "count": 1
+    },
+    {
+     "label": "Schachinger",
+     "term": "schachinger",
+     "count": 3
+    },
+    {
+     "label": "Schärdinger",
+     "term": "schaerdinger",
+     "count": 22
+    },
+    {
+     "label": "Schlumberger",
+     "term": "schlumberger",
+     "count": 1
+    },
+    {
+     "label": "Schnell & Gut",
+     "term": "schnell---gut",
+     "count": 3
+    },
+    {
+     "label": "Schwarz",
+     "term": "schwarz",
+     "count": 2
+    },
+    {
+     "label": "Schwechater",
+     "term": "schwechater",
+     "count": 2
+    },
+    {
+     "label": "Segafredo",
+     "term": "segafredo",
+     "count": 3
+    },
+    {
+     "label": "Sensodyne",
+     "term": "sensodyne",
+     "count": 1
+    },
+    {
+     "label": "Sesamstrasse",
+     "term": "sesamstrasse",
+     "count": 2
+    },
+    {
+     "label": "Silan",
+     "term": "silan",
+     "count": 1
+    },
+    {
+     "label": "Skoff Walter",
+     "term": "skoff-walter",
+     "count": 1
+    },
+    {
+     "label": "Smarties",
+     "term": "smarties",
+     "count": 2
+    },
+    {
+     "label": "Spezi",
+     "term": "spezi",
+     "count": 1
+    },
+    {
+     "label": "Sprite",
+     "term": "sprite",
+     "count": 1
+    },
+    {
+     "label": "Stainzer",
+     "term": "stainzer",
+     "count": 1
+    },
+    {
+     "label": "Stark",
+     "term": "stark",
+     "count": 1
+    },
+    {
+     "label": "Staudinger",
+     "term": "staudinger",
+     "count": 2
+    },
+    {
+     "label": "Steiner's",
+     "term": "steiner-s",
+     "count": 1
+    },
+    {
+     "label": "Steininger",
+     "term": "steininger",
+     "count": 1
+    },
+    {
+     "label": "Steirerkraft",
+     "term": "steirerkraft",
+     "count": 1
+    },
+    {
+     "label": "Stibitzer",
+     "term": "stibitzer",
+     "count": 2
+    },
+    {
+     "label": "Stiegl",
+     "term": "stiegl",
+     "count": 5
+    },
+    {
+     "label": "Storck",
+     "term": "storck",
+     "count": 2
+    },
+    {
+     "label": "Suchard",
+     "term": "suchard",
+     "count": 1
+    },
+    {
+     "label": "Super Pop",
+     "term": "super-pop",
+     "count": 2
+    },
+    {
+     "label": "Tannenhof",
+     "term": "tannenhof",
+     "count": 1
+    },
+    {
+     "label": "Tchibo",
+     "term": "tchibo",
+     "count": 8
+    },
+    {
+     "label": "The Inspire Food Company",
+     "term": "the-inspire-food-company",
+     "count": 2
+    },
+    {
+     "label": "Three Sixty",
+     "term": "three-sixty",
+     "count": 1
+    },
+    {
+     "label": "ti-flair",
+     "term": "ti-flair",
+     "count": 1
+    },
+    {
+     "label": "Tirol Milch",
+     "term": "tirol-milch",
+     "count": 1
+    },
+    {
+     "label": "Toppits",
+     "term": "toppits",
+     "count": 1
+    },
+    {
+     "label": "Tutti Frutti",
+     "term": "tutti-frutti",
+     "count": 2
+    },
+    {
+     "label": "Vegeta",
+     "term": "vegeta",
+     "count": 3
+    },
+    {
+     "label": "Vendo",
+     "term": "vendo",
+     "count": 1
+    },
+    {
+     "label": "Vier Diamanten",
+     "term": "vier-diamanten",
+     "count": 6
+    },
+    {
+     "label": "Vitakraft",
+     "term": "vitakraft",
+     "count": 2
+    },
+    {
+     "label": "Vöslauer",
+     "term": "voeslauer",
+     "count": 13
+    },
+    {
+     "label": "Wagner",
+     "term": "wagner",
+     "count": 9
+    },
+    {
+     "label": "Waldquelle",
+     "term": "waldquelle",
+     "count": 2
+    },
+    {
+     "label": "Waterdrop",
+     "term": "waterdrop",
+     "count": 5
+    },
+    {
+     "label": "Wegenstein",
+     "term": "wegenstein",
+     "count": 10
+    },
+    {
+     "label": "Weineck",
+     "term": "weineck",
+     "count": 1
+    },
+    {
+     "label": "Wild Bill",
+     "term": "wild-bill",
+     "count": 1
+    },
+    {
+     "label": "Willinger",
+     "term": "willinger",
+     "count": 1
+    },
+    {
+     "label": "Winzer Krems",
+     "term": "winzer-krems",
+     "count": 1
+    },
+    {
+     "label": "Winzersteig",
+     "term": "winzersteig",
+     "count": 2
+    },
+    {
+     "label": "Yuu´n Mee",
+     "term": "yuu-n-mee",
+     "count": 1
+    },
+    {
+     "label": "Zeronic",
+     "term": "zeronic",
+     "count": 2
+    },
+    {
+     "label": "ZooRoyal",
+     "term": "zooroyal",
+     "count": 2
+    },
+    {
+     "label": "Zuegg",
+     "term": "zuegg",
+     "count": 9
+    }
+   ],
+   "comparisonTerms": [],
+   "key": "brand",
+   "label": "Marke"
+  },
+  {
+   "type": "multiSelect",
+   "pluralLabel": "weitere Herkunftsländer",
+   "labelPlural": "weitere Herkunftsländer",
+   "terms": [
+    {
+     "label": "Australien",
+     "term": "landallglist-aus",
+     "count": 1
+    },
+    {
+     "label": "Bermuda",
+     "term": "landallglist-bmu",
+     "count": 1
+    },
+    {
+     "label": "Bosnien-Herzegovina",
+     "term": "landallglist-bih",
+     "count": 4
+    },
+    {
+     "label": "Bulgarien",
+     "term": "landallglist-bgr",
+     "count": 2
+    },
+    {
+     "label": "Deutschland",
+     "term": "landallglist-brd",
+     "count": 201
+    },
+    {
+     "label": "Frankreich",
+     "term": "landallglist-fra",
+     "count": 30
+    },
+    {
+     "label": "Griechenland",
+     "term": "landallglist-gre",
+     "count": 3
+    },
+    {
+     "label": "Grossbritannien",
+     "term": "landallglist-gbr",
+     "count": 11
+    },
+    {
+     "label": "Irland",
+     "term": "landallglist-irl",
+     "count": 1
+    },
+    {
+     "label": "Italien",
+     "term": "landallglist-ita",
+     "count": 59
+    },
+    {
+     "label": "Kanada",
+     "term": "landallglist-can",
+     "count": 1
+    },
+    {
+     "label": "Kroatien",
+     "term": "landallglist-kro",
+     "count": 3
+    },
+    {
+     "label": "Lettland",
+     "term": "landallglist-lva",
+     "count": 1
+    },
+    {
+     "label": "Niederlande",
+     "term": "landallglist-net",
+     "count": 21
+    },
+    {
+     "label": "Norwegen",
+     "term": "landallglist-nor",
+     "count": 1
+    },
+    {
+     "label": "Österreich",
+     "term": "landallglist-aut",
+     "count": 302
+    },
+    {
+     "label": "Polen",
+     "term": "landallglist-pol",
+     "count": 35
+    },
+    {
+     "label": "Puerto Rico",
+     "term": "landallglist-pri",
+     "count": 2
+    },
+    {
+     "label": "Schweden",
+     "term": "landallglist-swe",
+     "count": 5
+    },
+    {
+     "label": "Schweiz",
+     "term": "landallglist-swi",
+     "count": 11
+    },
+    {
+     "label": "Serbien",
+     "term": "landallglist-srb",
+     "count": 4
+    },
+    {
+     "label": "Slowakei",
+     "term": "landallglist-slk",
+     "count": 3
+    },
+    {
+     "label": "Spanien",
+     "term": "landallglist-spa",
+     "count": 8
+    },
+    {
+     "label": "Thailand",
+     "term": "landallglist-tha",
+     "count": 2
+    },
+    {
+     "label": "Tschechien",
+     "term": "landallglist-cre",
+     "count": 16
+    },
+    {
+     "label": "Türkei",
+     "term": "landallglist-tur",
+     "count": 2
+    },
+    {
+     "label": "Ungarn",
+     "term": "landallglist-hun",
+     "count": 20
+    },
+    {
+     "label": "USA",
+     "term": "landallglist-usa",
+     "count": 1
+    },
+    {
+     "label": "Venezuela",
+     "term": "landallglist-ven",
+     "count": 1
+    },
+    {
+     "label": "Vietnam",
+     "term": "landallglist-vnm",
+     "count": 2
+    },
+    {
+     "label": "Volksrepublik China",
+     "term": "landallglist-chn",
+     "count": 3
+    },
+    {
+     "label": "Zypern",
+     "term": "landallglist-cyp",
+     "count": 1
+    }
+   ],
+   "comparisonTerms": [
+    {
+     "key": "countriesOfOriginList",
+     "label": "Österreich",
+     "term": "landallglist-aut",
+     "count": 302
+    }
+   ],
+   "key": "countriesOfOriginList",
+   "label": "Herkunftsland"
+  },
+  {
+   "type": "multiSelect",
+   "pluralLabel": "weitere Präferenzen",
+   "labelPlural": "weitere Präferenzen",
+   "terms": [
+    {
+     "label": "Glutenfrei",
+     "term": "pp-glutenfr",
+     "count": 75
+    },
+    {
+     "label": "Laktosefrei",
+     "term": "pp-lakto",
+     "count": 44
+    },
+    {
+     "label": "Rein pflanzlich",
+     "term": "pp-vegan",
+     "count": 382
+    },
+    {
+     "label": "Vegetarisch",
+     "term": "pp-veget",
+     "count": 422
+    }
+   ],
+   "comparisonTerms": [
+    {
+     "key": "personalPreference",
+     "label": "Bio",
+     "term": "pp-bio",
+     "count": 53
+    }
+   ],
+   "key": "personalPreference",
+   "label": "Präferenzen"
+  },
+  {
+   "type": "singleSelect",
+   "count": 20,
+   "term": "true",
+   "comparisonOperator": "EQUALS",
+   "key": "new",
+   "label": "Neu"
+  },
+  {
+   "type": "singleSelect",
+   "count": 1009,
+   "term": "true",
+   "comparisonOperator": "EQUALS",
+   "key": "inPromotion",
+   "label": "in Aktion"
+  },
+  {
+   "type": "range",
+   "labelSymbol": "€",
+   "unit": "€",
+   "min": 27.0,
+   "max": 4190.0,
+   "key": "price",
+   "label": "Preis"
+  },
+  {
+   "type": "multiSelect",
+   "terms": [],
+   "comparisonTerms": [
+    {
+     "key": "coolingType",
+     "label": "Kühlung",
+     "term": "kuehlung",
+     "count": 111
+    },
+    {
+     "key": "coolingType",
+     "label": "Tiefkühlung",
+     "term": "tiefkuehlung",
+     "count": 98
+    }
+   ],
+   "key": "coolingType",
+   "label": "Cooling Type"
+  }
+ ],
+ "count": 20,
+ "offset": 0,
+ "total": 1009,
+ "results": [
+  {
+   "name": "Bahlsen Ohne Gleichen Edelherb",
+   "brand": {
+    "name": "Bahlsen",
+    "slug": "bahlsen"
+   },
+   "category": "Schnitten",
+   "amount": "125",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "bahlsen-ohne-gleichen-edelherb-0010139",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-10139-1368304948-WXlyDPke.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Gramm",
+    "baseUnitShort": "g",
+    "basePriceFactor": "100",
+    "crossed": 429,
+    "discountPercentage": -33,
+    "regular": {
+     "perStandardizedQuantity": 229,
+     "promotionQuantity": 3.0,
+     "standardizedPromotionQuantity": 3,
+     "promotionText": "Bei 3 Packungen je",
+     "promotionType": "PER_SET_OF",
+     "promotionBasePrice": 343,
+     "promotionValue": 429,
+     "tags": [
+      "pt-2plus1",
+      "pt-multi"
+     ],
+     "value": 286
+    },
+    "standard": {
+     "perStandardizedQuantity": 343,
+     "value": 429
+    }
+   }
+  },
+  {
+   "name": "Bahlsen Ohne Gleichen Vollmilch",
+   "brand": {
+    "name": "Bahlsen",
+    "slug": "bahlsen"
+   },
+   "category": "Schnitten",
+   "amount": "125",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "bahlsen-ohne-gleichen-vollmilch-0010143",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-10143-1478310324-N_2ko6Gr.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Gramm",
+    "baseUnitShort": "g",
+    "basePriceFactor": "100",
+    "crossed": 429,
+    "discountPercentage": -33,
+    "regular": {
+     "perStandardizedQuantity": 229,
+     "promotionQuantity": 3.0,
+     "standardizedPromotionQuantity": 3,
+     "promotionText": "Bei 3 Packungen je",
+     "promotionType": "PER_SET_OF",
+     "promotionBasePrice": 343,
+     "promotionValue": 429,
+     "tags": [
+      "pt-2plus1",
+      "pt-multi"
+     ],
+     "value": 286
+    },
+    "standard": {
+     "perStandardizedQuantity": 343,
+     "value": 429
+    }
+   }
+  },
+  {
+   "name": "De Cecco Pappardelle",
+   "brand": {
+    "name": "De Cecco",
+    "slug": "de-cecco"
+   },
+   "category": "Reis, Pasta & Beilagen",
+   "amount": "500",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "de-cecco-pappardelle-00105483",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-105483-0438130678-cZGJA8Ql.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "crossed": 285,
+    "discountPercentage": -16,
+    "regular": {
+     "perStandardizedQuantity": 474,
+     "promotionBasePrice": 570,
+     "promotionValue": 285,
+     "tags": [
+      "pt-abverkauf"
+     ],
+     "value": 237
+    },
+    "standard": {
+     "perStandardizedQuantity": 570,
+     "value": 285
+    }
+   }
+  },
+  {
+   "name": "Iglo Kochsalat mit Erbsen",
+   "brand": {
+    "name": "iglo",
+    "slug": "iglo"
+   },
+   "category": "Gemüse",
+   "amount": "450",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "iglo-kochsalat-mit-erbsen-0010907",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-10907-188172870-fypbnsa1.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "crossed": 419,
+    "discountPercentage": -33,
+    "regular": {
+     "perStandardizedQuantity": 620,
+     "promotionQuantity": 3.0,
+     "standardizedPromotionQuantity": 3,
+     "promotionText": "Bei 3 Packungen je",
+     "promotionType": "PER_SET_OF",
+     "promotionBasePrice": 931,
+     "promotionValue": 419,
+     "tags": [
+      "pt-2plus1",
+      "pt-multi"
+     ],
+     "value": 279
+    },
+    "standard": {
+     "perStandardizedQuantity": 931,
+     "value": 419
+    }
+   }
+  },
+  {
+   "name": "Kinder Schokobons",
+   "brand": {
+    "name": "Kinder",
+    "slug": "kinder"
+   },
+   "category": "Süße Spezialitäten",
+   "amount": "200",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "kinder-schokobons-00116129",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-116129-0143502181-q7n_pzuK.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-116129-0183816920-SnFAe6sR.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-116129-1352622411-mDqBPTxu.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-116129-0114566795-EvR1N930.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Gramm",
+    "baseUnitShort": "g",
+    "basePriceFactor": "100",
+    "crossed": 419,
+    "discountPercentage": -11,
+    "regular": {
+     "perStandardizedQuantity": 185,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "ab 2 Beutel",
+     "promotionType": "FROM",
+     "promotionBasePrice": 210,
+     "promotionValue": 419,
+     "tags": [
+      "pt-multi"
+     ],
+     "value": 369
+    },
+    "standard": {
+     "perStandardizedQuantity": 210,
+     "value": 419
+    }
+   }
+  },
+  {
+   "name": "Rauch Happy Day Johannisbeernektar",
+   "brand": {
+    "name": "Rauch",
+    "slug": "rauch"
+   },
+   "category": "Frucht- & Gemüsesäfte",
+   "amount": "1",
+   "volumeLabelShort": "liter",
+   "inPromotion": true,
+   "slug": "rauch-happy-day-johannisbeernektar-0013851",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-13851-01228260578-1ctOncPG.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-13851-688018997-gjx6GZZi.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-13851-1374168600-6yKGpb2R.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-13851-01122400934-PvJ5NaFz.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Liter",
+    "baseUnitShort": "Liter",
+    "basePriceFactor": "1",
+    "crossed": 299,
+    "discountPercentage": -33,
+    "regular": {
+     "perStandardizedQuantity": 199,
+     "promotionQuantity": 3.0,
+     "standardizedPromotionQuantity": 3,
+     "promotionText": "Bei 3 Packungen je",
+     "promotionType": "PER_SET_OF",
+     "promotionBasePrice": 299,
+     "promotionValue": 299,
+     "tags": [
+      "pt-2plus1",
+      "pt-multi"
+     ],
+     "value": 199
+    },
+    "standard": {
+     "perStandardizedQuantity": 299,
+     "value": 299
+    }
+   }
+  },
+  {
+   "name": "Rauch Happy Day Ananassaft",
+   "brand": {
+    "name": "Rauch",
+    "slug": "rauch"
+   },
+   "category": "Frucht- & Gemüsesäfte",
+   "amount": "1",
+   "volumeLabelShort": "liter",
+   "inPromotion": true,
+   "slug": "rauch-happy-day-ananassaft-0014446",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-14446-1712898547-gtb0-m15.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Liter",
+    "baseUnitShort": "Liter",
+    "basePriceFactor": "1",
+    "crossed": 299,
+    "discountPercentage": -33,
+    "regular": {
+     "perStandardizedQuantity": 199,
+     "promotionQuantity": 3.0,
+     "standardizedPromotionQuantity": 3,
+     "promotionText": "Bei 3 Packungen je",
+     "promotionType": "PER_SET_OF",
+     "promotionBasePrice": 299,
+     "promotionValue": 299,
+     "tags": [
+      "pt-2plus1",
+      "pt-multi"
+     ],
+     "value": 199
+    },
+    "standard": {
+     "perStandardizedQuantity": 299,
+     "value": 299
+    }
+   }
+  },
+  {
+   "name": "efko Pußtasalat",
+   "brand": {
+    "name": "Efko",
+    "slug": "efko"
+   },
+   "category": "Salate",
+   "amount": "670",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "efko-pusstasalat-0015153",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-15153-738559563-4As-U31g.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "crossed": 329,
+    "discountPercentage": -30,
+    "regular": {
+     "perStandardizedQuantity": 636,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "ab 2 Gläser",
+     "promotionType": "FROM",
+     "promotionBasePrice": 914,
+     "promotionValue": 329,
+     "tags": [
+      "pt-multi"
+     ],
+     "value": 229
+    },
+    "standard": {
+     "perStandardizedQuantity": 914,
+     "value": 329
+    }
+   }
+  },
+  {
+   "name": "efko Rote Rüben Salat",
+   "brand": {
+    "name": "Efko",
+    "slug": "efko"
+   },
+   "category": "Salate",
+   "amount": "670",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "efko-rote-rueben-salat-0015154",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-15154-204556056-mcXq0LR3.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "crossed": 329,
+    "discountPercentage": -30,
+    "regular": {
+     "perStandardizedQuantity": 533,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "ab 2 Gläser",
+     "promotionType": "FROM",
+     "promotionBasePrice": 765,
+     "promotionValue": 329,
+     "tags": [
+      "pt-multi"
+     ],
+     "value": 229
+    },
+    "standard": {
+     "perStandardizedQuantity": 765,
+     "value": 329
+    }
+   }
+  },
+  {
+   "name": "Schärdinger Landfrischkäse Schnittlauch",
+   "brand": {
+    "name": "Schärdinger",
+    "slug": "schaerdinger"
+   },
+   "category": "Frischkäse & Hüttenkäse",
+   "amount": "200",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "schaerdinger-landfrischkaese-schnittlauch-0016069",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-16069-01381375125-4sAE8Gn-.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Gramm",
+    "baseUnitShort": "g",
+    "basePriceFactor": "100",
+    "crossed": 229,
+    "discountPercentage": -30,
+    "regular": {
+     "perStandardizedQuantity": 80,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "ab 2 Becher",
+     "promotionType": "FROM",
+     "promotionBasePrice": 115,
+     "promotionValue": 229,
+     "tags": [
+      "pt-multi"
+     ],
+     "value": 159
+    },
+    "standard": {
+     "perStandardizedQuantity": 115,
+     "value": 229
+    }
+   }
+  },
+  {
+   "name": "efko Delikatess Gurken",
+   "brand": {
+    "name": "Efko",
+    "slug": "efko"
+   },
+   "category": "Gurken",
+   "amount": "670",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "efko-delikatess-gurken-0016426",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-16426-01018456396-k7X3DBIW.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "crossed": 329,
+    "discountPercentage": -30,
+    "regular": {
+     "perStandardizedQuantity": 636,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "ab 2 Gläser",
+     "promotionType": "FROM",
+     "promotionBasePrice": 914,
+     "promotionValue": 329,
+     "tags": [
+      "pt-multi"
+     ],
+     "value": 229
+    },
+    "standard": {
+     "perStandardizedQuantity": 914,
+     "value": 329
+    }
+   }
+  },
+  {
+   "name": "Ölz Nuss-Stollen",
+   "brand": {
+    "name": "Ölz",
+    "slug": "oelz"
+   },
+   "category": "Kuchen, Muffins & Co verpackt",
+   "amount": "700",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "oelz-nussstollen-00167239",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-167239-0100584172-fw9BRliZ.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "crossed": 599,
+    "discountPercentage": -16,
+    "regular": {
+     "perStandardizedQuantity": 713,
+     "promotionBasePrice": 856,
+     "promotionValue": 599,
+     "tags": [
+      "pt-aktion"
+     ],
+     "value": 499
+    },
+    "standard": {
+     "perStandardizedQuantity": 856,
+     "value": 599
+    }
+   }
+  },
+  {
+   "name": "Leibniz Butterkeks",
+   "brand": {
+    "name": "Leibniz",
+    "slug": "leibniz"
+   },
+   "category": "Kekse",
+   "amount": "200",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "leibniz-butterkeks-0017586",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-17586-1230950681-h10U7xPp.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Gramm",
+    "baseUnitShort": "g",
+    "basePriceFactor": "100",
+    "crossed": 249,
+    "discountPercentage": -50,
+    "regular": {
+     "perStandardizedQuantity": 62,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "Bei 2 Packungen je",
+     "promotionType": "PER_SET_OF",
+     "promotionBasePrice": 125,
+     "promotionValue": 249,
+     "tags": [
+      "pt-1plus1",
+      "pt-multi"
+     ],
+     "value": 124
+    },
+    "standard": {
+     "perStandardizedQuantity": 125,
+     "value": 249
+    }
+   }
+  },
+  {
+   "name": "nimm2 Vitaminbonbons",
+   "brand": {
+    "name": "nimm2",
+    "slug": "nimm2"
+   },
+   "category": "Zuckerl, Bonbons & Traubenzucker",
+   "amount": "240",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "nimm2-vitaminbonbons-0017772",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-17772-0200470094-B9I_8KLP.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Gramm",
+    "baseUnitShort": "g",
+    "basePriceFactor": "100",
+    "crossed": 215,
+    "discountPercentage": -12,
+    "regular": {
+     "perStandardizedQuantity": 79,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "ab 2 Beutel",
+     "promotionType": "FROM",
+     "promotionBasePrice": 90,
+     "promotionValue": 215,
+     "tags": [
+      "pt-multi"
+     ],
+     "value": 189
+    },
+    "standard": {
+     "perStandardizedQuantity": 90,
+     "value": 215
+    }
+   }
+  },
+  {
+   "name": "Lattella Mango",
+   "brand": {
+    "name": "Lattella",
+    "slug": "lattella"
+   },
+   "category": "Milch- & Joghurtgetränke",
+   "amount": "500",
+   "volumeLabelShort": "ml",
+   "inPromotion": true,
+   "slug": "lattella-mango-0017803",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-17803-02116005166-ZGoSJ5g9.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Liter",
+    "baseUnitShort": "Liter",
+    "basePriceFactor": "1",
+    "crossed": 139,
+    "discountPercentage": -33,
+    "regular": {
+     "perStandardizedQuantity": 184,
+     "promotionQuantity": 3.0,
+     "standardizedPromotionQuantity": 3,
+     "promotionText": "Bei 3 Packungen je",
+     "promotionType": "PER_SET_OF",
+     "promotionBasePrice": 278,
+     "promotionValue": 139,
+     "tags": [
+      "pt-2plus1",
+      "pt-multi"
+     ],
+     "value": 92
+    },
+    "standard": {
+     "perStandardizedQuantity": 278,
+     "value": 139
+    }
+   }
+  },
+  {
+   "name": "Lattella Maracuja",
+   "brand": {
+    "name": "Lattella",
+    "slug": "lattella"
+   },
+   "category": "Milch- & Joghurtgetränke",
+   "amount": "500",
+   "volumeLabelShort": "ml",
+   "inPromotion": true,
+   "slug": "lattella-maracuja-0017804",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-17804-1183707955-S8ON9CkB.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Liter",
+    "baseUnitShort": "Liter",
+    "basePriceFactor": "1",
+    "crossed": 139,
+    "discountPercentage": -33,
+    "regular": {
+     "perStandardizedQuantity": 184,
+     "promotionQuantity": 3.0,
+     "standardizedPromotionQuantity": 3,
+     "promotionText": "Bei 3 Packungen je",
+     "promotionType": "PER_SET_OF",
+     "promotionBasePrice": 278,
+     "promotionValue": 139,
+     "tags": [
+      "pt-2plus1",
+      "pt-multi"
+     ],
+     "value": 92
+    },
+    "standard": {
+     "perStandardizedQuantity": 278,
+     "value": 139
+    }
+   }
+  },
+  {
+   "name": "Nivea Men Deo Roll On Dry Impact",
+   "brand": {
+    "name": "Nivea",
+    "slug": "nivea"
+   },
+   "category": "Deoderants",
+   "amount": "50",
+   "volumeLabelShort": "ml",
+   "inPromotion": true,
+   "slug": "nivea-men-deo-roll-on-dry-impact-0018101",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-18101-01449027978-exR5mwMa.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-18101-578521858-6HEkxH6u.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-18101-01003635678-dPbOLAMv.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-18101-1988658715-DgYwn97A.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Milliliter",
+    "baseUnitShort": "ml",
+    "basePriceFactor": "100",
+    "crossed": 399,
+    "discountPercentage": -12,
+    "regular": {
+     "perStandardizedQuantity": 698,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "ab 2 Flaschen",
+     "promotionType": "FROM",
+     "promotionBasePrice": 798,
+     "promotionValue": 399,
+     "tags": [
+      "pt-multi"
+     ],
+     "value": 349
+    },
+    "standard": {
+     "perStandardizedQuantity": 798,
+     "value": 399
+    }
+   }
+  },
+  {
+   "name": "Nivea Deo Roll On Dry Comfort",
+   "brand": {
+    "name": "Nivea",
+    "slug": "nivea"
+   },
+   "category": "Deoderants",
+   "amount": "50",
+   "volumeLabelShort": "ml",
+   "inPromotion": true,
+   "slug": "nivea-deo-roll-on-dry-comfort-0018102",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-18102-01348683069-_GL_Xcac.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-18102-1980038739-G4D1P7da.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-18102-01117287883-dLBxwrhs.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-18102-998793761-FYrTGjst.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Milliliter",
+    "baseUnitShort": "ml",
+    "basePriceFactor": "100",
+    "crossed": 399,
+    "discountPercentage": -12,
+    "regular": {
+     "perStandardizedQuantity": 698,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "ab 2 Dosen",
+     "promotionType": "FROM",
+     "promotionBasePrice": 798,
+     "promotionValue": 399,
+     "tags": [
+      "pt-multi"
+     ],
+     "value": 349
+    },
+    "standard": {
+     "perStandardizedQuantity": 798,
+     "value": 399
+    }
+   }
+  },
+  {
+   "name": "Milka Leo Alpenmilch",
+   "brand": {
+    "name": "Milka",
+    "slug": "milka"
+   },
+   "category": "Schokoriegel",
+   "amount": "99.9",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "milka-leo-alpenmilch-0019320",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-19320-1522672253-QZ51jAr2.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-19320-1454607574-IvkI9KQy.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Gramm",
+    "baseUnitShort": "g",
+    "basePriceFactor": "100",
+    "crossed": 369,
+    "discountPercentage": -18,
+    "regular": {
+     "perStandardizedQuantity": 299,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "ab 2 Packungen",
+     "promotionType": "FROM",
+     "promotionBasePrice": 369,
+     "promotionValue": 369,
+     "tags": [
+      "pt-multi"
+     ],
+     "value": 299
+    },
+    "standard": {
+     "perStandardizedQuantity": 369,
+     "value": 369
+    }
+   }
+  },
+  {
+   "name": "Barilla Sugo mit Basilikum",
+   "brand": {
+    "name": "Barilla",
+    "slug": "barilla"
+   },
+   "category": "Sugo",
+   "amount": "400",
+   "volumeLabelShort": "g",
+   "inPromotion": true,
+   "slug": "barilla-sugo-mit-basilikum-0019891",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-19891-483723933-NN9HN0wO.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "crossed": 329,
+    "discountPercentage": -24,
+    "regular": {
+     "perStandardizedQuantity": 623,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "ab 2 Gläser",
+     "promotionType": "FROM",
+     "promotionBasePrice": 823,
+     "promotionValue": 329,
+     "tags": [
+      "pt-multi"
+     ],
+     "value": 249
+    },
+    "standard": {
+     "perStandardizedQuantity": 823,
+     "value": 329
+    }
+   }
+  }
+ ],
+ "isTotalTruncated": false
+}

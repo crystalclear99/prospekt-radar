@@ -1,0 +1,11 @@
+# HTTP-Cache: wird bei jedem Lauf neu aufgebaut, gehoert nicht ins Repo
+data/cache/
+data/run.log
+
+# Ergebnis: wird von GitHub Actions frisch erzeugt und direkt nach Pages
+# deployt. Lokale Laeufe sollen das Repo nicht vollmuellen.
+out/
+
+__pycache__/
+*.pyc
+.venv/
