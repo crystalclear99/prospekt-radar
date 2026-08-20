@@ -103,6 +103,23 @@ python tests/check_output.py       # Abnahme-Check über out/angebote.json
 
 Fixtures (gespeicherte Rohantworten) liegen in `tests/fixtures/`.
 
+## Online stellen (damit alle immer die aktuelle Liste sehen)
+
+Eine verschickte HTML-Datei ist ein Schnappschuss und altert beim Empfänger.
+Wer die Liste weitergeben will, verschickt daher besser **einen Link**.
+
+`.github/workflows/update.yml` erledigt das: Donnerstagfrüh läuft der Radar in
+der GitHub-Cloud, aktualisiert die Seite und veröffentlicht sie über GitHub
+Pages — der eigene Rechner muss dafür nicht laufen. Die Preishistorie wird ins
+Repo zurückgeschrieben, damit NEU-Badge und Scheinrabatt-Warnung auch dort
+über Wochen funktionieren.
+
+Schritt-für-Schritt: **[SETUP-GITHUB.md](SETUP-GITHUB.md)**
+
+Die veröffentlichte Seite trägt `noindex` und eine sperrende `robots.txt`,
+landet also nicht in Suchmaschinen. Es werden ausschließlich Text und Zahlen
+gezeigt, keine Prospektbilder — die werden nur verlinkt.
+
 ## Automatisierung
 
 AT-Flugblätter starten meist Do/Fr → einmal Donnerstagfrüh reicht.
