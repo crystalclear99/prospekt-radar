@@ -19,10 +19,25 @@ import statistics
 import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from core.models import Offer
 from render import render_html
 from sources import billa, marktguru
+
+# Alle Zeitangaben in Wiener Zeit. Der GitHub-Runner laeuft in UTC; ohne das
+# steht auf der Seite ein falsches Datum und abgelaufene Angebote bleiben
+# zwischen 00:00 und 02:00 Wiener Zeit einen Tag zu lang stehen.
+VIENNA = ZoneInfo("Europe/Vienna")
+
+
+def now_vienna() -> datetime:
+    return datetime.now(VIENNA)
+
+
+def today_vienna() -> date:
+    return now_vienna().date()
+
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
@@ -38,7 +53,7 @@ ADAPTERS = [
 
 
 def log(msg: str) -> None:
-    print(f"[{datetime.now():%H:%M:%S}] {msg}", file=sys.stderr)
+    print(f"[{now_vienna():%H:%M:%S}] {msg}", file=sys.stderr)
 
 
 # --- Dedupe ---------------------------------------------------------------
@@ -68,7 +83,7 @@ def load_history() -> dict[str, list[dict]]:
     hist: dict[str, list[dict]] = {}
     if not HISTORY.exists():
         return hist
-    cutoff = (date.today() - timedelta(days=90)).isoformat()
+    cutoff = (today_vienna() - timedelta(days=90)).isoformat()
     for line in HISTORY.read_text(encoding="utf-8").splitlines():
         try:
             rec = json.loads(line)
@@ -93,7 +108,7 @@ def apply_history(offers: list[Offer], hist: dict[str, list[dict]]) -> None:
 
 def append_history(offers: list[Offer]) -> None:
     DATA.mkdir(parents=True, exist_ok=True)
-    today = date.today().isoformat()
+    today = today_vienna().isoformat()
     with HISTORY.open("a", encoding="utf-8") as f:
         for o in offers:
             f.write(json.dumps({
@@ -179,7 +194,7 @@ def main() -> int:
     log(f"  nach Dedupe: {len(offers)} (von {len(raw)})")
 
     # Filter: Rabattschwelle, Gueltigkeit, optional Store
-    today = date.today()
+    today = today_vienna()
     kept: list[Offer] = []
     for o in offers:
         if o.effective_pct + 1e-9 < min_pct:
@@ -215,7 +230,7 @@ def main() -> int:
         problems.append(f"nur {len(kept)} Angebote — < 50% der Vorwoche ({prev_count})")
 
     meta = {
-        "generated_at": datetime.now().strftime("%d.%m.%Y %H:%M"),
+        "generated_at": now_vienna().strftime("%d.%m.%Y %H:%M"),
         "min_pct": int(min_pct), "zip": zip_code,
     }
     rows = to_rows(kept, prev_keys)
@@ -225,7 +240,7 @@ def main() -> int:
 
     DATA.mkdir(parents=True, exist_ok=True)
     LAST_RUN.write_text(json.dumps({
-        "generated_at": today.isoformat(), "count": len(kept),
+        "generated_at": today_vienna().isoformat(), "count": len(kept),
         "keys": [o.key for o in kept],
     }, ensure_ascii=False), encoding="utf-8")
 

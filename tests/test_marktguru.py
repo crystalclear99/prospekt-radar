@@ -49,7 +49,7 @@ print(f"davon >= 30%: {len(good)}")
 
 print("\nBeispiele (>=30%):")
 for o in sorted(good, key=lambda x: -x.effective_pct)[:6]:
-    print(f"  −{o.effective_pct:.0f}% | {o.store} | {o.product} | {o.menge_label} | "
+    print(f"  -{o.effective_pct:.0f}% | {o.store} | {o.product} | {o.menge_label} | "
           f"{o.price}€ statt {o.old_price}€ | {o.base_price_label or '-'} | bis {o.valid_to}"
           f"{' | jö/App' if o.needs_card else ''}")
 

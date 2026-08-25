@@ -56,8 +56,8 @@ for r in random.sample(rows, 5):
     calc = None
     if r.get("price") and r.get("old_price"):
         calc = round(100 * (r["old_price"] - r["price"]) / r["old_price"])
-    print(f"  −{round(r['effective_pct'])}% | {r['store']} | {r['product']} | {r['amount']} | "
-          f"{r.get('price')}€ statt {r.get('old_price')}€ | rechnerisch −{calc}% | bis {r['valid_to']}")
+    print(f"  -{round(r['effective_pct'])}% | {r['store']} | {r['product']} | {r['amount']} | "
+          f"{r.get('price')}€ statt {r.get('old_price')}€ | rechnerisch -{calc}% | bis {r['valid_to']}")
 
 print(f"\n{'FEHLER' if _fail else 'OK'}: {_fail} Fehler")
 sys.exit(1 if _fail else 0)

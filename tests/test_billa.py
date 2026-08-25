@@ -57,7 +57,7 @@ for o in offers:
 # Beispielausgabe
 print("\nBeispiele:")
 for o in offers[:5]:
-    print(f"  −{o.effective_pct:.0f}% | {o.store} | {o.product} | {o.menge_label} | "
+    print(f"  -{o.effective_pct:.0f}% | {o.store} | {o.product} | {o.menge_label} | "
           f"{o.price}€ statt {o.old_price}€ | {o.base_price_label} | '{o.action_text}'"
           f"{' | qty='+str(o.requires_qty) if o.requires_qty>1 else ''}")
 

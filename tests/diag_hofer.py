@@ -16,6 +16,6 @@ for r in sorted(hofer, key=lambda x: -x["effective_pct"]):
     if r.get("price") and r.get("old_price"):
         calc = round(100 * (r["old_price"] - r["price"]) / r["old_price"], 1)
     flag = "" if calc is None or abs(calc - r["effective_pct"]) < 0.6 else f"  <-- PCT-ABWEICHUNG (rechnerisch {calc})"
-    print(f"−{r['effective_pct']:5.1f}% | {r['product'][:42]:42} | {r['amount']:12} | "
+    print(f"-{r['effective_pct']:5.1f}% | {r['product'][:42]:42} | {r['amount']:12} | "
           f"{r.get('price')}€ statt {r.get('old_price')}€ | {r.get('base_price')} | "
-          f"{r['valid_from']}→{r['valid_to']}{flag}")
+          f"{r['valid_from']}->{r['valid_to']}{flag}")
