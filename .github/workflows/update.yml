@@ -21,6 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v7
         with:
@@ -66,22 +68,36 @@ jobs:
           printf 'User-agent: *\nDisallow: /\n' > out/robots.txt
           ls -lh out/
 
+      # Veroeffentlichen kommt VOR der Buchhaltung: ein fehlgeschlagener
+      # Historien-Push darf die Seite nicht blockieren.
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: out
+
+      # Best effort. Schlaegt fehl, wenn origin/main zwischenzeitlich
+      # weitergewandert ist (Re-run eines aelteren Commits, paralleler Push).
+      # Dann nur warnen - die Historie holt der naechste regulaere Lauf nach.
       - name: Preishistorie zurueckschreiben
+        continue-on-error: true
         run: |
           git config user.name "prospekt-radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/history.jsonl data/last_run.json
           if git diff --staged --quiet; then
             echo "Historie unveraendert."
-          else
-            git commit -m "Preishistorie: Lauf vom $(date +%F)"
-            git push
+            exit 0
           fi
-
-      - uses: actions/configure-pages@v6
-      - uses: actions/upload-pages-artifact@v5
-        with:
-          path: out
+          git commit -m "Preishistorie: Lauf vom $(date +%F)"
+          git fetch origin main
+          if ! git rebase origin/main; then
+            git rebase --abort || true
+            echo "::warning::Historie kollidiert mit origin/main (vermutlich ein             Re-run) - uebersprungen. Die Seite wurde trotzdem veroeffentlicht."
+            exit 0
+          fi
+          if ! git push origin HEAD:main; then
+            echo "::warning::Historie konnte nicht gepusht werden - uebersprungen.             Die Seite wurde trotzdem veroeffentlicht."
+          fi
 
   deploy:
     needs: build

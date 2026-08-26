@@ -108,15 +108,43 @@ def apply_history(offers: list[Offer], hist: dict[str, list[dict]]) -> None:
                 o.hist_warning = True
 
 
+def _keys_recorded_today(today: str) -> set:
+    """Welche Angebote stehen fuer heute schon in der Historie?"""
+    if not HISTORY.exists():
+        return set()
+    seen = set()
+    for line in HISTORY.read_text(encoding="utf-8").splitlines():
+        try:
+            rec = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if rec.get("date") == today:
+            seen.add(rec.get("key"))
+    return seen
+
+
 def append_history(offers: list[Offer]) -> None:
+    """Beobachtungen anhaengen - je Angebot und Tag hoechstens einmal.
+
+    Laeuft die Pipeline mehrmals am selben Tag (manueller Lauf, Re-run in der
+    Cloud), stuenden sonst Dubletten in der Historie. Die wuerden den
+    90-Tage-Median verzerren und die Scheinrabatt-Warnung zu frueh ausloesen.
+    """
     DATA.mkdir(parents=True, exist_ok=True)
     today = today_vienna().isoformat()
+    already = _keys_recorded_today(today)
+    fresh = [o for o in offers if o.key not in already]
+    if not fresh:
+        log(f"  Historie: heute bereits erfasst ({len(already)} Eintraege)")
+        return
     with HISTORY.open("a", encoding="utf-8") as f:
-        for o in offers:
+        for o in fresh:
             f.write(json.dumps({
                 "date": today, "key": o.key, "store": o.store,
                 "pct": round(o.effective_pct, 1), "price": o.price,
             }, ensure_ascii=False) + "\n")
+    log(f"  Historie: {len(fresh)} neue Beobachtungen"
+        + (f", {len(already)} heute schon vorhanden" if already else ""))
 
 
 # --- Fetch (fehlertolerant) -----------------------------------------------
