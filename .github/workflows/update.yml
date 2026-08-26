@@ -92,11 +92,11 @@ jobs:
           git fetch origin main
           if ! git rebase origin/main; then
             git rebase --abort || true
-            echo "::warning::Historie kollidiert mit origin/main (vermutlich ein             Re-run) - uebersprungen. Die Seite wurde trotzdem veroeffentlicht."
+            echo "::warning::Historie kollidiert mit origin/main (vermutlich ein Re-run) - uebersprungen. Die Seite wurde trotzdem veroeffentlicht."
             exit 0
           fi
           if ! git push origin HEAD:main; then
-            echo "::warning::Historie konnte nicht gepusht werden - uebersprungen.             Die Seite wurde trotzdem veroeffentlicht."
+            echo "::warning::Historie konnte nicht gepusht werden - uebersprungen. Die Seite wurde trotzdem veroeffentlicht."
           fi
 
   deploy:
