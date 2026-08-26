@@ -8,13 +8,16 @@ from __future__ import annotations
 
 import html
 import json
+
+from core.categories import sort_key
 from datetime import datetime
 
 
 def render_html(rows: list[dict], meta: dict) -> str:
     data = json.dumps(rows, ensure_ascii=False)
     stores = sorted({r["store"] for r in rows})
-    cats = sorted({r["category"] for r in rows if r.get("category")})
+    cats = sorted({r["category"] for r in rows if r.get("category")},
+                  key=sort_key)
     updated = meta.get("generated_at", datetime.now().strftime("%d.%m.%Y %H:%M"))
     min_pct = meta.get("min_pct", 30)
     plz = meta.get("zip", "")

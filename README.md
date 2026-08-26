@@ -32,8 +32,14 @@ Umrechnung von Mengen-Aktionen ist das Herzstück (`core/discount.py`):
 |---|---|---|---|
 | **marktguru** (`sources/marktguru.py`) | interne JSON-API | BILLA, BILLA PLUS, SPAR, EUROSPAR, INTERSPAR, HOFER, PENNY, Lidl … | `api.marktguru.at` erlaubt `/api/` ausdrücklich |
 | **BILLA** (`sources/billa.py`) | offizielle JSON-API `product-discovery` | BILLA (bester Detailgrad, exakter Rabatt) | `shop.billa.at` erlaubt alles |
+| **PENNY** (`sources/penny.py`) | dieselbe API (REWE-Gruppe) | PENNY, **inkl. echter Aktionszeiträume** | `penny.at` erlaubt alles |
 
-Beide liefern echte Daten aus > 8 Ketten. Aggregatoren wie prospektmaschine.at,
+BILLA und PENNY teilen sich den Parser in `sources/rewe_shop.py` — beide Ketten
+betreiben dieselbe Shop-Software. Zwei Eigenheiten sind dort abgefangen:
+Geblättert wird über `page` (nicht `offset`), und PENNY meldet `inPromotion:
+false` auch bei echten Aktionen — verlässlich ist nur `discountPercentage`.
+
+Zusammen liefern sie echte Daten aus über 15 Ketten. Aggregatoren wie prospektmaschine.at,
 kimbino.at und preisrunter.at sperren ihre Datenpfade per robots.txt und werden
 **nicht** gecrawlt; aktionsfinder.at ist offline.
 
@@ -83,6 +89,12 @@ beim Dedupe). Ein abstürzender Adapter bricht den Lauf nie ab.
 - **Dedupe** über Quellen (exakter Key + konservatives Fuzzy: gleiches Geschäft +
   gleiche Basismenge + identische Namens-Wörter).
 - **Gültigkeit**: abgelaufene Angebote raus, künftige bleiben mit „ab"-Markierung.
+  Alle Datumsangaben laufen über `Europe/Vienna` — marktguru liefert UTC, und der
+  GitHub-Runner arbeitet ebenfalls in UTC.
+- **Kategorien**: Die Quellen liefern ~145 verschiedene Kategorien. `core/categories.py`
+  fasst sie schlüsselwortbasiert zu 14 Einkaufs-Gruppen zusammen, damit der Filter
+  im Dashboard benutzbar bleibt. Die feine Original-Kategorie bleibt als
+  `category_detail` in CSV und JSON erhalten.
 
 ## Monitoring
 
@@ -93,12 +105,15 @@ Ergebnisse sind der schlimmste Fehlerfall — deshalb laut.
 ## Tests (offline, ohne Netzwerk)
 
 ```bash
-python tests/test_discount.py      # Rabatt-Engine (44 Fälle)
-python tests/test_quantity.py      # Mengen + Grundpreis (20 Fälle)
-python tests/test_billa.py         # BILLA-Parser gegen Fixture
-python tests/test_marktguru.py     # marktguru-Parser gegen Fixture
-python tests/test_resilience.py    # kaputter Adapter bricht Lauf nicht ab
-python tests/check_output.py       # Abnahme-Check über out/angebote.json
+python tests/test_discount.py         # Rabatt-Engine (44 Fälle)
+python tests/test_quantity.py         # Mengen + Grundpreis (20 Fälle)
+python tests/test_categories.py       # Kategorie-Gruppierung (41 Fälle)
+python tests/test_billa.py            # BILLA-Parser gegen Fixture
+python tests/test_penny.py            # PENNY-Parser gegen Fixture
+python tests/test_marktguru.py        # marktguru-Parser gegen Fixture
+python tests/test_marktguru_fixes.py  # Zeitzone, Einheiten, Grundpreis
+python tests/test_resilience.py       # kaputter Adapter bricht Lauf nicht ab
+python tests/check_output.py          # Abnahme-Check über out/angebote.json
 ```
 
 Fixtures (gespeicherte Rohantworten) liegen in `tests/fixtures/`.

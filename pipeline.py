@@ -21,9 +21,10 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from core.categories import group_for
 from core.models import Offer
 from render import render_html
-from sources import billa, marktguru
+from sources import billa, marktguru, penny
 
 # Alle Zeitangaben in Wiener Zeit. Der GitHub-Runner laeuft in UTC; ohne das
 # steht auf der Seite ein falsches Datum und abgelaufene Angebote bleiben
@@ -48,6 +49,7 @@ LAST_RUN = DATA / "last_run.json"
 # Reihenfolge = Prioritaet beim Dedupe (erste Quelle gewinnt bei Duplikaten)
 ADAPTERS = [
     ("BILLA", billa.fetch),
+    ("PENNY", penny.fetch),
     ("marktguru", marktguru.fetch),
 ]
 
@@ -142,6 +144,10 @@ def to_rows(offers: list[Offer], prev_keys: set[str]) -> list[dict]:
     for o in offers:
         r = o.to_row()
         r["is_new"] = o.key not in prev_keys if prev_keys else False
+        # Feine Quell-Kategorie als Detail behalten, im Filter aber die Gruppe
+        # zeigen (die Quellen liefern ~145 Kategorien, das ist unbrauchbar).
+        r["category_detail"] = r.get("category")
+        r["category"] = group_for(r.get("category"))
         r["starts_in_future"] = o.starts_in_future
         r["base_price_num"] = o.base_price_val
         rows.append(r)
@@ -154,7 +160,8 @@ def write_outputs(rows: list[dict], meta: dict) -> None:
     (OUT / "angebote.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
     cols = ["store", "product", "brand", "category", "effective_pct", "price",
             "old_price", "base_price", "amount", "action_text", "requires_qty",
-            "needs_card", "size_varies", "valid_from", "valid_to", "is_new",
+            "needs_card", "size_varies", "category_detail", "valid_from",
+            "valid_to", "is_new",
             "source", "url"]
     with (OUT / "angebote.csv").open("w", encoding="utf-8-sig", newline="") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")

@@ -32,7 +32,8 @@ jobs:
       - name: Tests (offline, muessen gruen sein)
         run: |
           set -e
-          for t in test_discount test_quantity test_billa test_marktguru \
+          for t in test_discount test_quantity test_categories \
+                   test_billa test_penny test_marktguru \
                    test_marktguru_fixes test_resilience; do
             echo "--- $t"
             python "tests/$t.py"

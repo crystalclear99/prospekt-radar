@@ -1,0 +1,675 @@
+{
+ "facets": [],
+ "count": 20,
+ "offset": 0,
+ "total": 474,
+ "results": [
+  {
+   "name": "Spender",
+   "brand": {
+    "name": "Pez",
+    "slug": "pez"
+   },
+   "category": "Wochenangebote",
+   "amount": "25.5",
+   "volumeLabelShort": "g",
+   "inPromotion": false,
+   "slug": "spender-78100009",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-100009-0431396452-XjbDiMr9.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Gramm",
+    "baseUnitShort": "g",
+    "basePriceFactor": "100",
+    "crossed": 199,
+    "discountPercentage": -15,
+    "regular": {
+     "perStandardizedQuantity": 663,
+     "tags": [
+      "SO"
+     ],
+     "value": 169
+    },
+    "validityEnd": "2026-09-02",
+    "validityStart": "2026-08-27"
+   },
+   "sku": "78-100009"
+  },
+  {
+   "name": "Formil Haltbare Vollmilch*",
+   "brand": {
+    "name": "Schärdinger",
+    "slug": "schaerdinger"
+   },
+   "category": "Milchprodukte",
+   "amount": "1",
+   "volumeLabelShort": "liter",
+   "inPromotion": false,
+   "slug": "formil-haltbare-vollmilch-78100272",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-100272-0186179034-6QguVxPx.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Liter",
+    "baseUnitShort": "Liter",
+    "basePriceFactor": "1",
+    "regular": {
+     "perStandardizedQuantity": 89,
+     "promotionQuantity": 12.0,
+     "standardizedPromotionQuantity": 12,
+     "promotionType": "FROM",
+     "tags": [
+      "SO"
+     ],
+     "value": 89
+    },
+    "validityEnd": "2026-08-29",
+    "validityStart": "2026-08-27"
+   },
+   "sku": "78-100272"
+  },
+  {
+   "name": "Mango vorgereift",
+   "brand": null,
+   "category": "Obst",
+   "amount": "1",
+   "volumeLabelShort": "stk",
+   "inPromotion": false,
+   "slug": "mango-vorgereift-78100706",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-100706-294949508-KQkDOonv.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Stück",
+    "baseUnitShort": "Stk",
+    "basePriceFactor": "1",
+    "crossed": 179,
+    "discountPercentage": -33,
+    "regular": {
+     "perStandardizedQuantity": 119,
+     "tags": [
+      "SO"
+     ],
+     "value": 119
+    },
+    "validityEnd": "2026-08-29",
+    "validityStart": "2026-08-27"
+   },
+   "sku": "78-100706"
+  },
+  {
+   "name": "Waffelschnitte*",
+   "brand": {
+    "name": "Knoppers",
+    "slug": "knoppers"
+   },
+   "category": "Schokolade",
+   "amount": "200",
+   "volumeLabelShort": "g",
+   "inPromotion": false,
+   "slug": "waffelschnitte-78101562",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-101562-0130033942-gKTie7tr.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Gramm",
+    "baseUnitShort": "g",
+    "basePriceFactor": "100",
+    "crossed": 249,
+    "discountPercentage": -20,
+    "regular": {
+     "perStandardizedQuantity": 100,
+     "tags": [
+      "SO"
+     ],
+     "value": 199
+    },
+    "validityEnd": "2026-09-02",
+    "validityStart": "2026-08-27"
+   },
+   "sku": "78-101562"
+  },
+  {
+   "name": "Sirup*",
+   "brand": {
+    "name": "YO",
+    "slug": "yo"
+   },
+   "category": "Alkoholfreie Getränke",
+   "amount": "0.7",
+   "volumeLabelShort": "liter",
+   "inPromotion": false,
+   "slug": "sirup-78104742",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-104742-0407871436-Vjg9ZKe2.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-104742-0763230937-cP9P5ns0.png"
+   ],
+   "price": {
+    "baseUnitLong": "Liter",
+    "baseUnitShort": "Liter",
+    "basePriceFactor": "1",
+    "regular": {
+     "perStandardizedQuantity": 380,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionType": "FROM",
+     "tags": [
+      "SO"
+     ],
+     "value": 266
+    },
+    "validityEnd": "2026-09-02",
+    "validityStart": "2026-08-27"
+   },
+   "sku": "78-104742"
+  },
+  {
+   "name": "5-Stern",
+   "brand": {
+    "name": "Metaxa",
+    "slug": "metaxa"
+   },
+   "category": "Spirituosen",
+   "amount": "0.7",
+   "volumeLabelShort": "liter",
+   "inPromotion": false,
+   "slug": "5stern-78104807",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-104807-1906992449-Mo-z96Dw.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Liter",
+    "baseUnitShort": "Liter",
+    "basePriceFactor": "1",
+    "crossed": 1999,
+    "discountPercentage": -40,
+    "regular": {
+     "perStandardizedQuantity": 1713,
+     "promotionQuantity": 1.0,
+     "standardizedPromotionQuantity": 1,
+     "promotionType": "FROM",
+     "tags": [
+      "SO"
+     ],
+     "value": 1199
+    },
+    "validityEnd": "2026-09-02",
+    "validityStart": "2026-08-27"
+   },
+   "sku": "78-104807"
+  },
+  {
+   "name": "Trauben rot, kernlos",
+   "brand": null,
+   "category": "Obst",
+   "amount": "500",
+   "volumeLabelShort": "g",
+   "inPromotion": false,
+   "slug": "trauben-rot-kernlos-78106873",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-106873-1837789623-SXRdukIy.jpg",
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-106873-1721554668-9-RclARk.png"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "crossed": 199,
+    "discountPercentage": -25,
+    "regular": {
+     "perStandardizedQuantity": 298,
+     "tags": [
+      "SO"
+     ],
+     "value": 149
+    },
+    "validityEnd": "2026-09-02",
+    "validityStart": "2026-08-27"
+   },
+   "sku": "78-106873"
+  },
+  {
+   "name": "Avocado \"Hass\"",
+   "brand": null,
+   "category": "Obst",
+   "amount": "1",
+   "volumeLabelShort": "stk",
+   "inPromotion": false,
+   "slug": "avocado-hass-78107066",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-107066-0532625809-_pcNUG0A.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Stück",
+    "baseUnitShort": "Stk",
+    "basePriceFactor": "1",
+    "regular": {
+     "perStandardizedQuantity": 79,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionType": "FROM",
+     "tags": [
+      "SO"
+     ],
+     "value": 79
+    },
+    "validityEnd": "2026-09-02",
+    "validityStart": "2026-08-31"
+   },
+   "sku": "78-107066"
+  },
+  {
+   "name": "Amicelli*",
+   "brand": null,
+   "category": "Schokolade",
+   "amount": "200",
+   "volumeLabelShort": "g",
+   "inPromotion": false,
+   "slug": "amicelli-78108389",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-108389-0106512254-sZPI7vHi.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Gramm",
+    "baseUnitShort": "g",
+    "basePriceFactor": "100",
+    "crossed": 449,
+    "discountPercentage": -22,
+    "regular": {
+     "perStandardizedQuantity": 175,
+     "tags": [
+      "SO"
+     ],
+     "value": 349
+    },
+    "validityEnd": "2026-09-02",
+    "validityStart": "2026-08-27"
+   },
+   "sku": "78-108389"
+  },
+  {
+   "name": "Sandwich",
+   "brand": {
+    "name": "Super",
+    "slug": "super"
+   },
+   "category": "Aufbackbrötchen & Toast",
+   "amount": "750",
+   "volumeLabelShort": "g",
+   "inPromotion": false,
+   "slug": "sandwich-78108619",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-108619-0341236513-aRMFs7h4.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "crossed": 180,
+    "discountPercentage": -28,
+    "regular": {
+     "perStandardizedQuantity": 172,
+     "tags": [
+      "SO"
+     ],
+     "value": 129
+    },
+    "validityEnd": "2026-09-02",
+    "validityStart": "2026-08-31"
+   },
+   "sku": "78-108619"
+  },
+  {
+   "name": "Zucchini",
+   "brand": {
+    "name": "Ich bin Österreich",
+    "slug": "ich-bin-oesterreich"
+   },
+   "category": "Gemüse & Salate",
+   "amount": "1",
+   "volumeLabelShort": "kg",
+   "inPromotion": false,
+   "slug": "zucchini-78109545",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-109545-1654498155-wWVtQL7Q.png"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "regular": {
+     "perStandardizedQuantity": 179,
+     "tags": [
+      "SO"
+     ],
+     "value": 179
+    },
+    "lowestPrice": 189,
+    "validityEnd": "2026-08-26",
+    "validityStart": "2026-08-20"
+   },
+   "sku": "78-109545"
+  },
+  {
+   "name": "Ciftlik Naturjoghurt",
+   "brand": {
+    "name": "Gazi",
+    "slug": "gazi"
+   },
+   "category": "Milchprodukte",
+   "amount": "1",
+   "volumeLabelShort": "kg",
+   "inPromotion": false,
+   "slug": "ciftlik-naturjoghurt-78110213",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-110213-0100993923-nOFIxkDK.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "regular": {
+     "perStandardizedQuantity": 189,
+     "tags": [
+      "SO"
+     ],
+     "value": 189
+    },
+    "validityEnd": "2026-09-02",
+    "validityStart": "2026-08-27"
+   },
+   "sku": "78-110213"
+  },
+  {
+   "name": "Polardorsch*",
+   "brand": {
+    "name": "Iglo",
+    "slug": "iglo"
+   },
+   "category": "Fisch & Garnelen",
+   "amount": "400",
+   "volumeLabelShort": "g",
+   "inPromotion": false,
+   "slug": "polardorsch-78112012",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-112012-417615813-qLYjpepf.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "regular": {
+     "perStandardizedQuantity": 1123,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "bei 2 Packungen",
+     "promotionType": "PER_SET_OF",
+     "tags": [
+      "pt-familie",
+      "pt-multi"
+     ],
+     "value": 449
+    },
+    "standard": {
+     "perStandardizedQuantity": 2248,
+     "value": 899
+    },
+    "validityEnd": "2026-08-26",
+    "validityStart": "2026-08-20"
+   },
+   "sku": "78-112012"
+  },
+  {
+   "name": "Neapolitaner*",
+   "brand": {
+    "name": "Manner",
+    "slug": "manner"
+   },
+   "category": "Süßwaren",
+   "amount": "300",
+   "volumeLabelShort": "g",
+   "inPromotion": false,
+   "slug": "neapolitaner-78112732",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-112732-0187179872-nrIgy5Y1.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Gramm",
+    "baseUnitShort": "g",
+    "basePriceFactor": "100",
+    "crossed": 369,
+    "discountPercentage": -32,
+    "regular": {
+     "perStandardizedQuantity": 83,
+     "tags": [
+      "SO"
+     ],
+     "value": 249
+    },
+    "validityEnd": "2026-08-29",
+    "validityStart": "2026-08-28"
+   },
+   "sku": "78-112732"
+  },
+  {
+   "name": "Reines Rapsöl",
+   "brand": {
+    "name": "Rapso",
+    "slug": "rapso"
+   },
+   "category": "Essig & Öle",
+   "amount": "0.75",
+   "volumeLabelShort": "liter",
+   "inPromotion": false,
+   "slug": "reines-rapsoel-78112868",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-112868-0193147866-wBUh9FFF.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Liter",
+    "baseUnitShort": "Liter",
+    "basePriceFactor": "1",
+    "crossed": 599,
+    "discountPercentage": -33,
+    "regular": {
+     "perStandardizedQuantity": 532,
+     "promotionQuantity": 1.0,
+     "standardizedPromotionQuantity": 1,
+     "promotionType": "FROM",
+     "tags": [
+      "SO"
+     ],
+     "value": 399
+    },
+    "validityEnd": "2026-09-02",
+    "validityStart": "2026-08-27"
+   },
+   "sku": "78-112868"
+  },
+  {
+   "name": "Bourbon Whiskey",
+   "brand": {
+    "name": "Jim Beam",
+    "slug": "jim-beam"
+   },
+   "category": "Spirituosen",
+   "amount": "0.7",
+   "volumeLabelShort": "liter",
+   "inPromotion": false,
+   "slug": "bourbon-whiskey-78113169",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-113169-0175802298-2cY5o-PA.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Liter",
+    "baseUnitShort": "Liter",
+    "basePriceFactor": "1",
+    "regular": {
+     "perStandardizedQuantity": 1999,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionType": "FROM",
+     "tags": [
+      "pt-aktion"
+     ],
+     "value": 1399
+    },
+    "standard": {
+     "perStandardizedQuantity": 2713,
+     "value": 1899
+    },
+    "lowestPrice": 999,
+    "validityEnd": "2026-09-30",
+    "validityStart": "2026-09-03"
+   },
+   "sku": "78-113169"
+  },
+  {
+   "name": "Mozzarella*",
+   "brand": {
+    "name": "Galbani",
+    "slug": "galbani"
+   },
+   "category": "Käse, Aufstriche & Salate",
+   "amount": "200",
+   "volumeLabelShort": "g",
+   "inPromotion": false,
+   "slug": "mozzarella-78113277",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-113277-1338009467-lSZ3zK-g.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Gramm",
+    "baseUnitShort": "g",
+    "basePriceFactor": "100",
+    "regular": {
+     "perStandardizedQuantity": 87,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "bei 2 Packungen",
+     "promotionType": "PER_SET_OF",
+     "tags": [
+      "pt-familie",
+      "pt-multi"
+     ],
+     "value": 174
+    },
+    "standard": {
+     "perStandardizedQuantity": 175,
+     "value": 349
+    },
+    "validityEnd": "2026-08-26",
+    "validityStart": "2026-08-20"
+   },
+   "sku": "78-113277"
+  },
+  {
+   "name": "Krustenbrot",
+   "brand": {
+    "name": "Ich bin Österreich",
+    "slug": "ich-bin-oesterreich"
+   },
+   "category": "Brot & Gebäck",
+   "amount": "1",
+   "volumeLabelShort": "kg",
+   "inPromotion": false,
+   "slug": "krustenbrot-78114064",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-114064-701100056-32SVG2Sv.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "crossed": 180,
+    "discountPercentage": -28,
+    "regular": {
+     "perStandardizedQuantity": 129,
+     "tags": [
+      "pt-aktion"
+     ],
+     "value": 129
+    },
+    "standard": {
+     "perStandardizedQuantity": 180,
+     "value": 180
+    },
+    "lowestPrice": 160,
+    "validityEnd": "2026-08-26",
+    "validityStart": "2026-08-24"
+   },
+   "sku": "78-114064"
+  },
+  {
+   "name": "Rotkraut*",
+   "brand": {
+    "name": "Ich bin Österreich",
+    "slug": "ich-bin-oesterreich"
+   },
+   "category": "Gemüse & Kräuter",
+   "amount": "600",
+   "volumeLabelShort": "g",
+   "inPromotion": false,
+   "slug": "rotkraut-78114422",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-114422-0120576287-j-xiQJVt.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "regular": {
+     "perStandardizedQuantity": 357,
+     "promotionQuantity": 2.0,
+     "standardizedPromotionQuantity": 2,
+     "promotionText": "bei 2 Packungen",
+     "promotionType": "PER_SET_OF",
+     "tags": [
+      "pt-familie",
+      "pt-multi"
+     ],
+     "value": 214
+    },
+    "standard": {
+     "perStandardizedQuantity": 715,
+     "value": 429
+    },
+    "validityEnd": "2026-08-26",
+    "validityStart": "2026-08-20"
+   },
+   "sku": "78-114422"
+  },
+  {
+   "name": "Creme Fraiche",
+   "brand": {
+    "name": "Ich bin Österreich",
+    "slug": "ich-bin-oesterreich"
+   },
+   "category": "Milchprodukte",
+   "amount": "150",
+   "volumeLabelShort": "g",
+   "inPromotion": false,
+   "slug": "creme-fraiche-78114913",
+   "images": [
+    "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-114913-0615777632-Glp1nXR5.jpg"
+   ],
+   "price": {
+    "baseUnitLong": "Kilogramm",
+    "baseUnitShort": "kg",
+    "basePriceFactor": "1",
+    "regular": {
+     "perStandardizedQuantity": 527,
+     "tags": [
+      "SO"
+     ],
+     "value": 79
+    },
+    "validityEnd": "2026-09-02",
+    "validityStart": "2026-08-31"
+   },
+   "sku": "78-114913"
+  }
+ ],
+ "isTotalTruncated": false
+}
