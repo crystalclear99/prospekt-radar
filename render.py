@@ -121,6 +121,11 @@ a.name:active { text-decoration:underline; }
 .tag.soon { color:var(--accent); border-color:var(--accent); }
 .empty { padding:36px 16px; text-align:center; color:var(--ink-2); }
 .note { font-size:12.5px; color:var(--muted); margin:10px 2px 0; }
+.alert { background:color-mix(in srgb, var(--hot) 14%, transparent);
+  border:1px solid var(--hot); border-radius:11px; padding:10px 13px;
+  margin-bottom:12px; font-size:13.5px; }
+.alert b { display:block; margin-bottom:2px; }
+.srcline { font-size:11.5px; color:var(--muted); margin-top:8px; }
 footer { margin-top:16px; font-size:12px; color:var(--muted); }
 #printarea { display:none; }
 
@@ -418,6 +423,25 @@ def render_html(rows: list[dict], meta: dict) -> str:
                 + (f" · PLZ {plz}" if plz else "")
                 + f" · Stand {html.escape(str(updated))}")
 
+    # Quellenlage sichtbar machen. Faellt eine Quelle aus, steht das oben auf
+    # der Seite - sonst sieht man nur eine kuerzere Liste und haelt sie fuer
+    # normal. Ein gruener Lauf bei halber Datenmenge ist der gefaehrlichste Fall.
+    sources = meta.get("sources") or {}
+    dead = [name for name, n in sources.items() if not n]
+    alert = ""
+    if dead:
+        names = " und ".join(html.escape(d) for d in dead)
+        alert = ('<div class="alert"><b>Diese Liste ist unvollstaendig</b>'
+                 "Von " + names + " kamen bei diesem Lauf keine Daten. "
+                 "Angebote dieser Geschaefte fehlen hier oder erscheinen nur, "
+                 "soweit eine andere Quelle sie kennt.</div>")
+    srcline = ""
+    if sources:
+        parts = ", ".join(html.escape(k) + " " + str(v) + ("" if v else " (0)")
+                          for k, v in sources.items())
+        srcline = '<div class="srcline">Quellen dieses Laufs: ' + parts + "</div>"
+
+
     head = (
         '<!DOCTYPE html>\n<html lang="de"><head>\n'
         '<meta charset="utf-8">\n'
@@ -439,7 +463,7 @@ def render_html(rows: list[dict], meta: dict) -> str:
   <span class="sub">{subtitle}</span>
 </header>
 
-<div class="kpis">
+{alert}<div class="kpis">
   <div class="kpi"><div class="v" id="k1">0</div><div class="l">Angebote sichtbar</div></div>
   <div class="kpi"><div class="v" id="kfav">0</div><div class="l">Favoriten</div></div>
   <div class="kpi"><div class="v">−{best:.0f}&nbsp;%</div><div class="l">bester Rabatt</div></div>
@@ -485,7 +509,7 @@ def render_html(rows: list[dict], meta: dict) -> str:
 <div id="printarea"></div>
 <footer>Rabatte sind effektive Werte: 2+1&nbsp;gratis = −33&nbsp;%, 1+1&nbsp;gratis = −50&nbsp;%.
 Favoriten bleiben in diesem Browser gespeichert, auch wenn die Liste aktualisiert wird.
-Angaben ohne Gewähr — Preise im Geschäft prüfen.</footer>
+Angaben ohne Gewähr — Preise im Geschäft prüfen.{srcline}</footer>
 </div>
 """
 

@@ -268,6 +268,11 @@ def main() -> int:
     meta = {
         "generated_at": now_vienna().strftime("%d.%m.%Y %H:%M"),
         "min_pct": int(min_pct), "zip": zip_code,
+        # Quellenlage mitgeben: faellt eine Quelle aus, soll das auf der Seite
+        # stehen und nicht nur im Lauf-Protokoll. Ein gruener Haken bei halber
+        # Datenmenge ist der gefaehrlichste Zustand.
+        "sources": dict(counts),
+        "problems": list(problems),
     }
     rows = to_rows(kept, prev_keys)
     write_outputs(rows, meta)

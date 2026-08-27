@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import sys
 import time
 from pathlib import Path
 from typing import Optional
@@ -46,6 +47,7 @@ class PoliteClient:
         headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
         if extra_headers:
             headers.update(extra_headers)
+        self.last_error: Optional[str] = None
         self._client = httpx.Client(headers=headers, timeout=timeout,
                                     follow_redirects=True)
         _CACHE_DIR.mkdir(parents=True, exist_ok=True)
@@ -94,7 +96,8 @@ class PoliteClient:
             _throttle(url)
             try:
                 r = self._client.get(url, params=params, headers=req_headers)
-            except (httpx.TimeoutException, httpx.TransportError):
+            except (httpx.TimeoutException, httpx.TransportError) as e:
+                self.last_error = type(e).__name__
                 time.sleep(backoff)
                 backoff *= 2
                 continue
@@ -115,11 +118,20 @@ class PoliteClient:
                 return r.text
 
             if r.status_code in (429, 500, 502, 503, 504):
+                self.last_error = f"HTTP {r.status_code}"
                 time.sleep(backoff)
                 backoff *= 2
                 continue
 
-            # 4xx (ausser 429): nicht wiederholen
+            # 4xx (ausser 429): nicht wiederholen. Ursache protokollieren -
+            # ein stilles None macht spaeter nicht nachvollziehbar, warum eine
+            # Quelle nichts geliefert hat (z.B. Bot-Sperre gegen Rechenzentren).
+            self.last_error = f"HTTP {r.status_code}"
+            print(f"    ! {url.split('/')[2]}: HTTP {r.status_code} "
+                  f"({r.headers.get('server', '?')})", file=sys.stderr)
             return None
 
+        if self.last_error:
+            print(f"    ! {url.split('/')[2]}: aufgegeben nach {retries} Versuchen "
+                  f"({self.last_error})", file=sys.stderr)
         return None
