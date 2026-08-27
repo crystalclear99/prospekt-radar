@@ -137,3 +137,63 @@ def sort_key(group: str) -> int:
         return DISPLAY_ORDER.index(group)
     except ValueError:
         return len(DISPLAY_ORDER)
+
+
+# ---------------------------------------------------------------------------
+# Unterkategorien
+# ---------------------------------------------------------------------------
+# Die Quell-Kategorien sind als zweite Filterebene brauchbar (rund 10 je Gruppe),
+# enthalten aber Dubletten und Schreibvarianten. Hier werden sie auf einen
+# kanonischen Namen zusammengezogen. Alles, was hier nicht steht, wird
+# unveraendert uebernommen - die Liste muss also nicht vollstaendig sein.
+_SUB_MERGE_SOURCE: dict[str, tuple[str, ...]] = {
+    "Weißwein": ("weissweine", "weisswein", "weisswein"),
+    "Rotwein": ("rotweine",),
+    "Bier": ("dosenbier", "flaschenbier"),
+    "Alkoholfrei": ("alkoholfreie alternativen", "alkoholfreies bier",
+                    "alkoholfreie getranke"),
+    "Sekt & Schaumwein": ("schaumwein & perlwein", "sekt"),
+    "Spirituosen": ("schnaps", "likore", "cognac & whiskey", "aperitif & digestif"),
+    "Eis": ("eiscreme", "eis am stiel & stanizl"),
+    "Schokolade": ("schokoladen", "tafelschokolade"),
+    "Joghurt": ("fruchtjoghurt",),
+    "Käse": ("kase",),
+    "Milchprodukte": ("molkerei produkte",),
+    "Desserts": ("desserts & fruchte",),
+    "Kaffee": ("ganze bohne", "gemahlen", "kaffee, tee & co."),
+    "Knäckebrot": ("knackebrot & zwieback",),
+    "Kuchen & Gebäck": ("kuchen & co.", "kuchen & feinbackwaren"),
+    "Pommes & Co": ("pommes frites & co.",),
+    "Deo": ("deoderants",),
+    "Beutel & Folien": ("beutel", "beutel & sonstige folien"),
+    "Salate": ("salate und blattgemuse", "gemuse & salate", "feinkostsalate"),
+    "Reis, Nudeln & Beilagen": ("reis, pasta & beilagen", "sonstige pasta",
+                                "nudeln", "reis", "eier-teigwaren"),
+    "Asiatisch": ("asia", "asien"),
+    "Wurst & Schinken": ("wurst, schinken & speck", "wurstaufschnitt",
+                         "koch- und streichwurst"),
+    "Säfte": ("frucht- & gemusesafte", "smoothies & fresh juice"),
+    "Limonaden": ("softdrinks",),
+    "Wasser": ("mineralwasser mit geschmack",),
+    "Zahnpflege": ("mund- & zahnhygiene", "zahnpasta & -pflege"),
+    "Babynahrung": ("babynahrung im glas", "fleisch & fisch glaschen"),
+}
+
+# invertiert: normalisierte Quell-Kategorie -> kanonischer Name
+_SUB_MERGE: dict[str, str] = {
+    variant: canonical
+    for canonical, variants in _SUB_MERGE_SOURCE.items()
+    for variant in variants
+}
+
+
+def subgroup_for(category: str | None) -> str:
+    """Quell-Kategorie -> Unterkategorie (zweite Filterebene).
+
+    Schreibvarianten werden zusammengezogen ("Weissweine"/"Weisswein" ->
+    "Weisswein"), alles Uebrige unveraendert uebernommen.
+    """
+    if not category or not str(category).strip():
+        return "Übrige"
+    raw = str(category).strip()
+    return _SUB_MERGE.get(_norm(raw), raw)

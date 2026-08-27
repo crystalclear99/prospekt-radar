@@ -21,7 +21,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from core.categories import group_for
+from core.categories import group_for, subgroup_for
 from core.models import Offer
 from render import render_html
 from sources import billa, marktguru, penny
@@ -176,6 +176,7 @@ def to_rows(offers: list[Offer], prev_keys: set[str]) -> list[dict]:
         # zeigen (die Quellen liefern ~145 Kategorien, das ist unbrauchbar).
         r["category_detail"] = r.get("category")
         r["category"] = group_for(r.get("category"))
+        r["subcategory"] = subgroup_for(r.get("category_detail"))
         r["starts_in_future"] = o.starts_in_future
         r["base_price_num"] = o.base_price_val
         rows.append(r)
@@ -188,7 +189,7 @@ def write_outputs(rows: list[dict], meta: dict) -> None:
     (OUT / "angebote.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
     cols = ["store", "product", "brand", "category", "effective_pct", "price",
             "old_price", "base_price", "amount", "action_text", "requires_qty",
-            "needs_card", "size_varies", "category_detail", "valid_from",
+            "needs_card", "size_varies", "subcategory", "category_detail", "valid_from",
             "valid_to", "is_new",
             "source", "url"]
     with (OUT / "angebote.csv").open("w", encoding="utf-8-sig", newline="") as f:

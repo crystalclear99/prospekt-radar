@@ -72,11 +72,29 @@ beim Dedupe). Ein abstürzender Adapter bricht den Lauf nie ab.
 
 ## Dashboard
 
-- Suche, Geschäfts-Chips, Kategorie- & Rabattfilter, Sortierung, Dark Mode
-- **Einkaufslisten-Modus** (Häkchen, nach Geschäft gruppiert druckbar)
+**Mobile first.** Unter 780 px erscheinen die Angebote als Karten mit großen
+Tippflächen, darüber als Raster mit sortierbaren Spalten. Auf dem Handy sind
+die Detailfilter hinter dem Knopf „Filter" eingeklappt; Chip-Reihen scrollen
+seitlich.
+
+- **Favoriten** — Stern je Angebot. Sie liegen im Browser des Betrachters
+  (`localStorage`) und **überleben die wöchentliche Aktualisierung**, weil der
+  Schlüssel aus Geschäft + Produkt + Menge besteht und nicht aus einer Lauf-ID.
+  Filter „nur Favoriten"; Angebote, die gerade ausgelaufen sind, bleiben
+  gespeichert und werden unter der Liste vermerkt.
+- **Rabattbänder als Mehrfachauswahl** — −30 %, −40 %, −50 %, −60 %+ lassen sich
+  einzeln oder kombiniert anklicken (nichts gewählt = alle). Jeder Chip zeigt
+  seine Trefferzahl.
+- **Zwei Filterebenen**: Kategorie (14 Gruppen) und darin Unterkategorie. Die
+  Unterkategorie-Liste füllt sich passend zur gewählten Kategorie und setzt beim
+  Wechsel zurück.
+- Suche, Geschäfts-Chips mit Anzahl, Sortierung nach jeder Spalte, Dark Mode
+- **Einkaufsliste drucken** — die Favoriten, nach Geschäft gruppiert (ohne
+  Favoriten: die aktuelle Ansicht)
 - **NEU-Badge** gegenüber dem letzten Lauf (`data/last_run.json`)
-- Badges: Mehrfachkauf nötig, Kundenkarte, „ab <Datum>", Scheinrabatt-Warnung
-- Filter „ohne Mehrfachkauf" / „ohne Kundenkarte"
+- Badges: Mehrfachkauf nötig, Kundenkarte, „ab <Datum>", „Größe variiert",
+  Scheinrabatt-Warnung
+- Filter „nur NEU" / „ohne Mehrfachkauf" / „ohne Kundenkarte"
 
 ## Datenqualität
 
@@ -94,7 +112,9 @@ beim Dedupe). Ein abstürzender Adapter bricht den Lauf nie ab.
 - **Kategorien**: Die Quellen liefern ~145 verschiedene Kategorien. `core/categories.py`
   fasst sie schlüsselwortbasiert zu 14 Einkaufs-Gruppen zusammen, damit der Filter
   im Dashboard benutzbar bleibt. Die feine Original-Kategorie bleibt als
-  `category_detail` in CSV und JSON erhalten.
+  `category_detail` in CSV und JSON erhalten. Als zweite Filterebene dienen die
+  Quell-Kategorien selbst (rund 10 je Gruppe), bereinigt um Schreibvarianten:
+  „Weissweine"/„Weißwein" -> „Weißwein", „Dosenbier"/„Flaschenbier" -> „Bier".
 
 ## Monitoring
 
@@ -107,7 +127,7 @@ Ergebnisse sind der schlimmste Fehlerfall — deshalb laut.
 ```bash
 python tests/test_discount.py         # Rabatt-Engine (44 Fälle)
 python tests/test_quantity.py         # Mengen + Grundpreis (20 Fälle)
-python tests/test_categories.py       # Kategorie-Gruppierung (41 Fälle)
+python tests/test_categories.py       # Kategorien + Unterkategorien
 python tests/test_billa.py            # BILLA-Parser gegen Fixture
 python tests/test_penny.py            # PENNY-Parser gegen Fixture
 python tests/test_marktguru.py        # marktguru-Parser gegen Fixture
