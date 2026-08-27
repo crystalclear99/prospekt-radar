@@ -70,6 +70,7 @@ h1 { font-size:20px; margin:0; letter-spacing:-.02em; }
   padding:10px; margin-bottom:12px; position:sticky; top:0; z-index:20; }
 .frow { display:flex; gap:8px; align-items:center; margin-bottom:8px; }
 .frow:last-child { margin-bottom:0; }
+.frow[hidden] { display:none; }
 input[type=search], select { font:inherit; font-size:16px; padding:9px 11px;
   border-radius:9px; border:1px solid var(--line); background:var(--surface);
   color:var(--ink); min-height:44px; }
@@ -217,7 +218,12 @@ function buildChips(box, items, label, onToggle, cls) {
     b.type = "button";
     b.innerHTML = label(it);
     b._item = it;
-    b.onclick = () => { onToggle(it); syncChips(); draw(); };
+    b.onclick = () => {
+      onToggle(it); syncChips(); draw();
+      // Der angetippte Chip kann in der seitlich scrollenden Reihe ausserhalb
+      // des Sichtbereichs liegen - dann sieht man nicht, was aktiv ist.
+      b.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+    };
     box.appendChild(b);
   });
 }
@@ -226,6 +232,10 @@ function syncChips() {
     b.setAttribute("aria-pressed", state.bands.has(b._item)));
   document.querySelectorAll("#storechips .chip").forEach(b =>
     b.setAttribute("aria-pressed", state.stores.has(b._item)));
+  document.querySelectorAll("#catchips .chip").forEach(b =>
+    b.setAttribute("aria-pressed", state.cat === b._item));
+  document.querySelectorAll("#subchips .chip").forEach(b =>
+    b.setAttribute("aria-pressed", state.sub === b._item));
   $("#favOnly").innerHTML = "\\u2605 nur Favoriten<span class='n'>" + favs.size + "</span>";
 }
 
@@ -239,35 +249,33 @@ buildChips($("#storechips"), STORES,
   s => { if (state.stores.has(s)) state.stores.delete(s); else state.stores.add(s); });
 
 /* ---- Kategorie + Unterkategorie ---- */
-function fillCats() {
-  const sel = $("#cat");
-  sel.innerHTML = "<option value=''>Alle Kategorien</option>";
-  Object.keys(CATS).forEach(g => {
-    const total = CATS[g].reduce((n, s) => n + s[1], 0);
-    const o = document.createElement("option");
-    o.value = g;
-    o.textContent = g + " (" + total + ")";
-    sel.appendChild(o);
-  });
-}
-function fillSubs() {
-  const sel = $("#sub");
-  const subs = state.cat ? (CATS[state.cat] || []) : [];
-  sel.innerHTML = "<option value=''>" +
-    (subs.length ? "Alle Unterkategorien" : "Erst Kategorie w\\u00E4hlen") + "</option>";
-  subs.forEach(pair => {
-    const o = document.createElement("option");
-    o.value = pair[0];
-    o.textContent = pair[0] + " (" + pair[1] + ")";
-    sel.appendChild(o);
-  });
-  sel.disabled = subs.length === 0;
-  sel.style.opacity = subs.length ? "1" : ".55";
-}
-fillCats(); fillSubs();
+/* ---- Kategorie + Unterkategorie als Chips ----
+   Frueher zwei Auswahlfelder nebeneinander, das zweite meist ausgegraut
+   ("Erst Kategorie waehlen"). Ein totes Bedienelement verwirrt mehr als es
+   hilft. Jetzt eine Chip-Reihe wie bei Geschaeften und Rabatten; die
+   Unterkategorien erscheinen erst, wenn eine Kategorie gewaehlt ist. */
+function catCount(g) { return CATS[g].reduce((n, s) => n + s[1], 0); }
 
-$("#cat").onchange = e => { state.cat = e.target.value; state.sub = ""; fillSubs(); draw(); };
-$("#sub").onchange = e => { state.sub = e.target.value; draw(); };
+function buildCatChips() {
+  buildChips($("#catchips"), ["", ...Object.keys(CATS)],
+    g => g === "" ? "Alle"
+                  : esc(g) + "<span class='n'>" + catCount(g) + "</span>",
+    g => { state.cat = g; state.sub = ""; buildSubChips(); });
+}
+
+function buildSubChips() {
+  const subs = state.cat ? (CATS[state.cat] || []) : [];
+  $("#subrow").hidden = subs.length === 0;
+  if (!subs.length) { $("#subchips").innerHTML = ""; return; }
+  const anzahl = {};
+  subs.forEach(pair => { anzahl[pair[0]] = pair[1]; });
+  buildChips($("#subchips"), ["", ...subs.map(pair => pair[0])],
+    s => s === "" ? "Alle Arten"
+                  : esc(s) + "<span class='n'>" + anzahl[s] + "</span>",
+    s => { state.sub = s; });
+}
+
+buildCatChips(); buildSubChips();
 $("#q").oninput = e => { state.q = e.target.value.toLowerCase(); draw(); };
 ["favOnly", "newOnly", "noMulti", "noCard"].forEach(k => {
   const el = document.getElementById(k);
@@ -479,10 +487,8 @@ def render_html(rows: list[dict], meta: dict) -> str:
   </div>
   <div class="frow"><div class="scroller" id="bands"></div></div>
   <div class="more">
-    <div class="frow">
-      <select id="cat" aria-label="Kategorie"></select>
-      <select id="sub" aria-label="Unterkategorie"></select>
-    </div>
+    <div class="frow"><div class="scroller" id="catchips"></div></div>
+    <div class="frow" id="subrow" hidden><div class="scroller" id="subchips"></div></div>
     <div class="frow"><div class="scroller" id="storechips"></div></div>
     <div class="frow">
       <div class="scroller">

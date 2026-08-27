@@ -85,9 +85,10 @@ seitlich.
 - **Rabattbänder als Mehrfachauswahl** — −30 %, −40 %, −50 %, −60 %+ lassen sich
   einzeln oder kombiniert anklicken (nichts gewählt = alle). Jeder Chip zeigt
   seine Trefferzahl.
-- **Zwei Filterebenen**: Kategorie (14 Gruppen) und darin Unterkategorie. Die
-  Unterkategorie-Liste füllt sich passend zur gewählten Kategorie und setzt beim
-  Wechsel zurück.
+- **Kategorien als Chip-Reihe** (14 Gruppen, mit Trefferzahl). Ist eine gewählt,
+  erscheint darunter eine zweite Reihe mit ihren Unterkategorien — vorher gar
+  nicht. Der angetippte Chip rollt in die Sichtbarkeit, damit erkennbar bleibt,
+  was aktiv ist.
 - Suche, Geschäfts-Chips mit Anzahl, Sortierung nach jeder Spalte, Dark Mode
 - **Einkaufsliste drucken** — die Favoriten, nach Geschäft gruppiert (ohne
   Favoriten: die aktuelle Ansicht)

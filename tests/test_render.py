@@ -65,7 +65,7 @@ check("Von den Quellen geholt" not in html_plain, "keine leere Quellenzeile")
 for needle, label in [
     ("prospekt-radar:favoriten", "Favoriten-Speicher"),
     ("bandOf", "Rabattbaender"),
-    ("fillSubs", "Unterkategorien"),
+    ("buildSubChips", "Unterkategorien"),
     ("min-width:780px", "Mobil/Desktop-Umschaltung"),
     ("Testbutter", "Produktname gerendert"),
     ("noindex", "Suchmaschinen ausgesperrt"),
