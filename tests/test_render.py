@@ -65,7 +65,7 @@ check("Von den Quellen geholt" not in html_plain, "keine leere Quellenzeile")
 for needle, label in [
     ("prospekt-radar:favoriten", "Favoriten-Speicher"),
     ("bandOf", "Rabattbaender"),
-    ("buildSubChips", "Unterkategorien"),
+    ("buildSubs", "Unterkategorien"),
     ("min-width:780px", "Mobil/Desktop-Umschaltung"),
     ("Testbutter", "Produktname gerendert"),
     ("noindex", "Suchmaschinen ausgesperrt"),
@@ -76,7 +76,11 @@ for needle, label in [
 # .otop hat display:contents -> Stern, Rabatt, Geschaeft zaehlen einzeln.
 import re  # noqa: E402
 
-kopf = html_ok.count("<span data-k=") + 1          # +1 fuer die Sternspalte
+# Alle <span> in der Kopfzeile zaehlen - auch die ohne Sortierschluessel
+# (Stern- und Bildspalte).
+hdr = re.search(r'<div class="hdr cols">(.*?)</div>', html_ok, re.S)
+check(hdr is not None, "Kopfzeile gefunden")
+kopf = hdr.group(1).count("<span") if hdr else 0
 m = re.search(r"\.cols\s*\{[^}]*grid-template-columns:\s*([^;}]+)", html_ok)
 check(m is not None, "Rasterdefinition .cols gefunden")
 if m:

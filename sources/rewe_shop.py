@@ -68,6 +68,19 @@ def _action_text(reg: dict, pct: float) -> str:
     return f"-{abs(pct):.0f} %"
 
 
+def _thumb(url):
+    """Kleine Bildvariante des commercetools-CDN.
+
+    Das Original wiegt rund 176 KB, "-small" nur etwa 5 KB - fuer Miniaturen
+    in einer Liste mit hunderten Eintraegen ist das der Unterschied zwischen
+    brauchbar und unbenutzbar. Faellt die Variante aus, blendet die Seite das
+    Bild einfach aus (onerror im Dashboard).
+    """
+    if not url or not isinstance(url, str):
+        return None
+    return url[:-4] + "-small.jpg" if url.endswith(".jpg") else url
+
+
 def _needs_card(reg: dict) -> bool:
     blob = " ".join(reg.get("tags", [])) + " " + (reg.get("promotionText") or "")
     return bool(re.search(r"jö|joe|bonus club|karte|app", blob, re.IGNORECASE))
@@ -119,7 +132,7 @@ def parse_products(payload: dict, store: str, valid_to: date,
             needs_card=_needs_card(reg),
             is_multi=requires_qty > 1,
             url=url_for(slug) if (url_for and slug) else None,
-            image_url=(p.get("images") or [None])[0],
+            image_url=_thumb((p.get("images") or [None])[0]),
         )
         if offer is not None:
             offers.append(offer)

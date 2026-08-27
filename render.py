@@ -1,11 +1,15 @@
 """Baut out/angebote.html - eigenstaendig, keine externen Abhaengigkeiten.
 
-Mobile first: unter 780px werden die Angebote als Karten dargestellt, darueber
-als Raster mit sortierbaren Spalten.
+Aufbau der Oberflaeche:
+  * Kopfleiste: Suche + Knopf "Filter" mit Anzahl aktiver Filter
+  * darunter eine Zeile mit den aktiven Filtern zum einzelnen Entfernen
+  * die Filter selbst liegen in beschrifteten Abschnitten (Rabatt, Kategorie,
+    Geschaeft, Weitere). Am Handy oeffnen sie sich als Blatt von unten, am
+    Desktop stehen sie fest im Panel.
+  * Angebote als Karten (< 780px) bzw. als Raster mit sortierbaren Spalten
 
-Funktionen: Favoriten (bleiben ueber Wochen im Browser erhalten), Kategorie +
-Unterkategorie, Rabattbaender als Mehrfachauswahl, Geschaefts-Chips, Suche,
-Dark Mode, Druckansicht der Favoriten.
+Miniaturbilder gibt es fuer BILLA und PENNY (verlinkt, nicht kopiert);
+marktguru sperrt seinen Bild-CDN, dort bleibt der Platz leer.
 
 CSS und JS stehen bewusst in normalen Strings, nicht im f-String: sonst muesste
 jede geschweifte Klammer verdoppelt werden.
@@ -14,7 +18,7 @@ from __future__ import annotations
 
 import html
 import json
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime
 
 from core.categories import sort_key
@@ -27,7 +31,6 @@ CSS = """
   --grid:#e6e5de; --line:#c9c8bd; --ring:rgba(11,11,11,.10);
   --accent:#2a78d6; --good:#0a8f3c; --hot:#d03b3b; --warn:#a86a12;
   --star:#e8a33d;
-  --b3:#3987e5; --b4:#256abf; --b5:#0d366b;
 }
 @media (prefers-color-scheme: dark) { :root:where(:not([data-theme=light])) {
   --surface:#1a1a19; --plane:#0d0d0d; --card:#1f1f1e;
@@ -35,7 +38,6 @@ CSS = """
   --grid:#2c2c2a; --line:#3d3d39; --ring:rgba(255,255,255,.12);
   --accent:#4a90e2; --good:#3ec46a; --hot:#e66767; --warn:#e0a84a;
   --star:#f0b940;
-  --b3:#3987e5; --b4:#86b6ef; --b5:#cde2fb;
 } }
 :root[data-theme=dark] {
   --surface:#1a1a19; --plane:#0d0d0d; --card:#1f1f1e;
@@ -43,54 +45,89 @@ CSS = """
   --grid:#2c2c2a; --line:#3d3d39; --ring:rgba(255,255,255,.12);
   --accent:#4a90e2; --good:#3ec46a; --hot:#e66767; --warn:#e0a84a;
   --star:#f0b940;
-  --b3:#3987e5; --b4:#86b6ef; --b5:#cde2fb;
 }
 * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
 body { margin:0; background:var(--plane); color:var(--ink);
-  font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;
-  padding-bottom:env(safe-area-inset-bottom); }
+  font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+body.sheet-open { overflow:hidden; }
 .wrap { max-width:1180px; margin:0 auto; padding:16px 12px 80px; }
 
 header { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
 h1 { font-size:20px; margin:0; letter-spacing:-.02em; }
 .sub { color:var(--ink-2); font-size:12.5px; width:100%; }
 .iconbtn { background:none; border:1px solid var(--ring); color:var(--ink-2);
-  border-radius:9px; min-width:42px; min-height:42px; padding:0 11px; cursor:pointer;
-  font:inherit; font-size:15px; }
+  border-radius:9px; min-width:42px; min-height:42px; padding:0 11px;
+  cursor:pointer; font:inherit; font-size:15px; }
 .iconbtn:hover { color:var(--ink); }
 .spacer { margin-left:auto; display:flex; gap:6px; }
 
 .kpis { display:grid; grid-template-columns:repeat(2,1fr); gap:8px; margin:14px 0; }
-.kpi { background:var(--card); border:1px solid var(--ring); border-radius:11px; padding:10px 12px; }
+.kpi { background:var(--card); border:1px solid var(--ring); border-radius:11px;
+  padding:10px 12px; }
 .kpi .v { font-size:22px; font-weight:650; letter-spacing:-.03em; line-height:1.15; }
 .kpi .l { font-size:11.5px; color:var(--ink-2); margin-top:1px; }
 
-/* ---- Filter ---- */
-.filters { background:var(--card); border:1px solid var(--ring); border-radius:12px;
-  padding:10px; margin-bottom:12px; position:sticky; top:0; z-index:20; }
-.frow { display:flex; gap:8px; align-items:center; margin-bottom:8px; }
-.frow:last-child { margin-bottom:0; }
-.frow[hidden] { display:none; }
-input[type=search], select { font:inherit; font-size:16px; padding:9px 11px;
-  border-radius:9px; border:1px solid var(--line); background:var(--surface);
-  color:var(--ink); min-height:44px; }
-input[type=search] { flex:1; min-width:0; }
-select { flex:1; min-width:0; }
-.scroller { display:flex; gap:6px; overflow-x:auto; padding-bottom:2px; width:100%;
-  scrollbar-width:thin; -webkit-overflow-scrolling:touch; }
-.scroller::-webkit-scrollbar { height:4px; }
-.scroller::-webkit-scrollbar-thumb { background:var(--line); border-radius:2px; }
-.chip { font:inherit; font-size:13px; padding:8px 13px; border-radius:999px;
+/* ---- Kopfleiste: Suche + Filterknopf ---- */
+.bar { position:sticky; top:0; z-index:30; background:var(--plane);
+  padding:8px 0; margin-bottom:6px; }
+.barrow { display:flex; gap:8px; }
+input[type=search] { font:inherit; font-size:16px; padding:10px 12px; flex:1;
+  min-width:0; border-radius:10px; border:1px solid var(--line);
+  background:var(--card); color:var(--ink); min-height:46px; }
+.filterbtn { display:flex; align-items:center; gap:7px; white-space:nowrap;
+  border:1px solid var(--line); background:var(--card); color:var(--ink);
+  border-radius:10px; padding:0 15px; min-height:46px; font:inherit;
+  font-size:15px; cursor:pointer; }
+.filterbtn .cnt { background:var(--accent); color:#fff; border-radius:999px;
+  min-width:21px; height:21px; font-size:12px; font-weight:700;
+  display:none; align-items:center; justify-content:center; padding:0 6px; }
+.filterbtn.has .cnt { display:flex; }
+
+/* ---- Zeile mit den aktiven Filtern ---- */
+.active { display:flex; gap:6px; align-items:center; overflow-x:auto;
+  padding-bottom:2px; margin-top:8px; }
+.active:empty { display:none; }
+.afchip { display:inline-flex; align-items:center; gap:6px; flex:0 0 auto;
+  background:var(--accent); color:#fff; border:none; border-radius:999px;
+  padding:6px 8px 6px 12px; font:inherit; font-size:12.5px; font-weight:600;
+  cursor:pointer; min-height:34px; }
+.afchip .x { font-size:15px; line-height:1; opacity:.85; }
+.clearall { flex:0 0 auto; background:none; border:1px solid var(--line);
+  color:var(--ink-2); border-radius:999px; padding:6px 12px; font:inherit;
+  font-size:12.5px; cursor:pointer; min-height:34px; }
+
+/* ---- Filterblatt / Panel ---- */
+.scrim { position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:40;
+  opacity:0; pointer-events:none; transition:opacity .2s; }
+body.sheet-open .scrim { opacity:1; pointer-events:auto; }
+.panel { position:fixed; left:0; right:0; bottom:0; z-index:50;
+  background:var(--card); border-radius:18px 18px 0 0; max-height:84vh;
+  overflow-y:auto; transform:translateY(101%); transition:transform .22s ease;
+  padding:6px 14px calc(16px + env(safe-area-inset-bottom));
+  box-shadow:0 -8px 30px rgba(0,0,0,.25); }
+body.sheet-open .panel { transform:translateY(0); }
+.grip { width:38px; height:4px; border-radius:2px; background:var(--line);
+  margin:8px auto 12px; }
+.sect { margin-bottom:16px; }
+.sect h3 { font-size:11.5px; text-transform:uppercase; letter-spacing:.06em;
+  color:var(--muted); margin:0 0 7px; font-weight:700; }
+.scroller { display:flex; gap:6px; flex-wrap:wrap; }
+.chip { font:inherit; font-size:13.5px; padding:9px 14px; border-radius:999px;
   cursor:pointer; border:1px solid var(--line); background:var(--surface);
-  color:var(--ink-2); white-space:nowrap; flex:0 0 auto; min-height:40px; }
+  color:var(--ink-2); white-space:nowrap; min-height:42px; }
 .chip[aria-pressed=true] { background:var(--accent); border-color:var(--accent);
   color:#fff; font-weight:600; }
-.chip .n { opacity:.65; font-size:11.5px; margin-left:4px; }
-.chip.fav[aria-pressed=true] { background:var(--star); border-color:var(--star); color:#161616; }
-.more { display:none; }
-.filters.open .more { display:block; }
-#togglefilters .caret { display:inline-block; transition:transform .15s; }
-.filters.open #togglefilters .caret { transform:rotate(180deg); }
+.chip .n { opacity:.62; font-size:11.5px; margin-left:5px; }
+.chip.fav[aria-pressed=true] { background:var(--star); border-color:var(--star);
+  color:#161616; }
+.sheetbar { position:sticky; bottom:0; background:var(--card); display:flex;
+  gap:8px; padding-top:10px; border-top:1px solid var(--grid); }
+.sheetbar button { flex:1; min-height:48px; border-radius:11px; font:inherit;
+  font-size:15px; cursor:pointer; }
+.btn-reset { background:none; border:1px solid var(--line); color:var(--ink-2); }
+.btn-apply { background:var(--accent); border:1px solid var(--accent);
+  color:#fff; font-weight:600; }
+#subsect[hidden] { display:none; }
 
 /* ---- Liste ---- */
 .hdr { display:none; }
@@ -98,19 +135,26 @@ select { flex:1; min-width:0; }
 .offer { background:var(--card); border:1px solid var(--ring); border-radius:12px;
   padding:11px 12px; }
 .otop { display:flex; align-items:center; gap:9px; }
-.star { background:none; border:none; cursor:pointer; font-size:22px; line-height:1;
-  padding:0; color:var(--muted); flex:0 0 auto; min-width:38px; min-height:38px; }
+.obody { display:flex; gap:11px; margin-top:7px; }
+.thumb { width:54px; height:54px; flex:0 0 auto; border-radius:9px;
+  object-fit:contain; background:var(--surface); border:1px solid var(--grid); }
+.thumb.broken { visibility:hidden; }
+.otext { min-width:0; flex:1; }
+.star { background:none; border:none; cursor:pointer; font-size:22px;
+  line-height:1; padding:0; color:var(--muted); flex:0 0 auto;
+  min-width:38px; min-height:38px; }
 .star[aria-pressed=true] { color:var(--star); }
 .disc { font-weight:800; font-size:19px; font-variant-numeric:tabular-nums;
   color:var(--good); flex:0 0 auto; }
 .disc.hot { color:var(--hot); }
-.store { font-size:11.5px; font-weight:700; letter-spacing:.03em; white-space:nowrap;
-  padding:3px 8px; border-radius:6px; border:1px solid var(--ring); margin-left:auto;
+.store { font-size:11.5px; font-weight:700; letter-spacing:.03em;
+  white-space:nowrap; padding:3px 8px; border-radius:6px;
+  border:1px solid var(--ring); margin-left:auto;
   background:color-mix(in srgb, var(--accent) 10%, transparent); }
-.name { font-weight:600; margin-top:6px; overflow-wrap:anywhere; }
+.name { font-weight:600; overflow-wrap:anywhere; }
 a.name { color:inherit; text-decoration:none; display:block; }
-a.name:active { text-decoration:underline; }
-.meta { color:var(--ink-2); font-size:13px; margin-top:3px; font-variant-numeric:tabular-nums; }
+.meta { color:var(--ink-2); font-size:13px; margin-top:3px;
+  font-variant-numeric:tabular-nums; }
 .meta s { color:var(--muted); }
 .meta .bp { color:var(--muted); }
 .badges { display:flex; gap:5px; flex-wrap:wrap; margin-top:6px; }
@@ -130,46 +174,47 @@ a.name:active { text-decoration:underline; }
 footer { margin-top:16px; font-size:12px; color:var(--muted); }
 #printarea { display:none; }
 
-/* ---- Desktop: Raster mit sortierbaren Spalten ---- */
+/* ---- Desktop ---- */
 @media (min-width:780px) {
   .wrap { padding:26px 20px 80px; }
   h1 { font-size:25px; }
   .sub { width:auto; font-size:13.5px; }
   .kpis { grid-template-columns:repeat(4,1fr); gap:12px; }
   .kpi .v { font-size:28px; }
-  .more { display:block; }
-  #togglefilters { display:none; }
-  /* Neun Rasterzellen je Zeile: .otop hat display:contents, also zaehlen
-     Stern, Rabatt und Geschaeft einzeln - danach Produkt und die
-     Detailspalten. Stimmt die Spaltenzahl nicht, bricht die Zeile um. */
+  .scrim, .sheetbar, .grip, #filterbtn { display:none; }
+  .panel { position:static; transform:none; max-height:none; overflow:visible;
+    border:1px solid var(--ring); border-radius:12px; box-shadow:none;
+    padding:14px; margin-bottom:12px; }
+  .sect { margin-bottom:12px; }
+  /* Zehn Rasterzellen: .otop und .obody haben display:contents, ihre Kinder
+     zaehlen also einzeln. Stimmt die Spaltenzahl nicht, bricht die Zeile um. */
   .cols { display:grid;
-    grid-template-columns:40px 82px 106px minmax(0,1fr) 88px 118px 94px 112px 92px;
-    gap:10px; align-items:center; }
-  .hdr { display:grid; padding:2px 12px 6px; font-size:11.5px; text-transform:uppercase;
-    letter-spacing:.04em; color:var(--muted); font-weight:600; }
+    grid-template-columns:38px 76px 100px 46px minmax(0,1fr) 84px 112px 92px 106px 88px;
+    gap:9px; align-items:center; }
+  .hdr { display:grid; padding:2px 12px 6px; font-size:11.5px;
+    text-transform:uppercase; letter-spacing:.04em; color:var(--muted);
+    font-weight:600; }
   .hdr span { cursor:pointer; user-select:none; white-space:nowrap; }
   .hdr span:hover { color:var(--ink); }
   .hdr .on::after { content:" \\2193"; }
   .hdr .on.asc::after { content:" \\2191"; }
-  .offer { padding:9px 12px; }
-  .otop { display:contents; }
+  .offer { padding:8px 12px; }
+  .otop, .obody { display:contents; }
   .star { justify-self:center; }
   .disc { font-size:17px; }
   .store { margin-left:0; justify-self:start; }
-  .name { margin-top:0; }
-  .badges { margin-top:4px; }
+  .thumb { width:42px; height:42px; }
   .cell { font-size:13px; color:var(--ink-2); font-variant-numeric:tabular-nums;
     white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .cell.price { color:var(--ink); font-weight:600; }
   .cell .old { color:var(--muted); font-weight:400; font-size:12px; display:block; }
   .m-only { display:none; }
 }
-@media (max-width:779px) {
-  .d-only { display:none; }
-}
+@media (max-width:779px) { .d-only { display:none; } }
 
 @media print {
-  .filters, .kpis, .iconbtn, .spacer, footer, .hdr, .note, header { display:none !important; }
+  .bar, .active, .panel, .scrim, .kpis, .iconbtn, .spacer, footer, .hdr,
+  .note, header { display:none !important; }
   body { background:#fff; color:#000; }
   .list { display:none; }
   #printarea { display:block !important; }
@@ -182,10 +227,9 @@ JS = """
 const $ = s => document.querySelector(s);
 const FAVKEY = "prospekt-radar:favoriten";
 
-/* Favoriten liegen im Browser des Betrachters. Sie ueberleben die woechentliche
-   Aktualisierung, weil der Schluessel aus Geschaeft + Produkt + Menge besteht
-   und nicht aus einer Lauf-ID. Private Fenster koennen localStorage sperren -
-   deshalb alles in try/catch. */
+/* Favoriten liegen im Browser des Betrachters und ueberleben die woechentliche
+   Aktualisierung, weil der Schluessel aus Geschaeft + Produkt + Menge besteht.
+   Private Fenster koennen localStorage sperren -> alles in try/catch. */
 function loadFavs() {
   try { return new Set(JSON.parse(localStorage.getItem(FAVKEY) || "[]")); }
   catch (e) { return new Set(); }
@@ -205,12 +249,12 @@ const eur = v => v == null ? "" : v.toFixed(2).replace(".", ",") + " \\u20AC";
 const dmy = s => { if (!s) return ""; const p = String(s).split("-");
   return p[2] + "." + p[1] + "." + p[0]; };
 
-/* ---- Rabattbaender: 30-39, 40-49, 50-59, ab 60. Mehrfachauswahl. ---- */
 function bandOf(pct) { return Math.min(Math.floor(pct / 10) * 10, 60); }
-const BANDS = [...new Set(DATA.map(o => bandOf(o.effective_pct)))].sort((a, b) => a - b);
-function bandLabel(b) { return "\\u2212" + b + " %" + (b === 60 ? "+" : ""); }
+const BANDS = [...new Set(DATA.map(o => bandOf(o.effective_pct)))].sort((a,b) => a-b);
+const bandLabel = b => "\\u2212" + b + " %" + (b === 60 ? "+" : "");
 
-function buildChips(box, items, label, onToggle, cls) {
+/* ---- Chips ---- */
+function chipRow(box, items, label, pressed, onClick, cls) {
   box.innerHTML = "";
   items.forEach(it => {
     const b = document.createElement("button");
@@ -218,79 +262,131 @@ function buildChips(box, items, label, onToggle, cls) {
     b.type = "button";
     b.innerHTML = label(it);
     b._item = it;
-    b.onclick = () => {
-      onToggle(it); syncChips(); draw();
-      // Der angetippte Chip kann in der seitlich scrollenden Reihe ausserhalb
-      // des Sichtbereichs liegen - dann sieht man nicht, was aktiv ist.
-      b.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
-    };
+    b.onclick = () => { onClick(it); sync(); draw(); };
     box.appendChild(b);
   });
 }
-function syncChips() {
-  document.querySelectorAll("#bands .chip").forEach(b =>
-    b.setAttribute("aria-pressed", state.bands.has(b._item)));
-  document.querySelectorAll("#storechips .chip").forEach(b =>
-    b.setAttribute("aria-pressed", state.stores.has(b._item)));
-  document.querySelectorAll("#catchips .chip").forEach(b =>
-    b.setAttribute("aria-pressed", state.cat === b._item));
-  document.querySelectorAll("#subchips .chip").forEach(b =>
-    b.setAttribute("aria-pressed", state.sub === b._item));
-  $("#favOnly").innerHTML = "\\u2605 nur Favoriten<span class='n'>" + favs.size + "</span>";
+
+function buildBands() {
+  chipRow($("#bands"), BANDS,
+    b => bandLabel(b) + "<span class='n'>" +
+         DATA.filter(o => bandOf(o.effective_pct) === b).length + "</span>",
+    null,
+    b => { if (state.bands.has(b)) state.bands.delete(b); else state.bands.add(b); });
 }
-
-buildChips($("#bands"), BANDS,
-  b => bandLabel(b) + "<span class='n'>" +
-       DATA.filter(o => bandOf(o.effective_pct) === b).length + "</span>",
-  b => { if (state.bands.has(b)) state.bands.delete(b); else state.bands.add(b); });
-
-buildChips($("#storechips"), STORES,
-  s => esc(s) + "<span class='n'>" + DATA.filter(o => o.store === s).length + "</span>",
-  s => { if (state.stores.has(s)) state.stores.delete(s); else state.stores.add(s); });
-
-/* ---- Kategorie + Unterkategorie ---- */
-/* ---- Kategorie + Unterkategorie als Chips ----
-   Frueher zwei Auswahlfelder nebeneinander, das zweite meist ausgegraut
-   ("Erst Kategorie waehlen"). Ein totes Bedienelement verwirrt mehr als es
-   hilft. Jetzt eine Chip-Reihe wie bei Geschaeften und Rabatten; die
-   Unterkategorien erscheinen erst, wenn eine Kategorie gewaehlt ist. */
+function buildStores() {
+  chipRow($("#stores"), ["", ...STORES],
+    s => s === "" ? "Alle" : esc(s) + "<span class='n'>" +
+         DATA.filter(o => o.store === s).length + "</span>",
+    null,
+    s => { if (s === "") state.stores.clear();
+           else if (state.stores.has(s)) state.stores.delete(s);
+           else state.stores.add(s); });
+}
 function catCount(g) { return CATS[g].reduce((n, s) => n + s[1], 0); }
-
-function buildCatChips() {
-  buildChips($("#catchips"), ["", ...Object.keys(CATS)],
-    g => g === "" ? "Alle"
-                  : esc(g) + "<span class='n'>" + catCount(g) + "</span>",
-    g => { state.cat = g; state.sub = ""; buildSubChips(); });
+function buildCats() {
+  chipRow($("#cats"), ["", ...Object.keys(CATS)],
+    g => g === "" ? "Alle" : esc(g) + "<span class='n'>" + catCount(g) + "</span>",
+    null,
+    g => { state.cat = g; state.sub = ""; buildSubs(); });
 }
-
-function buildSubChips() {
+function buildSubs() {
   const subs = state.cat ? (CATS[state.cat] || []) : [];
-  $("#subrow").hidden = subs.length === 0;
-  if (!subs.length) { $("#subchips").innerHTML = ""; return; }
-  const anzahl = {};
-  subs.forEach(pair => { anzahl[pair[0]] = pair[1]; });
-  buildChips($("#subchips"), ["", ...subs.map(pair => pair[0])],
-    s => s === "" ? "Alle Arten"
-                  : esc(s) + "<span class='n'>" + anzahl[s] + "</span>",
+  $("#subsect").hidden = subs.length === 0;
+  if (!subs.length) { $("#subs").innerHTML = ""; return; }
+  const anz = {};
+  subs.forEach(p => { anz[p[0]] = p[1]; });
+  chipRow($("#subs"), ["", ...subs.map(p => p[0])],
+    s => s === "" ? "Alle" : esc(s) + "<span class='n'>" + anz[s] + "</span>",
+    null,
     s => { state.sub = s; });
 }
+function buildFlags() {
+  const flags = [["favOnly", "\\u2605 nur Favoriten"], ["newOnly", "nur NEU"],
+                 ["noMulti", "ohne Mehrfachkauf"], ["noCard", "ohne Kundenkarte"]];
+  chipRow($("#flags"), flags,
+    f => f[1] + (f[0] === "favOnly" ? "<span class='n'>" + favs.size + "</span>" : ""),
+    null,
+    f => { state[f[0]] = !state[f[0]]; },
+    "");
+  [...$("#flags").children].forEach(b => {
+    if (b._item[0] === "favOnly") b.classList.add("fav");
+  });
+}
 
-buildCatChips(); buildSubChips();
-$("#q").oninput = e => { state.q = e.target.value.toLowerCase(); draw(); };
-["favOnly", "newOnly", "noMulti", "noCard"].forEach(k => {
-  const el = document.getElementById(k);
-  el.onclick = () => {
-    state[k] = !state[k];
-    el.setAttribute("aria-pressed", state[k]);
-    draw();
-  };
-});
-$("#togglefilters").onclick = () => $(".filters").classList.toggle("open");
+/* ---- Aktive Filter: sichtbar und einzeln loeschbar ---- */
+function activeList() {
+  const a = [];
+  [...state.bands].sort((x,y) => x-y).forEach(b =>
+    a.push([bandLabel(b), () => state.bands.delete(b)]));
+  if (state.cat) a.push([state.cat, () => { state.cat = ""; state.sub = ""; buildSubs(); }]);
+  if (state.sub) a.push([state.sub, () => { state.sub = ""; }]);
+  [...state.stores].forEach(s => a.push([s, () => state.stores.delete(s)]));
+  if (state.favOnly) a.push(["\\u2605 Favoriten", () => { state.favOnly = false; }]);
+  if (state.newOnly) a.push(["nur NEU", () => { state.newOnly = false; }]);
+  if (state.noMulti) a.push(["ohne Mehrfachkauf", () => { state.noMulti = false; }]);
+  if (state.noCard) a.push(["ohne Kundenkarte", () => { state.noCard = false; }]);
+  if (state.q) a.push(["Suche: " + state.q, () => { state.q = ""; $("#q").value = ""; }]);
+  return a;
+}
+function resetAll() {
+  state.bands.clear(); state.stores.clear();
+  state.cat = ""; state.sub = ""; state.q = ""; $("#q").value = "";
+  state.favOnly = state.newOnly = state.noMulti = state.noCard = false;
+  buildSubs(); sync(); draw();
+}
+
+function sync() {
+  document.querySelectorAll("#bands .chip").forEach(b =>
+    b.setAttribute("aria-pressed", state.bands.has(b._item)));
+  document.querySelectorAll("#stores .chip").forEach(b =>
+    b.setAttribute("aria-pressed", b._item === "" ? state.stores.size === 0
+                                                  : state.stores.has(b._item)));
+  document.querySelectorAll("#cats .chip").forEach(b =>
+    b.setAttribute("aria-pressed", state.cat === b._item));
+  document.querySelectorAll("#subs .chip").forEach(b =>
+    b.setAttribute("aria-pressed", state.sub === b._item));
+  document.querySelectorAll("#flags .chip").forEach(b =>
+    b.setAttribute("aria-pressed", !!state[b._item[0]]));
+
+  const act = activeList();
+  $("#filterbtn").classList.toggle("has", act.length > 0);
+  $("#filtercnt").textContent = act.length;
+
+  const box = $("#active");
+  box.innerHTML = "";
+  act.forEach(pair => {
+    const b = document.createElement("button");
+    b.className = "afchip";
+    b.type = "button";
+    b.innerHTML = esc(pair[0]) + "<span class='x'>\\u00D7</span>";
+    b.onclick = () => { pair[1](); sync(); draw(); };
+    box.appendChild(b);
+  });
+  if (act.length) {
+    const c = document.createElement("button");
+    c.className = "clearall";
+    c.type = "button";
+    c.textContent = "alle l\\u00F6schen";
+    c.onclick = resetAll;
+    box.appendChild(c);
+  }
+}
+
+/* ---- Filterblatt oeffnen / schliessen ---- */
+function openSheet() { document.body.classList.add("sheet-open"); }
+function closeSheet() { document.body.classList.remove("sheet-open"); }
+$("#filterbtn").onclick = openSheet;
+$("#scrim").onclick = closeSheet;
+$("#apply").onclick = closeSheet;
+$("#reset").onclick = resetAll;
+$("#q").oninput = e => { state.q = e.target.value.toLowerCase(); sync(); draw(); };
 $("#theme").onclick = () => {
   const cur = document.documentElement.dataset.theme ||
     (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
   document.documentElement.dataset.theme = cur === "dark" ? "light" : "dark";
 };
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeSheet(); });
 document.querySelectorAll(".hdr span[data-k]").forEach(th => th.onclick = () => {
   const k = th.dataset.k;
   state.dir = (state.sort === k) ? -state.dir : (k === "effective_pct" ? -1 : 1);
@@ -331,6 +427,9 @@ function offerHTML(o) {
       esc(o.product) + "</a>"
     : "<div class='name'>" + esc(o.product) + "</div>";
   const on = favs.has(o.key);
+  const img = o.image_url
+    ? "<img class='thumb' src='" + esc(o.image_url) + "' alt='' loading='lazy' decoding='async'>"
+    : "<div class='thumb'></div>";
 
   return "<div class='offer cols'>" +
     "<div class='otop'>" +
@@ -340,15 +439,17 @@ function offerHTML(o) {
         Math.round(o.effective_pct) + "\\u2009%</div>" +
       "<span class='store'>" + esc(o.store) + "</span>" +
     "</div>" +
-    "<div>" + nm +
-      "<div class='meta m-only'>" + esc(o.amount) +
-        (o.price != null ? " \\u00B7 <b>" + eur(o.price) + "</b>" : "") +
-        (o.old_price != null ? " <s>" + eur(o.old_price) + "</s>" : "") +
+    "<div class='obody'>" + img +
+      "<div class='otext'>" + nm +
+        "<div class='meta m-only'>" + esc(o.amount) +
+          (o.price != null ? " \\u00B7 <b>" + eur(o.price) + "</b>" : "") +
+          (o.old_price != null ? " <s>" + eur(o.old_price) + "</s>" : "") +
+        "</div>" +
+        "<div class='meta m-only'>" +
+          (o.base_price ? "<span class='bp'>" + esc(o.base_price) + "</span> \\u00B7 " : "") +
+          "bis " + dmy(o.valid_to) + "</div>" +
+        (tags.length ? "<div class='badges'>" + tags.join("") + "</div>" : "") +
       "</div>" +
-      "<div class='meta m-only'>" +
-        (o.base_price ? "<span class='bp'>" + esc(o.base_price) + "</span> \\u00B7 " : "") +
-        "bis " + dmy(o.valid_to) + "</div>" +
-      (tags.length ? "<div class='badges'>" + tags.join("") + "</div>" : "") +
     "</div>" +
     "<div class='cell d-only'>" + esc(o.amount) + "</div>" +
     "<div class='cell d-only'>" + esc(o.subcategory) + "</div>" +
@@ -369,6 +470,7 @@ function draw() {
   });
   $("#k1").textContent = rows.length;
   $("#kfav").textContent = favs.size;
+  $("#applycnt").textContent = rows.length;
   $("#list").innerHTML = rows.length
     ? rows.map(offerHTML).join("")
     : "<div class='empty'>Keine Angebote passen zu diesen Filtern.</div>";
@@ -383,11 +485,14 @@ function draw() {
   document.querySelectorAll(".star").forEach(btn => btn.onclick = () => {
     const k = btn.dataset.key;
     if (favs.has(k)) favs.delete(k); else favs.add(k);
-    saveFavs(); syncChips(); draw();
+    saveFavs(); buildFlags(); sync(); draw();
+  });
+  // Fehlende Bilder ausblenden statt ein kaputtes Symbol zu zeigen.
+  document.querySelectorAll("img.thumb").forEach(im => {
+    im.onerror = () => im.classList.add("broken");
   });
 }
 
-/* Drucken: Favoriten, sonst die aktuelle Ansicht - nach Geschaeft gruppiert. */
 $("#printbtn").onclick = () => {
   const pool = favs.size ? DATA.filter(o => favs.has(o.key)) : visible();
   const byStore = {};
@@ -404,20 +509,21 @@ $("#printbtn").onclick = () => {
   window.print();
 };
 
-syncChips();
-draw();
+buildBands(); buildCats(); buildSubs(); buildStores(); buildFlags();
+sync(); draw();
 """
 
 
 def render_html(rows: list[dict], meta: dict) -> str:
-    stores = sorted({r["store"] for r in rows})
+    # Geschaefte nach Angebotszahl - die grossen Ketten zuerst, nicht "ADEG" nur
+    # weil es alphabetisch vorne steht.
+    stores = [s for s, _ in Counter(r["store"] for r in rows).most_common()]
     updated = meta.get("generated_at", datetime.now().strftime("%d.%m.%Y %H:%M"))
     min_pct = meta.get("min_pct", 30)
     plz = meta.get("zip", "")
     best = max((r["effective_pct"] for r in rows), default=0)
     n_new = sum(1 for r in rows if r.get("is_new"))
 
-    # Kategoriebaum fuer die zweistufigen Filter: Gruppe -> [(Unterkategorie, Anzahl)]
     tree: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
     for r in rows:
         if r.get("category"):
@@ -431,26 +537,21 @@ def render_html(rows: list[dict], meta: dict) -> str:
                 + (f" · PLZ {plz}" if plz else "")
                 + f" · Stand {html.escape(str(updated))}")
 
-    # Quellenlage sichtbar machen. Faellt eine Quelle aus, steht das oben auf
-    # der Seite - sonst sieht man nur eine kuerzere Liste und haelt sie fuer
-    # normal. Ein gruener Lauf bei halber Datenmenge ist der gefaehrlichste Fall.
     sources = meta.get("sources") or {}
     dead = [name for name, n in sources.items() if not n]
     alert = ""
     if dead:
         names = " und ".join(html.escape(d) for d in dead)
-        alert = ('<div class="alert"><b>Diese Liste ist unvollstaendig</b>'
+        alert = ('<div class="alert"><b>Diese Liste ist unvollständig</b>'
                  "Von " + names + " kamen bei diesem Lauf keine Daten. "
-                 "Angebote dieser Geschaefte fehlen hier oder erscheinen nur, "
+                 "Angebote dieser Geschäfte fehlen hier oder erscheinen nur, "
                  "soweit eine andere Quelle sie kennt.</div>")
     srcline = ""
     if sources:
         parts = ", ".join(html.escape(k) + " " + str(v) + ("" if v else " (0)")
                           for k, v in sources.items())
-        # Rohzahlen vor Dedupe und Rabattfilter - deshalb hoeher als die Liste.
         srcline = ('<div class="srcline">Von den Quellen geholt (vor Dedupe und '
                    'Rabattfilter): ' + parts + "</div>")
-
 
     head = (
         '<!DOCTYPE html>\n<html lang="de"><head>\n'
@@ -463,7 +564,8 @@ def render_html(rows: list[dict], meta: dict) -> str:
         "<style>" + CSS + "</style></head><body>\n"
     )
 
-    body = f"""<div class="wrap">
+    body = f"""<div class="scrim" id="scrim"></div>
+<div class="wrap">
 <header>
   <h1>🛒 Prospekt-Radar</h1>
   <span class="spacer">
@@ -480,24 +582,25 @@ def render_html(rows: list[dict], meta: dict) -> str:
   <div class="kpi"><div class="v">{n_new}</div><div class="l">neu diese Woche</div></div>
 </div>
 
-<div class="filters">
-  <div class="frow">
+<div class="bar">
+  <div class="barrow">
     <input type="search" id="q" placeholder="Produkt suchen …" aria-label="Produkt suchen">
-    <button class="iconbtn" id="togglefilters">Filter <span class="caret">▾</span></button>
+    <button class="filterbtn" id="filterbtn">Filter <span class="cnt" id="filtercnt">0</span></button>
   </div>
-  <div class="frow"><div class="scroller" id="bands"></div></div>
-  <div class="more">
-    <div class="frow"><div class="scroller" id="catchips"></div></div>
-    <div class="frow" id="subrow" hidden><div class="scroller" id="subchips"></div></div>
-    <div class="frow"><div class="scroller" id="storechips"></div></div>
-    <div class="frow">
-      <div class="scroller">
-        <button class="chip fav" id="favOnly" type="button" aria-pressed="false">★ nur Favoriten</button>
-        <button class="chip" id="newOnly" type="button" aria-pressed="false">nur NEU</button>
-        <button class="chip" id="noMulti" type="button" aria-pressed="false">ohne Mehrfachkauf</button>
-        <button class="chip" id="noCard" type="button" aria-pressed="false">ohne Kundenkarte</button>
-      </div>
-    </div>
+  <div class="active" id="active"></div>
+</div>
+
+<div class="panel" id="panel">
+  <div class="grip"></div>
+  <div class="sect"><h3>Rabatt</h3><div class="scroller" id="bands"></div></div>
+  <div class="sect"><h3>Kategorie</h3><div class="scroller" id="cats"></div></div>
+  <div class="sect" id="subsect" hidden><h3>Unterkategorie</h3>
+    <div class="scroller" id="subs"></div></div>
+  <div class="sect"><h3>Geschäft</h3><div class="scroller" id="stores"></div></div>
+  <div class="sect"><h3>Weitere</h3><div class="scroller" id="flags"></div></div>
+  <div class="sheetbar">
+    <button class="btn-reset" id="reset">Zurücksetzen</button>
+    <button class="btn-apply" id="apply"><span id="applycnt">0</span> Angebote zeigen</button>
   </div>
 </div>
 
@@ -505,6 +608,7 @@ def render_html(rows: list[dict], meta: dict) -> str:
   <span>★</span>
   <span data-k="effective_pct" class="on">Rabatt</span>
   <span data-k="store">Geschäft</span>
+  <span></span>
   <span data-k="product">Produkt</span>
   <span data-k="amount">Menge</span>
   <span data-k="subcategory">Art</span>
@@ -517,6 +621,7 @@ def render_html(rows: list[dict], meta: dict) -> str:
 <div id="printarea"></div>
 <footer>Rabatte sind effektive Werte: 2+1&nbsp;gratis = −33&nbsp;%, 1+1&nbsp;gratis = −50&nbsp;%.
 Favoriten bleiben in diesem Browser gespeichert, auch wenn die Liste aktualisiert wird.
+Produktbilder werden von den Händler-Servern geladen, nicht gespeichert.
 Angaben ohne Gewähr — Preise im Geschäft prüfen.{srcline}</footer>
 </div>
 """

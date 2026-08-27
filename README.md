@@ -82,13 +82,21 @@ seitlich.
   Schlüssel aus Geschäft + Produkt + Menge besteht und nicht aus einer Lauf-ID.
   Filter „nur Favoriten"; Angebote, die gerade ausgelaufen sind, bleiben
   gespeichert und werden unter der Liste vermerkt.
-- **Rabattbänder als Mehrfachauswahl** — −30 %, −40 %, −50 %, −60 %+ lassen sich
-  einzeln oder kombiniert anklicken (nichts gewählt = alle). Jeder Chip zeigt
-  seine Trefferzahl.
-- **Kategorien als Chip-Reihe** (14 Gruppen, mit Trefferzahl). Ist eine gewählt,
-  erscheint darunter eine zweite Reihe mit ihren Unterkategorien — vorher gar
-  nicht. Der angetippte Chip rollt in die Sichtbarkeit, damit erkennbar bleibt,
-  was aktiv ist.
+- **Filter in beschrifteten Abschnitten** — Rabatt, Kategorie, Unterkategorie,
+  Geschäft, Weitere. Am Handy öffnen sie sich als Blatt von unten (Verdunkelung,
+  Escape/Tippen daneben schließt, „Zurücksetzen" und „N Angebote zeigen" unten),
+  am Desktop stehen sie fest im Panel. Vorher lagen fünf gleich aussehende
+  Chip-Reihen unbeschriftet in der Kopfleiste.
+- **Aktive Filter sind immer sichtbar** — als Chips mit ×, dazu „alle löschen".
+  Der Filterknopf trägt die Anzahl. Ohne das ist nicht erkennbar, warum nur noch
+  2 von 693 Angeboten übrig sind.
+- **Rabattbänder als Mehrfachauswahl** — −30 %, −40 %, −50 %, −60 %+ einzeln oder
+  kombiniert (nichts gewählt = alle), jeweils mit Trefferzahl.
+- **Unterkategorie** erscheint erst, wenn eine Kategorie gewählt ist.
+- **Miniaturbilder** für BILLA und PENNY (420 von 693). Verwendet wird die
+  `-small`-Variante des CDN (rund 5 KB statt 176 KB), `loading="lazy"`; fehlende
+  Bilder werden ausgeblendet. Die Bilder werden **verlinkt, nicht kopiert**.
+  marktguru sperrt seinen Bild-CDN mit HTTP 403, dort bleibt der Platz leer.
 - Suche, Geschäfts-Chips mit Anzahl, Sortierung nach jeder Spalte, Dark Mode
 - **Einkaufsliste drucken** — die Favoriten, nach Geschäft gruppiert (ohne
   Favoriten: die aktuelle Ansicht)
