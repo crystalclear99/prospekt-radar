@@ -44,7 +44,7 @@ html_ok = render_html([ROW], {**BASE_META,
                               "sources": {"BILLA": 358, "PENNY": 62, "marktguru": 273},
                               "problems": []})
 check('class="alert"' not in html_ok, "kein Banner, wenn alle Quellen liefern")
-check("Quellen dieses Laufs" in html_ok, "Quellenzeile vorhanden")
+check("Von den Quellen geholt" in html_ok, "Quellenzeile vorhanden")
 check("BILLA 358" in html_ok, "Anzahl je Quelle in der Fusszeile")
 
 # --- eine Quelle tot: Banner mit Namen ---
@@ -59,7 +59,7 @@ check("marktguru" in html_dead, "lebende Quelle bleibt in der Fusszeile")
 # --- ohne sources-Angabe (alte meta): nichts kaputt ---
 html_plain = render_html([ROW], BASE_META)
 check('class="alert"' not in html_plain, "kein Banner ohne Quellenangabe")
-check("Quellen dieses Laufs" not in html_plain, "keine leere Quellenzeile")
+check("Von den Quellen geholt" not in html_plain, "keine leere Quellenzeile")
 
 # --- Grundgeruest muss immer stehen ---
 for needle, label in [

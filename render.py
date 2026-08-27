@@ -439,7 +439,9 @@ def render_html(rows: list[dict], meta: dict) -> str:
     if sources:
         parts = ", ".join(html.escape(k) + " " + str(v) + ("" if v else " (0)")
                           for k, v in sources.items())
-        srcline = '<div class="srcline">Quellen dieses Laufs: ' + parts + "</div>"
+        # Rohzahlen vor Dedupe und Rabattfilter - deshalb hoeher als die Liste.
+        srcline = ('<div class="srcline">Von den Quellen geholt (vor Dedupe und '
+                   'Rabattfilter): ' + parts + "</div>")
 
 
     head = (
