@@ -9269,3 +9269,647 @@
 {"date": "2026-10-29", "key": "penny|mohn od nusskipferl|0.2kg", "store": "PENNY", "pct": 30.0, "price": 1.39}
 {"date": "2026-10-29", "key": "penny|joghurtdrink|0.5kg", "store": "PENNY", "pct": 30.0, "price": 0.99}
 {"date": "2026-10-29", "key": "penny|satsumas|1.0kg", "store": "PENNY", "pct": 30.0, "price": 1.39}
+{"date": "2026-11-05", "key": "möbelix|kelomat bratpfanne kelsi 24|1.0Stk", "store": "Möbelix", "pct": 72.6, "price": 18.0}
+{"date": "2026-11-05", "key": "billa|wild bill bio ketchup mild|0.28kg", "store": "BILLA", "pct": 71.0, "price": 0.99}
+{"date": "2026-11-05", "key": "billa|lindt lindor kugeln milch|0.5kg", "store": "BILLA", "pct": 66.0, "price": 9.99}
+{"date": "2026-11-05", "key": "billa|lindt lindor kugeln lieblingsmix|0.5kg", "store": "BILLA", "pct": 66.0, "price": 9.99}
+{"date": "2026-11-05", "key": "billa|lindt lindor kugeln assortiert|0.5kg", "store": "BILLA", "pct": 66.0, "price": 9.99}
+{"date": "2026-11-05", "key": "billa|4 diamanten thunfisch getrocknete tomaten krauter|0.085kg", "store": "BILLA", "pct": 66.0, "price": 0.99}
+{"date": "2026-11-05", "key": "billa|4 diamanten thunfisch red curry|0.085kg", "store": "BILLA", "pct": 66.0, "price": 0.99}
+{"date": "2026-11-05", "key": "billa|4 diamanten thunfisch puttanesca|0.085kg", "store": "BILLA", "pct": 66.0, "price": 0.99}
+{"date": "2026-11-05", "key": "billa|4 diamanten thunfisch french dressing|0.085kg", "store": "BILLA", "pct": 66.0, "price": 0.99}
+{"date": "2026-11-05", "key": "hofer|echtwerk servierpfanne|1.0Stk", "store": "HOFER", "pct": 59.9, "price": 39.99}
+{"date": "2026-11-05", "key": "billa|felix grill paprika ketchup|0.45kg", "store": "BILLA", "pct": 57.0, "price": 1.49}
+{"date": "2026-11-05", "key": "billa|felix zwiebel senf ketchup|0.45kg", "store": "BILLA", "pct": 57.0, "price": 1.49}
+{"date": "2026-11-05", "key": "billa|pesendorfer goji beere|0.15kg", "store": "BILLA", "pct": 55.0, "price": 2.99}
+{"date": "2026-11-05", "key": "penny|kombi boreklik|0.8kg", "store": "PENNY", "pct": 55.0, "price": 2.69}
+{"date": "2026-11-05", "key": "billa|alnatura feigen|0.25kg", "store": "BILLA", "pct": 54.0, "price": 2.49}
+{"date": "2026-11-05", "key": "billa|billa cosmopolitan|0.25l", "store": "BILLA", "pct": 54.0, "price": 0.99}
+{"date": "2026-11-05", "key": "möbelix|tefal kochtopfset daily cook|11.0Stk", "store": "Möbelix", "pct": 54.0, "price": 69.0}
+{"date": "2026-11-05", "key": "interspar|stiegl goldbrau|10.0l", "store": "INTERSPAR", "pct": 53.4, "price": 13.8}
+{"date": "2026-11-05", "key": "lidl|coca cola cola|0.33l", "store": "Lidl", "pct": 51.8, "price": 0.67}
+{"date": "2026-11-05", "key": "billa|kuwopa servietten happy birthday|20.0Stk", "store": "BILLA", "pct": 51.0, "price": 1.59}
+{"date": "2026-11-05", "key": "metro|waldquelle mineralwasser|1.5l", "store": "METRO", "pct": 50.8, "price": 0.32}
+{"date": "2026-11-05", "key": "maximarkt|frankenmarkter mineralwasser|1.5l", "store": "Maximarkt", "pct": 50.7, "price": 0.37}
+{"date": "2026-11-05", "key": "billa|waldquelle spritzig mineralwasser|1.5l", "store": "BILLA", "pct": 50.7, "price": 0.37}
+{"date": "2026-11-05", "key": "billa plus|waldquelle mineralwasser|1.5l", "store": "BILLA PLUS", "pct": 50.7, "price": 0.37}
+{"date": "2026-11-05", "key": "spar|frankenmarkter mineralwasser|1.5l", "store": "SPAR", "pct": 50.7, "price": 0.37}
+{"date": "2026-11-05", "key": "interspar|frankenmarkter mineralwasser|1.5l", "store": "INTERSPAR", "pct": 50.7, "price": 0.37}
+{"date": "2026-11-05", "key": "billa|nom cremix banane schoko|0.18kg", "store": "BILLA", "pct": 50.6, "price": 0.4}
+{"date": "2026-11-05", "key": "billa plus|nom cremix banane schoko|0.18kg", "store": "BILLA PLUS", "pct": 50.6, "price": 0.4}
+{"date": "2026-11-05", "key": "eurospar|nom fru fru|0.2kg", "store": "EUROSPAR", "pct": 50.5, "price": 0.47}
+{"date": "2026-11-05", "key": "interspar|nom fru fru|0.2kg", "store": "INTERSPAR", "pct": 50.5, "price": 0.47}
+{"date": "2026-11-05", "key": "spar|nom fru fru|0.2kg", "store": "SPAR", "pct": 50.5, "price": 0.47}
+{"date": "2026-11-05", "key": "eurospar|schardinger kefirtraum|0.16kg", "store": "EUROSPAR", "pct": 50.5, "price": 0.49}
+{"date": "2026-11-05", "key": "interspar|schardinger kefirtraum|0.16kg", "store": "INTERSPAR", "pct": 50.5, "price": 0.49}
+{"date": "2026-11-05", "key": "spar|frankenmarkter zitrone|1.0l", "store": "SPAR", "pct": 50.5, "price": 0.49}
+{"date": "2026-11-05", "key": "maximarkt|pepsi pepsi cola|0.33l", "store": "Maximarkt", "pct": 50.4, "price": 0.59}
+{"date": "2026-11-05", "key": "interspar|pepsi pepsi cola|0.33l", "store": "INTERSPAR", "pct": 50.4, "price": 0.59}
+{"date": "2026-11-05", "key": "spar|zipfer marzen|0.33l", "store": "SPAR", "pct": 50.4, "price": 0.62}
+{"date": "2026-11-05", "key": "interspar|zipfer marzen|0.33l", "store": "INTERSPAR", "pct": 50.4, "price": 0.62}
+{"date": "2026-11-05", "key": "billa|danone obstgarten|0.175kg", "store": "BILLA", "pct": 50.4, "price": 0.64}
+{"date": "2026-11-05", "key": "billa plus|danone obstgarten|0.175kg", "store": "BILLA PLUS", "pct": 50.4, "price": 0.64}
+{"date": "2026-11-05", "key": "norma|coca cola cola|0.33l", "store": "NORMA", "pct": 50.4, "price": 0.69}
+{"date": "2026-11-05", "key": "lidl|granatapfel|1.0Stk", "store": "Lidl", "pct": 50.3, "price": 0.74}
+{"date": "2026-11-05", "key": "spar|wieselburger gold|0.5l", "store": "SPAR", "pct": 50.3, "price": 0.72}
+{"date": "2026-11-05", "key": "billa|stiegl goldbrau|0.5l", "store": "BILLA", "pct": 50.3, "price": 0.79}
+{"date": "2026-11-05", "key": "billa plus|stiegl goldbrau|0.5l", "store": "BILLA PLUS", "pct": 50.3, "price": 0.79}
+{"date": "2026-11-05", "key": "interspar|tann kalbsleberstreichwurst|0.1kg", "store": "INTERSPAR", "pct": 50.2, "price": 1.04}
+{"date": "2026-11-05", "key": "hofer|gluhwein|1.0l", "store": "HOFER", "pct": 50.2, "price": 1.19}
+{"date": "2026-11-05", "key": "eurospar|danone actimel drink|0.6kg", "store": "EUROSPAR", "pct": 50.2, "price": 1.49}
+{"date": "2026-11-05", "key": "spar|danone actimel drink|0.6kg", "store": "SPAR", "pct": 50.2, "price": 1.49}
+{"date": "2026-11-05", "key": "spar|lu mikado|0.075kg", "store": "SPAR", "pct": 50.2, "price": 1.49}
+{"date": "2026-11-05", "key": "hofer|sonnhof faschiertes gemischt|0.5kg", "store": "HOFER", "pct": 50.1, "price": 2.49}
+{"date": "2026-11-05", "key": "hofer|riquet eierlikor|0.7l", "store": "HOFER", "pct": 50.1, "price": 2.64}
+{"date": "2026-11-05", "key": "billa|iglo genieer pfanne|0.65kg", "store": "BILLA", "pct": 50.1, "price": 3.84}
+{"date": "2026-11-05", "key": "billa|iglo sue knodel|0.53kg", "store": "BILLA", "pct": 50.1, "price": 3.49}
+{"date": "2026-11-05", "key": "spar|regio wiener kronung|0.5kg", "store": "SPAR", "pct": 50.1, "price": 3.99}
+{"date": "2026-11-05", "key": "billa plus|la gioiosa prosecco frizzante|0.75l", "store": "BILLA PLUS", "pct": 50.1, "price": 4.49}
+{"date": "2026-11-05", "key": "spar|weingut hannes reeh cuvee rot sonnenreich|0.75l", "store": "SPAR", "pct": 50.0, "price": 4.99}
+{"date": "2026-11-05", "key": "billa plus|domaine pottelsdorf schilfschneider blaufrankisch|0.75l", "store": "BILLA PLUS", "pct": 50.0, "price": 4.99}
+{"date": "2026-11-05", "key": "hofer|zuru elektronisches wasserspielzeug|1.0Stk", "store": "HOFER", "pct": 50.0, "price": 4.99}
+{"date": "2026-11-05", "key": "billa plus|winzer krems riesling urgestein|0.75l", "store": "BILLA PLUS", "pct": 50.0, "price": 5.99}
+{"date": "2026-11-05", "key": "billa plus|weingut wellanschitz hang 5|0.75l", "store": "BILLA PLUS", "pct": 50.0, "price": 6.99}
+{"date": "2026-11-05", "key": "eurospar|la gioiosa prosecco spumante treviso|0.75l", "store": "EUROSPAR", "pct": 50.0, "price": 5.99}
+{"date": "2026-11-05", "key": "billa|mionetto spumante prosecco|0.75l", "store": "BILLA", "pct": 50.0, "price": 6.99}
+{"date": "2026-11-05", "key": "spar|martellozzo prosecco spumante|0.75l", "store": "SPAR", "pct": 50.0, "price": 5.99}
+{"date": "2026-11-05", "key": "spar|kattus spumante brut|0.75l", "store": "SPAR", "pct": 50.0, "price": 5.99}
+{"date": "2026-11-05", "key": "interspar|la gioiosa prosecco spumante|0.75l", "store": "INTERSPAR", "pct": 50.0, "price": 5.99}
+{"date": "2026-11-05", "key": "eurospar|j hornig kaffee spezial|0.5kg", "store": "EUROSPAR", "pct": 50.0, "price": 7.99}
+{"date": "2026-11-05", "key": "billa|tasty cashews black truffle|0.15kg", "store": "BILLA", "pct": 50.0, "price": 2.49}
+{"date": "2026-11-05", "key": "billa|toppits oko frischhaltefolie 20m|20.0Stk", "store": "BILLA", "pct": 50.0, "price": 1.49}
+{"date": "2026-11-05", "key": "billa|duni servietten be different|20.0Stk", "store": "BILLA", "pct": 50.0, "price": 2.29}
+{"date": "2026-11-05", "key": "billa|fini s feinstes roggenmehl|1.0kg", "store": "BILLA", "pct": 50.0, "price": 0.99}
+{"date": "2026-11-05", "key": "billa|lenz moser pfiffikus weiwein|0.75l", "store": "BILLA", "pct": 50.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|kelly s chips classic party|0.25kg", "store": "BILLA", "pct": 50.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|kelly s chips paprika party|0.25kg", "store": "BILLA", "pct": 50.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|kelly s snips party|0.25kg", "store": "BILLA", "pct": 50.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|lenz moser alter knabe|0.75l", "store": "BILLA", "pct": 50.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|lindt lindor kugeln mix|0.2kg", "store": "BILLA", "pct": 50.0, "price": 6.49}
+{"date": "2026-11-05", "key": "billa|lenz moser fete rose|0.75l", "store": "BILLA", "pct": 50.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|folistar frischhaltefolie 60m|1.0Stk", "store": "BILLA", "pct": 50.0, "price": 1.49}
+{"date": "2026-11-05", "key": "billa|oral b pro precision clean aufsteckbursten|5.0Stk", "store": "BILLA", "pct": 50.0, "price": 13.49}
+{"date": "2026-11-05", "key": "billa|oral b pro cross action aufsteckbursten|4.0Stk", "store": "BILLA", "pct": 50.0, "price": 13.49}
+{"date": "2026-11-05", "key": "billa|oral b aufsteckbursten pro sensitive clean|4.0Stk", "store": "BILLA", "pct": 50.0, "price": 13.49}
+{"date": "2026-11-05", "key": "billa|9 mile vodka|0.7l", "store": "BILLA", "pct": 50.0, "price": 8.99}
+{"date": "2026-11-05", "key": "billa|steiner s locken spatzle lower carb high protein|0.25kg", "store": "BILLA", "pct": 50.0, "price": 1.89}
+{"date": "2026-11-05", "key": "billa|zeronic fresh white gruner veltliner marille alkoholfrei|0.25l", "store": "BILLA", "pct": 50.0, "price": 1.24}
+{"date": "2026-11-05", "key": "billa|zeronic fancy red zweigelt himbeere alkoholfrei|0.25l", "store": "BILLA", "pct": 50.0, "price": 1.24}
+{"date": "2026-11-05", "key": "billa|billa bubble tea peach taste|0.45l", "store": "BILLA", "pct": 50.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|billa bubble tea wild berry taste|0.45l", "store": "BILLA", "pct": 50.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|nom pro erdbeere proteindrink skyr|0.5kg", "store": "BILLA", "pct": 50.0, "price": 1.39}
+{"date": "2026-11-05", "key": "billa|nom pro mango maracuja proteindrink skyr|0.5kg", "store": "BILLA", "pct": 50.0, "price": 1.39}
+{"date": "2026-11-05", "key": "billa|okf aloe vera king traube|0.24l", "store": "BILLA", "pct": 50.0, "price": 0.59}
+{"date": "2026-11-05", "key": "billa|zonin prosecco frizzante brut|0.75l", "store": "BILLA", "pct": 50.0, "price": 4.49}
+{"date": "2026-11-05", "key": "penny|pizzakase bergkase od mozzarella|0.2kg", "store": "PENNY", "pct": 50.0, "price": 1.49}
+{"date": "2026-11-05", "key": "eurospar|schwechater bier|0.5l", "store": "EUROSPAR", "pct": 50.0, "price": 0.69}
+{"date": "2026-11-05", "key": "interspar|schwechater bier|0.5l", "store": "INTERSPAR", "pct": 50.0, "price": 0.69}
+{"date": "2026-11-05", "key": "spar|schwechater bier|0.5l", "store": "SPAR", "pct": 50.0, "price": 0.69}
+{"date": "2026-11-05", "key": "billa|hardys shiraz cabernet sauvignon|0.75l", "store": "BILLA", "pct": 49.0, "price": 4.0}
+{"date": "2026-11-05", "key": "billa|fini s feinstes kuchenmehl|1.0kg", "store": "BILLA", "pct": 49.0, "price": 0.95}
+{"date": "2026-11-05", "key": "billa|kalle schwammtuch trocken|5.0Stk", "store": "BILLA", "pct": 49.0, "price": 1.5}
+{"date": "2026-11-05", "key": "billa|fini s feinstes bio pizzamehl|1.0kg", "store": "BILLA", "pct": 49.0, "price": 0.95}
+{"date": "2026-11-05", "key": "billa|little moons eis mochi honig pistazie|0.192kg", "store": "BILLA", "pct": 49.0, "price": 3.15}
+{"date": "2026-11-05", "key": "billa|gut hardegg rose|0.75l", "store": "BILLA", "pct": 49.0, "price": 4.5}
+{"date": "2026-11-05", "key": "billa|little moons eis mochi passion mango|0.192kg", "store": "BILLA", "pct": 49.0, "price": 3.15}
+{"date": "2026-11-05", "key": "billa|gut hardegg gruner veltliner|0.75l", "store": "BILLA", "pct": 49.0, "price": 4.5}
+{"date": "2026-11-05", "key": "billa|wegenstein cuvee wei|1.0l", "store": "BILLA", "pct": 49.0, "price": 1.5}
+{"date": "2026-11-05", "key": "billa|erzherzog johann rose halbtrocken|0.75l", "store": "BILLA", "pct": 49.0, "price": 2.75}
+{"date": "2026-11-05", "key": "billa|fruchtbar bio herznudeln|0.3kg", "store": "BILLA", "pct": 49.0, "price": 1.19}
+{"date": "2026-11-05", "key": "billa|nomoo eis haselnuss nougat|0.195l", "store": "BILLA", "pct": 49.0, "price": 1.8}
+{"date": "2026-11-05", "key": "billa|nomoo eis mango passionsfrucht|0.195l", "store": "BILLA", "pct": 49.0, "price": 1.8}
+{"date": "2026-11-05", "key": "billa|yuu n mee garnelen mit tomaten provence sauce|0.33kg", "store": "BILLA", "pct": 49.0, "price": 6.5}
+{"date": "2026-11-05", "key": "billa|nomoo pistazie|0.195l", "store": "BILLA", "pct": 49.0, "price": 1.8}
+{"date": "2026-11-05", "key": "billa|ferrero raffaello|0.27l", "store": "BILLA", "pct": 49.0, "price": 2.65}
+{"date": "2026-11-05", "key": "billa|ferrero rocher 3er|0.27l", "store": "BILLA", "pct": 49.0, "price": 2.65}
+{"date": "2026-11-05", "key": "billa|nomoo matcha berry swirl|0.195l", "store": "BILLA", "pct": 49.0, "price": 1.8}
+{"date": "2026-11-05", "key": "billa|reisetbauer blue gin|0.7l", "store": "BILLA", "pct": 48.0, "price": 20.35}
+{"date": "2026-11-05", "key": "billa|santa maria dip tex mex style|0.25kg", "store": "BILLA", "pct": 48.0, "price": 1.79}
+{"date": "2026-11-05", "key": "billa|yuunmee gourmet riesengarnelen|0.32kg", "store": "BILLA", "pct": 47.4, "price": 9.99}
+{"date": "2026-11-05", "key": "billa|hofer premium motiv imma im herz n|1.0Stk", "store": "BILLA", "pct": 47.0, "price": 3.49}
+{"date": "2026-11-05", "key": "billa|hofer premium motivlicht i denk aun di|1.0Stk", "store": "BILLA", "pct": 47.0, "price": 3.49}
+{"date": "2026-11-05", "key": "billa|rio mare thunfisch pesto mandeln kase|0.13kg", "store": "BILLA", "pct": 47.0, "price": 1.99}
+{"date": "2026-11-05", "key": "lidl|gosser marzen|0.5l", "store": "Lidl", "pct": 47.0, "price": 0.79}
+{"date": "2026-11-05", "key": "lidl|danone obstgarten|0.175kg", "store": "Lidl", "pct": 46.5, "price": 0.69}
+{"date": "2026-11-05", "key": "billa|d aucy sonnenmais|0.285kg", "store": "BILLA", "pct": 46.0, "price": 1.49}
+{"date": "2026-11-05", "key": "billa|d aucy linsen|0.285kg", "store": "BILLA", "pct": 46.0, "price": 1.49}
+{"date": "2026-11-05", "key": "billa|hengstenberg vinaigrette schalotten|0.36l", "store": "BILLA", "pct": 46.0, "price": 1.99}
+{"date": "2026-11-05", "key": "lidl|zipfer marzen|10.0l", "store": "Lidl", "pct": 45.7, "price": 14.0}
+{"date": "2026-11-05", "key": "penny|pink it up|0.25l", "store": "PENNY", "pct": 45.0, "price": 1.09}
+{"date": "2026-11-05", "key": "penny|ice lemon|0.25l", "store": "PENNY", "pct": 45.0, "price": 1.09}
+{"date": "2026-11-05", "key": "penny|fire cranberry|0.25l", "store": "PENNY", "pct": 45.0, "price": 1.09}
+{"date": "2026-11-05", "key": "penny|flash orange|0.25l", "store": "PENNY", "pct": 45.0, "price": 1.09}
+{"date": "2026-11-05", "key": "penny|riegel|0.15kg", "store": "PENNY", "pct": 45.0, "price": 1.79}
+{"date": "2026-11-05", "key": "lidl|fini s feinstes weizenmehl|1.0kg", "store": "Lidl", "pct": 45.0, "price": 0.99}
+{"date": "2026-11-05", "key": "billa plus|schardinger formil h milch|1.0l", "store": "BILLA PLUS", "pct": 44.7, "price": 0.89}
+{"date": "2026-11-05", "key": "xxxlutz|wmf extrabrater|1.0Stk", "store": "XXXLutz", "pct": 44.2, "price": 99.9}
+{"date": "2026-11-05", "key": "billa|d aucy sojabohnen|0.11kg", "store": "BILLA", "pct": 44.0, "price": 0.99}
+{"date": "2026-11-05", "key": "billa|d aucy dinkel|0.11kg", "store": "BILLA", "pct": 44.0, "price": 0.99}
+{"date": "2026-11-05", "key": "billa|nuts bienenwachs sandwichbeutel 2 teilig|2.0Stk", "store": "BILLA", "pct": 44.0, "price": 9.99}
+{"date": "2026-11-05", "key": "billa|ja naturlich cranberries|0.15kg", "store": "BILLA", "pct": 44.0, "price": 1.99}
+{"date": "2026-11-05", "key": "xxxlutz|tefal pfannen duetto|3.0Stk", "store": "XXXLutz", "pct": 43.8, "price": 44.9}
+{"date": "2026-11-05", "key": "penny|saucen|0.25l", "store": "PENNY", "pct": 43.0, "price": 1.59}
+{"date": "2026-11-05", "key": "billa plus|bio lachsfilet|0.25kg", "store": "BILLA PLUS", "pct": 42.9, "price": 3.99}
+{"date": "2026-11-05", "key": "billa|frierss zirbenrauchschinken|1.0kg", "store": "BILLA", "pct": 42.0, "price": 18.9}
+{"date": "2026-11-05", "key": "penny|sauerrahm|0.25kg", "store": "PENNY", "pct": 42.0, "price": 0.69}
+{"date": "2026-11-05", "key": "penny|wienerwurst od jausenwurst|0.15kg", "store": "PENNY", "pct": 42.0, "price": 1.49}
+{"date": "2026-11-05", "key": "penny|schwarzwalder kirschtorte|1.4kg", "store": "PENNY", "pct": 42.0, "price": 9.99}
+{"date": "2026-11-05", "key": "penny|sachertorte|1.0kg", "store": "PENNY", "pct": 42.0, "price": 9.99}
+{"date": "2026-11-05", "key": "xxxlutz|tefal jamie oliver grillpfanne cooks classic|1.0Stk", "store": "XXXLutz", "pct": 41.3, "price": 69.9}
+{"date": "2026-11-05", "key": "billa|pesendorfer saurer apfel|0.2kg", "store": "BILLA", "pct": 41.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|pesendorfer kokos chunks|0.2kg", "store": "BILLA", "pct": 41.0, "price": 2.99}
+{"date": "2026-11-05", "key": "penny|zwiebel gelb|2.0kg", "store": "PENNY", "pct": 41.0, "price": 0.99}
+{"date": "2026-11-05", "key": "penny|zwiebel rot|1.0kg", "store": "PENNY", "pct": 41.0, "price": 0.99}
+{"date": "2026-11-05", "key": "penny|original irish cream|0.7l", "store": "PENNY", "pct": 41.0, "price": 9.99}
+{"date": "2026-11-05", "key": "billa|frierss karntner bauernschinken|0.1kg", "store": "BILLA", "pct": 40.8, "price": 1.89}
+{"date": "2026-11-05", "key": "billa|schardinger sommerbutter|0.25kg", "store": "BILLA", "pct": 40.2, "price": 1.59}
+{"date": "2026-11-05", "key": "lidl|wiesentaler pikante schonbrunner|0.15kg", "store": "Lidl", "pct": 40.2, "price": 1.19}
+{"date": "2026-11-05", "key": "billa|hochriegl sekt|0.75l", "store": "BILLA", "pct": 40.0, "price": 4.49}
+{"date": "2026-11-05", "key": "billa|hofstadter festtagsschinken|1.0kg", "store": "BILLA", "pct": 40.0, "price": 8.99}
+{"date": "2026-11-05", "key": "billa|ti flair servietten bon appetit|20.0Stk", "store": "BILLA", "pct": 40.0, "price": 1.49}
+{"date": "2026-11-05", "key": "billa|frierss bauernschinken karnten|1.0kg", "store": "BILLA", "pct": 40.0, "price": 18.9}
+{"date": "2026-11-05", "key": "billa|il conte di roma kapern|0.065kg", "store": "BILLA", "pct": 40.0, "price": 1.49}
+{"date": "2026-11-05", "key": "penny|nutella croissant|0.34kg", "store": "PENNY", "pct": 40.0, "price": 2.99}
+{"date": "2026-11-05", "key": "penny|3d white luxe perfection|0.075l", "store": "PENNY", "pct": 40.0, "price": 2.99}
+{"date": "2026-11-05", "key": "penny|white tiger garnelen|0.72kg", "store": "PENNY", "pct": 40.0, "price": 5.99}
+{"date": "2026-11-05", "key": "penny|vanillinzucker|0.25kg", "store": "PENNY", "pct": 40.0, "price": 1.79}
+{"date": "2026-11-05", "key": "penny|viennetta|0.65l", "store": "PENNY", "pct": 40.0, "price": 2.99}
+{"date": "2026-11-05", "key": "hofer|gelber muskateller muller thurgau|0.75l", "store": "HOFER", "pct": 39.5, "price": 1.99}
+{"date": "2026-11-05", "key": "lidl|schardinger kasescheiben|0.15kg", "store": "Lidl", "pct": 39.4, "price": 1.69}
+{"date": "2026-11-05", "key": "billa|nescafe gold cap colombie|0.2kg", "store": "BILLA", "pct": 39.0, "price": 9.99}
+{"date": "2026-11-05", "key": "billa|nescafe gold mild|0.2kg", "store": "BILLA", "pct": 39.0, "price": 9.99}
+{"date": "2026-11-05", "key": "billa|nescafe gold edelmischung|0.2kg", "store": "BILLA", "pct": 39.0, "price": 9.99}
+{"date": "2026-11-05", "key": "billa|nescafe gold crema|0.2kg", "store": "BILLA", "pct": 39.0, "price": 9.99}
+{"date": "2026-11-05", "key": "lidl|wiener zucker staubzucker|0.5kg", "store": "Lidl", "pct": 38.8, "price": 0.79}
+{"date": "2026-11-05", "key": "billa plus|dr oetker suprema pizza|0.487kg", "store": "BILLA PLUS", "pct": 38.6, "price": 4.29}
+{"date": "2026-11-05", "key": "eurospar|jacobs monarch|0.5kg", "store": "EUROSPAR", "pct": 38.5, "price": 7.99}
+{"date": "2026-11-05", "key": "spar|jacobs monarch|0.5kg", "store": "SPAR", "pct": 38.5, "price": 7.99}
+{"date": "2026-11-05", "key": "billa|ambrosius 7 tage kompositions ollicht rot|1.0Stk", "store": "BILLA", "pct": 38.0, "price": 3.99}
+{"date": "2026-11-05", "key": "billa|ambrosius 7 tage kompositions ollicht wei|1.0Stk", "store": "BILLA", "pct": 38.0, "price": 3.99}
+{"date": "2026-11-05", "key": "lidl|wiener zucker feinkristallzucker|1.0kg", "store": "Lidl", "pct": 37.7, "price": 0.99}
+{"date": "2026-11-05", "key": "hofer|finest bakery schoko butterkeks|0.125kg", "store": "HOFER", "pct": 37.3, "price": 0.99}
+{"date": "2026-11-05", "key": "hofer|milsani fruchtjoghurt|1.0kg", "store": "HOFER", "pct": 37.1, "price": 1.49}
+{"date": "2026-11-05", "key": "billa|sirius camembert|0.1kg", "store": "BILLA", "pct": 37.0, "price": 1.19}
+{"date": "2026-11-05", "key": "billa|bull s eye bbq sauce steakhouse|0.3l", "store": "BILLA", "pct": 37.0, "price": 2.49}
+{"date": "2026-11-05", "key": "billa|gautier muckstein haselnuss spirituose|0.7l", "store": "BILLA", "pct": 37.0, "price": 4.99}
+{"date": "2026-11-05", "key": "billa|ambrosius 5 tage grablicht herz blute|1.0Stk", "store": "BILLA", "pct": 37.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|paprika hatschek tarhonya original|0.25kg", "store": "BILLA", "pct": 37.0, "price": 0.94}
+{"date": "2026-11-05", "key": "billa|la gioiosa vino spumante rose brut|0.75l", "store": "BILLA", "pct": 37.0, "price": 4.99}
+{"date": "2026-11-05", "key": "billa|santa maria taco wurzmischung mild|0.028kg", "store": "BILLA", "pct": 37.0, "price": 0.99}
+{"date": "2026-11-05", "key": "billa|santa maria burrito gewurzmischung|0.028kg", "store": "BILLA", "pct": 37.0, "price": 0.99}
+{"date": "2026-11-05", "key": "billa|santa maria fajita gewurzmischung|0.028kg", "store": "BILLA", "pct": 37.0, "price": 0.99}
+{"date": "2026-11-05", "key": "billa|ambrosius 5 tage grablicht du fehlst|1.0Stk", "store": "BILLA", "pct": 37.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|ambrosius 5 tage grablicht engel|1.0Stk", "store": "BILLA", "pct": 37.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|billa genusswelt manuka honig|0.225kg", "store": "BILLA", "pct": 37.0, "price": 14.99}
+{"date": "2026-11-05", "key": "billa|monogram zwetschke edelbrand|0.7l", "store": "BILLA", "pct": 37.0, "price": 21.9}
+{"date": "2026-11-05", "key": "billa|ambrosius 5 tage grablicht rose|1.0Stk", "store": "BILLA", "pct": 37.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|ambrosius 5 tage grablicht herz|1.0Stk", "store": "BILLA", "pct": 37.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|ambrosius 5 tage grablicht in stillem gedenken|1.0Stk", "store": "BILLA", "pct": 37.0, "price": 2.99}
+{"date": "2026-11-05", "key": "penny|butternusskurbis|1.0kg", "store": "PENNY", "pct": 37.0, "price": 1.0}
+{"date": "2026-11-05", "key": "penny|marillenkrapfen|0.09kg", "store": "PENNY", "pct": 37.0, "price": 0.49}
+{"date": "2026-11-05", "key": "penny|makrelensalat|0.125kg", "store": "PENNY", "pct": 37.0, "price": 1.49}
+{"date": "2026-11-05", "key": "penny|extrawurst geschnitten|0.2kg", "store": "PENNY", "pct": 37.0, "price": 1.0}
+{"date": "2026-11-05", "key": "penny|osterkron|0.15kg", "store": "PENNY", "pct": 37.0, "price": 2.0}
+{"date": "2026-11-05", "key": "penny|englischer spezialsenf|0.1kg", "store": "PENNY", "pct": 37.0, "price": 1.0}
+{"date": "2026-11-05", "key": "penny|tassimo kapseln|0.164kg", "store": "PENNY", "pct": 37.0, "price": 4.99}
+{"date": "2026-11-05", "key": "eurospar|regio caffe crema|0.5kg", "store": "EUROSPAR", "pct": 36.9, "price": 5.99}
+{"date": "2026-11-05", "key": "interspar|regio caffe crema|0.5kg", "store": "INTERSPAR", "pct": 36.9, "price": 5.99}
+{"date": "2026-11-05", "key": "billa plus|ja naturlich bio kurbiskernlaibchen|1.0Stk", "store": "BILLA PLUS", "pct": 36.5, "price": 0.73}
+{"date": "2026-11-05", "key": "spar|steiermark genuss apfel apfel gala|1.0kg", "store": "SPAR", "pct": 36.1, "price": 1.7}
+{"date": "2026-11-05", "key": "penny|blatterteig duo|0.6kg", "store": "PENNY", "pct": 36.0, "price": 2.29}
+{"date": "2026-11-05", "key": "penny|intensiv reiniger|108.0Stk", "store": "PENNY", "pct": 36.0, "price": 5.99}
+{"date": "2026-11-05", "key": "hofer|romerquelle emotion|0.75l", "store": "HOFER", "pct": 36.0, "price": 0.89}
+{"date": "2026-11-05", "key": "eurospar|barilla teigwaren|0.5kg", "store": "EUROSPAR", "pct": 35.5, "price": 1.22}
+{"date": "2026-11-05", "key": "interspar|barilla teigwaren|0.5kg", "store": "INTERSPAR", "pct": 35.5, "price": 1.22}
+{"date": "2026-11-05", "key": "spar|barilla teigwaren|0.5kg", "store": "SPAR", "pct": 35.5, "price": 1.22}
+{"date": "2026-11-05", "key": "billa plus|iglo atlantik lachs|0.25kg", "store": "BILLA PLUS", "pct": 35.3, "price": 10.99}
+{"date": "2026-11-05", "key": "billa|billa vanille eis|1.0l", "store": "BILLA", "pct": 35.0, "price": 2.59}
+{"date": "2026-11-05", "key": "billa|billa himbeer zitrone erdbeer eis|1.0l", "store": "BILLA", "pct": 35.0, "price": 2.59}
+{"date": "2026-11-05", "key": "billa|thomy ketch co|0.19kg", "store": "BILLA", "pct": 35.0, "price": 1.79}
+{"date": "2026-11-05", "key": "billa|eskimo cremissimo banane stracciatella schokolade|1.0l", "store": "BILLA", "pct": 35.0, "price": 3.24}
+{"date": "2026-11-05", "key": "billa|iglo naturfilet goldbrasse|0.2kg", "store": "BILLA", "pct": 35.0, "price": 10.99}
+{"date": "2026-11-05", "key": "billa|billa kaffee vanille eis|1.0l", "store": "BILLA", "pct": 35.0, "price": 2.59}
+{"date": "2026-11-05", "key": "billa|milka strawberry cheesecake 3er|0.27l", "store": "BILLA", "pct": 35.0, "price": 3.24}
+{"date": "2026-11-05", "key": "billa|milka vanilla chocolate swirl 3er|0.27l", "store": "BILLA", "pct": 35.0, "price": 3.24}
+{"date": "2026-11-05", "key": "billa|iglo forelle naturfilets|0.282kg", "store": "BILLA", "pct": 35.0, "price": 10.99}
+{"date": "2026-11-05", "key": "billa|eskimo cremissimo salted caramel|0.825l", "store": "BILLA", "pct": 35.0, "price": 3.89}
+{"date": "2026-11-05", "key": "billa|iglo atlantik lachs|0.25kg", "store": "BILLA", "pct": 35.0, "price": 10.99}
+{"date": "2026-11-05", "key": "billa|ben jerry s bohemian raspberry|0.465l", "store": "BILLA", "pct": 35.0, "price": 4.54}
+{"date": "2026-11-05", "key": "billa|die grillerei brat und grilltaler tomate basilikum|0.28kg", "store": "BILLA", "pct": 35.0, "price": 1.79}
+{"date": "2026-11-05", "key": "billa|die grillerei brat und grilltaler paprika chili|0.28kg", "store": "BILLA", "pct": 35.0, "price": 1.79}
+{"date": "2026-11-05", "key": "billa|hitschies saure drachenzungen ice cream|0.46l", "store": "BILLA", "pct": 35.0, "price": 3.89}
+{"date": "2026-11-05", "key": "billa|iglo zander naturfilets|0.27kg", "store": "BILLA", "pct": 35.0, "price": 10.99}
+{"date": "2026-11-05", "key": "billa|iglo wolfsbarsch naturfilets|0.2kg", "store": "BILLA", "pct": 35.0, "price": 10.99}
+{"date": "2026-11-05", "key": "penny|fruchtzwerge|0.4kg", "store": "PENNY", "pct": 35.0, "price": 1.61}
+{"date": "2026-11-05", "key": "penny|pralinen|0.105kg", "store": "PENNY", "pct": 35.0, "price": 2.85}
+{"date": "2026-11-05", "key": "penny|weihnachtsmischung|0.212kg", "store": "PENNY", "pct": 35.0, "price": 4.99}
+{"date": "2026-11-05", "key": "penny|schokolade|0.15kg", "store": "PENNY", "pct": 35.0, "price": 2.33}
+{"date": "2026-11-05", "key": "penny|kekse|0.15kg", "store": "PENNY", "pct": 35.0, "price": 2.25}
+{"date": "2026-11-05", "key": "penny|frischer strudelteig|0.12kg", "store": "PENNY", "pct": 35.0, "price": 1.29}
+{"date": "2026-11-05", "key": "hofer|back family zuckerdekor weihnachten|0.016kg", "store": "HOFER", "pct": 34.9, "price": 1.49}
+{"date": "2026-11-05", "key": "hofer|back family zuckerdekor weihnachten|0.021kg", "store": "HOFER", "pct": 34.9, "price": 1.49}
+{"date": "2026-11-05", "key": "spar|spar natur pur bergbauern bio fruchtjogurt|0.5kg", "store": "SPAR", "pct": 34.9, "price": 1.23}
+{"date": "2026-11-05", "key": "billa|dallmayr crema d oro|1.0kg", "store": "BILLA", "pct": 34.5, "price": 18.99}
+{"date": "2026-11-05", "key": "billa plus|dallmayr crema d oro|1.0kg", "store": "BILLA PLUS", "pct": 34.5, "price": 18.99}
+{"date": "2026-11-05", "key": "hofer|bananen|1.0kg", "store": "HOFER", "pct": 34.3, "price": 1.11}
+{"date": "2026-11-05", "key": "billa|nestle pirulo strawberry|0.365l", "store": "BILLA", "pct": 34.0, "price": 3.57}
+{"date": "2026-11-05", "key": "billa|ja naturlich bio knabbermix|0.125kg", "store": "BILLA", "pct": 34.0, "price": 2.49}
+{"date": "2026-11-05", "key": "billa|nestle pirulo fruit explosion|0.252l", "store": "BILLA", "pct": 34.0, "price": 3.57}
+{"date": "2026-11-05", "key": "metro|rioba kaffee espresso|1.0kg", "store": "METRO", "pct": 34.0, "price": 14.19}
+{"date": "2026-11-05", "key": "metro|voslauer mineralwasser|0.5l", "store": "METRO", "pct": 33.9, "price": 0.39}
+{"date": "2026-11-05", "key": "interspar|fini s feinstes weizenmehl|1.0kg", "store": "INTERSPAR", "pct": 33.9, "price": 1.19}
+{"date": "2026-11-05", "key": "interspar|teefee bio fruchtetee|0.3kg", "store": "INTERSPAR", "pct": 33.8, "price": 0.92}
+{"date": "2026-11-05", "key": "eurospar|teefee bio tee saft|0.3l", "store": "EUROSPAR", "pct": 33.8, "price": 0.92}
+{"date": "2026-11-05", "key": "adeg aktiv|voslauer flavours|0.75l", "store": "ADEG Aktiv", "pct": 33.8, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|romerquelle emotion|0.75l", "store": "BILLA", "pct": 33.8, "price": 0.92}
+{"date": "2026-11-05", "key": "billa plus|romerquelle emotion|0.75l", "store": "BILLA PLUS", "pct": 33.8, "price": 0.92}
+{"date": "2026-11-05", "key": "interspar|joya protein drink|0.25l", "store": "INTERSPAR", "pct": 33.7, "price": 1.32}
+{"date": "2026-11-05", "key": "interspar|salzburg milch almfrischkase|0.15kg", "store": "INTERSPAR", "pct": 33.7, "price": 1.32}
+{"date": "2026-11-05", "key": "billa plus|milka schokolade|0.1kg", "store": "BILLA PLUS", "pct": 33.7, "price": 1.32}
+{"date": "2026-11-05", "key": "spar|spar natur pur bio vollkornweckerl|1.0Stk", "store": "SPAR", "pct": 33.6, "price": 0.73}
+{"date": "2026-11-05", "key": "interspar|interspar backstube kraftriegel|1.0Stk", "store": "INTERSPAR", "pct": 33.6, "price": 0.73}
+{"date": "2026-11-05", "key": "eurospar|spar natur pur bio mohnflesserl|1.0Stk", "store": "EUROSPAR", "pct": 33.6, "price": 0.75}
+{"date": "2026-11-05", "key": "spar|spar natur pur bio mohnflesserl|1.0Stk", "store": "SPAR", "pct": 33.6, "price": 0.75}
+{"date": "2026-11-05", "key": "interspar|spar natur pur bio mohnflesserl|1.0Stk", "store": "INTERSPAR", "pct": 33.6, "price": 0.75}
+{"date": "2026-11-05", "key": "billa|nom pro protein skyr|0.2kg", "store": "BILLA", "pct": 33.6, "price": 0.79}
+{"date": "2026-11-05", "key": "billa plus|danone activia kefir drink|0.28kg", "store": "BILLA PLUS", "pct": 33.6, "price": 0.79}
+{"date": "2026-11-05", "key": "eurospar|spar natur pur bio fitnessstange|1.0Stk", "store": "EUROSPAR", "pct": 33.6, "price": 0.99}
+{"date": "2026-11-05", "key": "hofer|westminster genussmomente|20.0Stk", "store": "HOFER", "pct": 33.6, "price": 0.99}
+{"date": "2026-11-05", "key": "billa plus|gosser spezial|0.33l", "store": "BILLA PLUS", "pct": 33.6, "price": 0.99}
+{"date": "2026-11-05", "key": "spar|bahlsen messino|0.125kg", "store": "SPAR", "pct": 33.5, "price": 2.12}
+{"date": "2026-11-05", "key": "billa plus|bahlsen leibniz choco|0.125kg", "store": "BILLA PLUS", "pct": 33.5, "price": 2.52}
+{"date": "2026-11-05", "key": "xxxlutz|wmf crepespfanne devil|1.0Stk", "store": "XXXLutz", "pct": 33.5, "price": 39.9}
+{"date": "2026-11-05", "key": "interspar|grisbi pistacchio keks|0.135kg", "store": "INTERSPAR", "pct": 33.5, "price": 1.79}
+{"date": "2026-11-05", "key": "lidl|blauer zweigelt|1.0l", "store": "Lidl", "pct": 33.5, "price": 1.79}
+{"date": "2026-11-05", "key": "lidl|blaufrankisch|1.0l", "store": "Lidl", "pct": 33.5, "price": 1.79}
+{"date": "2026-11-05", "key": "xxxlutz|wmf pfannenset nordic|2.0Stk", "store": "XXXLutz", "pct": 33.4, "price": 59.9}
+{"date": "2026-11-05", "key": "lidl|dulano selection schwarzwalder schinken|0.2kg", "store": "Lidl", "pct": 33.4, "price": 1.99}
+{"date": "2026-11-05", "key": "hofer|sonnhof speck hauchfein|0.12kg", "store": "HOFER", "pct": 33.4, "price": 1.99}
+{"date": "2026-11-05", "key": "hofer|sonnhof bauchspeck|0.12kg", "store": "HOFER", "pct": 33.4, "price": 1.99}
+{"date": "2026-11-05", "key": "lidl|sweetango apfel|1.0kg", "store": "Lidl", "pct": 33.4, "price": 1.99}
+{"date": "2026-11-05", "key": "eurospar|spar kartoffelprodukte|0.6kg", "store": "EUROSPAR", "pct": 33.4, "price": 1.99}
+{"date": "2026-11-05", "key": "spar|spar kartoffelprodukte|0.6kg", "store": "SPAR", "pct": 33.4, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|billa heringssalate|0.17kg", "store": "BILLA", "pct": 33.4, "price": 1.99}
+{"date": "2026-11-05", "key": "metro|hollinger bio safte|1.0l", "store": "METRO", "pct": 33.4, "price": 1.99}
+{"date": "2026-11-05", "key": "eurospar|dr oetker die ofenfrische pizza|0.32kg", "store": "EUROSPAR", "pct": 33.4, "price": 2.99}
+{"date": "2026-11-05", "key": "interspar|dr oetker die ofenfrische pizza|0.32kg", "store": "INTERSPAR", "pct": 33.4, "price": 2.99}
+{"date": "2026-11-05", "key": "hofer|rio mare thunfischfilets|0.32kg", "store": "HOFER", "pct": 33.4, "price": 3.99}
+{"date": "2026-11-05", "key": "spar|schardinger teebutter|0.25kg", "store": "SPAR", "pct": 33.3, "price": 1.64}
+{"date": "2026-11-05", "key": "interspar|schardinger teebutter|0.25kg", "store": "INTERSPAR", "pct": 33.3, "price": 1.64}
+{"date": "2026-11-05", "key": "eurospar|spar natives olivenol extra|0.5l", "store": "EUROSPAR", "pct": 33.3, "price": 4.66}
+{"date": "2026-11-05", "key": "interspar|spar natives olivenol extra|0.5l", "store": "INTERSPAR", "pct": 33.3, "price": 4.66}
+{"date": "2026-11-05", "key": "spar|spar natives olivenol extra|0.5l", "store": "SPAR", "pct": 33.3, "price": 4.66}
+{"date": "2026-11-05", "key": "spar|teekanne klassiker|20.0Stk", "store": "SPAR", "pct": 33.3, "price": 1.66}
+{"date": "2026-11-05", "key": "billa plus|hollinger apfelsaft|1.0l", "store": "BILLA PLUS", "pct": 33.3, "price": 2.26}
+{"date": "2026-11-05", "key": "billa|oro di parma bio tomatenmark|0.2kg", "store": "BILLA", "pct": 33.3, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|iglo rostgemuse|0.4kg", "store": "BILLA", "pct": 33.3, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza|0.32kg", "store": "BILLA", "pct": 33.3, "price": 2.66}
+{"date": "2026-11-05", "key": "spar|wagner piccolinis|0.27kg", "store": "SPAR", "pct": 33.3, "price": 2.66}
+{"date": "2026-11-05", "key": "maximarkt|coca cola cola|1.5l", "store": "Maximarkt", "pct": 33.3, "price": 1.66}
+{"date": "2026-11-05", "key": "eurospar|coca cola cola|1.5l", "store": "EUROSPAR", "pct": 33.3, "price": 1.66}
+{"date": "2026-11-05", "key": "billa plus|coca cola cola|1.5l", "store": "BILLA PLUS", "pct": 33.3, "price": 1.66}
+{"date": "2026-11-05", "key": "spar|coca cola cola|1.5l", "store": "SPAR", "pct": 33.3, "price": 1.66}
+{"date": "2026-11-05", "key": "interspar|coca cola cola|1.5l", "store": "INTERSPAR", "pct": 33.3, "price": 1.66}
+{"date": "2026-11-05", "key": "hofer|echtwerk gusseisen kochtopf|1.0Stk", "store": "HOFER", "pct": 33.3, "price": 39.99}
+{"date": "2026-11-05", "key": "xxxlutz|tefal crepes pfanne excellence g7|1.0Stk", "store": "XXXLutz", "pct": 33.2, "price": 29.99}
+{"date": "2026-11-05", "key": "metro|nescafe gold|0.2kg", "store": "METRO", "pct": 33.1, "price": 9.29}
+{"date": "2026-11-05", "key": "billa|iglo kochsalat mit erbsen|0.45kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|balisto musli mix|0.111kg", "store": "BILLA", "pct": 33.0, "price": 2.26}
+{"date": "2026-11-05", "key": "billa|milka von herzen haselnusscreme|0.11kg", "store": "BILLA", "pct": 33.0, "price": 3.26}
+{"date": "2026-11-05", "key": "billa|rauch happy day johannisbeernektar|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|rauch happy day ananassaft|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|leibniz butterkeks|0.2kg", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|kotanyi ingwer gemahlen|1.0Stk", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|kotanyi cardamom gemahlen|1.0Stk", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|milka leo alpenmilch|0.1kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|inzersdorfer bohnengulasch|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|kattus frizzante|0.75l", "store": "BILLA", "pct": 33.0, "price": 3.99}
+{"date": "2026-11-05", "key": "billa|henkell piccolo trocken|0.2l", "store": "BILLA", "pct": 33.0, "price": 1.79}
+{"date": "2026-11-05", "key": "billa|leibniz choco vollkorn|0.125kg", "store": "BILLA", "pct": 33.0, "price": 2.52}
+{"date": "2026-11-05", "key": "billa|kattus frizzante rose|0.75l", "store": "BILLA", "pct": 33.0, "price": 3.99}
+{"date": "2026-11-05", "key": "billa|iglo ideenkuche broccoli buchweizen|0.35kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|iglo ideenkuche zucchini bulgur|0.35kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|iglo ideenkuche kurbis quinoa|0.35kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|inzersdorfer erdapfelgulasch|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|milka caramel|0.1kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|kotanyi nelken gemahlen|1.0Stk", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza diavola|0.35kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|kotanyi zimt ganz|1.0Stk", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|kotanyi nelken ganz|1.0Stk", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|kotanyi zimt gemahlen|1.0Stk", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|sheba putenhappchen in sauce|0.085kg", "store": "BILLA", "pct": 33.0, "price": 0.59}
+{"date": "2026-11-05", "key": "billa|sheba classics in pastete mit kalb huhn|0.085kg", "store": "BILLA", "pct": 33.0, "price": 0.59}
+{"date": "2026-11-05", "key": "billa|sheba selection in sauce mit rinderhappchen|0.085kg", "store": "BILLA", "pct": 33.0, "price": 0.59}
+{"date": "2026-11-05", "key": "billa|sheba selection in sauce mit kalbshappchen|0.085kg", "store": "BILLA", "pct": 33.0, "price": 0.59}
+{"date": "2026-11-05", "key": "billa|sheba delikatesse in gelee geschnetzeltes mit huhn|0.085kg", "store": "BILLA", "pct": 33.0, "price": 0.59}
+{"date": "2026-11-05", "key": "billa|sheba empfehlung der saison|0.085kg", "store": "BILLA", "pct": 33.0, "price": 0.59}
+{"date": "2026-11-05", "key": "billa|sheba sauce speciale mit truthahn und gemuse|0.085kg", "store": "BILLA", "pct": 33.0, "price": 0.59}
+{"date": "2026-11-05", "key": "billa|knorr pasta snack tomate mozzarella|0.063kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|milka cookies sensations schoko|0.156kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|iglo cremegemuse rahm broccoli|0.3kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|oreo double box|0.17kg", "store": "BILLA", "pct": 33.0, "price": 2.39}
+{"date": "2026-11-05", "key": "billa|muller joghurt mit der ecke banane mit schokolade flakes|0.15kg", "store": "BILLA", "pct": 33.0, "price": 0.68}
+{"date": "2026-11-05", "key": "billa|henkell piccolo rose|0.2l", "store": "BILLA", "pct": 33.0, "price": 1.79}
+{"date": "2026-11-05", "key": "billa|milka dankeschon milchcreme|0.11kg", "store": "BILLA", "pct": 33.0, "price": 3.26}
+{"date": "2026-11-05", "key": "billa|sheba craft collection pastete mit geflugel|0.085kg", "store": "BILLA", "pct": 33.0, "price": 0.59}
+{"date": "2026-11-05", "key": "billa|billa heringsalat preiselbeere|0.17kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|schardinger toastkasescheiben|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|knorr asia noodles becher rind|0.063kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|knorr asia noodles becher ente|0.061kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|knorr asia noodles huhn|0.07kg", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|knorr asia noodles curry|0.07kg", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|knorr asia noodles rind|0.07kg", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|leibniz vollkorn butterkeks|0.2kg", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|kotanyi hausbrot gewurzmischung|1.0Stk", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|muller joghurt mit der ecke vanille mit schoko balls|0.15kg", "store": "BILLA", "pct": 33.0, "price": 0.68}
+{"date": "2026-11-05", "key": "billa|leibniz minis schokokekse|0.125kg", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza tonno|0.355kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|iglo cremegemuse rahm farmers|0.3kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|milka i love milka erdbeer|0.11kg", "store": "BILLA", "pct": 33.0, "price": 3.26}
+{"date": "2026-11-05", "key": "billa|inzersdorfer chili con carne|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza salami|0.32kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|milka fur dich pralines|0.11kg", "store": "BILLA", "pct": 33.0, "price": 3.26}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza mozzarella|0.335kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|iglo rostgemuse mais mehr|0.5kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|schardinger bergbaron scheiben|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|schardinger traungold scheiben|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|iglo cremegemuse erbsen karotten|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|kotanyi apfelstrudel gewurzzubereitung|1.0Stk", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|iglo gemuse a la creme bunte auslese|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|iglo rostgemuse 4 jahreszeiten|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|balisto korn|0.111kg", "store": "BILLA", "pct": 33.0, "price": 2.26}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza spinaci|0.39kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza prosciutto|0.33kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|chateau sainte jeanne corbieres aoc|0.75l", "store": "BILLA", "pct": 33.0, "price": 3.99}
+{"date": "2026-11-05", "key": "billa|schardinger dachsteiner|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|varta alkaline mignon aa|4.0Stk", "store": "BILLA", "pct": 33.0, "price": 3.46}
+{"date": "2026-11-05", "key": "billa|varta alkaline micro aaa|4.0Stk", "store": "BILLA", "pct": 33.0, "price": 3.46}
+{"date": "2026-11-05", "key": "billa|milka cookies sensations oreo|0.156kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|schardinger protein bergbaron scheiben|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|milka hauchzarte herzen alpenmilch|0.13kg", "store": "BILLA", "pct": 33.0, "price": 3.26}
+{"date": "2026-11-05", "key": "billa|schardinger gouda scheiben|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|knorr pasta snack arrabiata|0.066kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|knorr kartoffel snack speck zwiebeln|0.058kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza hawaii|0.355kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|billa heringssalat curry|0.17kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|billa heringsalat mit raucherlachs|0.17kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|schardinger jerome scheiben|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|iglo kohlrabi rahmgemuse|0.45kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|schardinger rauchkase scheiben|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|inzersdorfer bohnen mit speck|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|inzersdorfer linsen mit speck|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|inzersdorfer weinbeuschel|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|milka choco wafer|0.15kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|schardinger toastkasescheiben wurzig|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|knorr pasta snack brokkoli kase sauce|0.069kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|knorr pasta snack pilz rahm sauce|0.059kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|rauch happy day himbeere|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|knorr pasta snack kase krauter sauce|0.059kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|schardinger mozzarella scheiben|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|cadbury wunderbar erdnuss karamell riegel 5er|0.185kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|almdudler original|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|milka dessert au chocolat|0.1kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|milka choco cookies|0.168kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|iglo rostgemuse forster art|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|iglo rostgemuse mediterran|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza margherita pomodori|0.34kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|schardinger rahm emmentaler scheiben|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|schardinger rahm emmentaler gerauchert scheiben|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|sheba classics in pastete mit lachs|0.085kg", "store": "BILLA", "pct": 33.0, "price": 0.59}
+{"date": "2026-11-05", "key": "billa|knorr asia noodles becher huhn|0.065kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|knorr pasta snack bolognese|0.068kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|knorr pasta snack kase sahne sauce|0.063kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|milka joghurt|0.1kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|milka nussini haselnuss riegel 5er|0.158kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|milka tender milch riegel 4er|0.148kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|milka tender nuss riegel 4er|0.148kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|almdudler zuckerfrei|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|pago orange und mango|1.0l", "store": "BILLA", "pct": 33.0, "price": 2.19}
+{"date": "2026-11-05", "key": "billa|pago orange karotte und zitrone|1.0l", "store": "BILLA", "pct": 33.0, "price": 2.19}
+{"date": "2026-11-05", "key": "billa|pago schwarze ribisel apfel und birne|1.0l", "store": "BILLA", "pct": 33.0, "price": 2.19}
+{"date": "2026-11-05", "key": "billa|iglo buttergemuse der klassiker|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|milka oreo riegel 5er|0.185kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|milka erdbeer riegel 5er|0.182kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|rauch happy day banane|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|billa heringssalat hamburger art|0.17kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|billa heringssalat rote ruben|0.17kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|billa feuriger heringssalat|0.17kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|gurktaler der milde alpenkrauter|0.7l", "store": "BILLA", "pct": 33.0, "price": 9.99}
+{"date": "2026-11-05", "key": "billa|milka erdbeer joghurt|0.1kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|iglo cremegemuse zarte mischung|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|milka choco minis|0.185kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|milka alles gute a la dessert au chocolat|0.11kg", "store": "BILLA", "pct": 33.0, "price": 3.26}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza funghi|0.365kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|milka choco moo|0.2kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|leibniz choco edelherb|0.125kg", "store": "BILLA", "pct": 33.0, "price": 2.52}
+{"date": "2026-11-05", "key": "billa|rauch happy day rote traube|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|rauch happy day marille|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|rauch happy day birne|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|leibniz choco vollmilch|0.125kg", "store": "BILLA", "pct": 33.0, "price": 2.52}
+{"date": "2026-11-05", "key": "billa|iglo rostgemuse steak mix|0.45kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|schardinger bergkase 45 scheiben hauchdunn|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|kattus frizzante muskattus|0.75l", "store": "BILLA", "pct": 33.0, "price": 3.99}
+{"date": "2026-11-05", "key": "billa|rauch happy day cocos ananas|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|milka oreo|0.1kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|schardinger moosbacher scheiben hauchdunn|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|schardinger butterkase scheiben|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|milka choco cookies nuts|0.168kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|billa genusswelt cerignola grune oliven|0.36kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|balisto joghurt beeren mix|0.111kg", "store": "BILLA", "pct": 33.0, "price": 2.26}
+{"date": "2026-11-05", "key": "billa|iglo rostgemuse provence|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|billa heringsalat klassisch|0.17kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|billa heringsalat alt wiener art|0.17kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza al salame vegano|0.295kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|schardinger 3 kase aufschnitt|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|knorr pasta snack mac cheese jalapeno|0.062kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|knorr asia noodles becher vegetable taste|0.065kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|pago limonada zitrone|1.0l", "store": "BILLA", "pct": 33.0, "price": 13.14}
+{"date": "2026-11-05", "key": "billa|pago apfel und kirsche|1.0l", "store": "BILLA", "pct": 33.0, "price": 2.19}
+{"date": "2026-11-05", "key": "billa|pago blutorange|1.0l", "store": "BILLA", "pct": 33.0, "price": 2.19}
+{"date": "2026-11-05", "key": "billa|maggi lachs sahne gratin|1.0Stk", "store": "BILLA", "pct": 33.0, "price": 0.99}
+{"date": "2026-11-05", "key": "billa|iglo kohlgemuse|0.45kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|spezi orange|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza rucola|0.325kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|schardinger bergbaron gerauchert scheiben 45|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|dr oetker pietro pizzi margherita 1er|0.32kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza salame mozzarella pesto|0.36kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|innocent immun shot ingwer|0.08l", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|innocent immun shot ingwer kurkuma|0.08l", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|rauch happy day immun power mit magnesium|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|iglo veggie love gemuse curry|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|billa genusswelt kokos cashews|0.13kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|milka sandwich mit tuc cracker|0.087kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|knabber nossi salami brezel|0.05kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|billa hering kieler art|0.17kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|knorr asia noodles spicy chicken taste|0.073kg", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|rauch happy day pink guave|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|knabber nossi salami herzen|0.05kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|voslauer zitrone|1.0l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|voslauer himbeere|1.0l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|voslauer schwarze johannisbeere|1.0l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|voslauer flavour pfirsich lime zink|0.75l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|voslauer flavours holunderblute|1.0l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|voslauer flavours plus orange passion|0.75l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|coca cola zero|1.5l", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|fanta zero|1.5l", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|innocent smoothie plus multimix vitaminbundel|0.3l", "store": "BILLA", "pct": 33.0, "price": 1.92}
+{"date": "2026-11-05", "key": "billa|innocent smoothie berry antioxidant|0.3l", "store": "BILLA", "pct": 33.0, "price": 1.92}
+{"date": "2026-11-05", "key": "billa|almdudler|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|lowenbrau original|0.5l", "store": "BILLA", "pct": 33.0, "price": 0.81}
+{"date": "2026-11-05", "key": "billa|lowenbrau weisse|0.5l", "store": "BILLA", "pct": 33.0, "price": 0.81}
+{"date": "2026-11-05", "key": "billa|coca cola|1.5l", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|coca cola light|1.5l", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|fanta|1.5l", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|mezzo mix|1.5l", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|innocent smoothie berry energise|0.3l", "store": "BILLA", "pct": 33.0, "price": 1.92}
+{"date": "2026-11-05", "key": "billa|innocent smoothie green antioxidant|0.3l", "store": "BILLA", "pct": 33.0, "price": 1.92}
+{"date": "2026-11-05", "key": "billa|innocent smoothie plus tropical energise|0.3l", "store": "BILLA", "pct": 33.0, "price": 1.92}
+{"date": "2026-11-05", "key": "billa|innocent smoothie mango vitaminbundel|0.3l", "store": "BILLA", "pct": 33.0, "price": 1.92}
+{"date": "2026-11-05", "key": "billa|romerquelle emotion marille holunder|0.75l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|romerquelle emotion lemongrass|0.75l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|romerquelle emotion birne melisse|0.75l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|romerquelle emotion brombeere limette|0.75l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|romerquelle emotion ananas zitrone|0.75l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|sprite zero|1.5l", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|sprite|1.5l", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|innocent smoothie plus pink energise|0.3l", "store": "BILLA", "pct": 33.0, "price": 1.92}
+{"date": "2026-11-05", "key": "billa|romerquelle emotion pfirsich wassermelone|0.75l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|romerquelle flavour zitrone limette|0.75l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|romerquelle emotion apfel acai plus|0.75l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|romerquelle emotion mango acerola plus|0.75l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|jack daniel s coca cola|0.33l", "store": "BILLA", "pct": 33.0, "price": 2.33}
+{"date": "2026-11-05", "key": "billa|milka ganze haselnusse|0.095kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|milka alpenmilch|0.09kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|milka haselnuss|0.09kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|milka noisette|0.09kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|milka kuhflecken|0.09kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|milka luflee|0.09kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|milka weie schokolade|0.09kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|milka traube nuss|0.09kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|romerquelle emotion plus kaktus zitrone|0.75l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|fanta lemon|1.5l", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|voslauer flavours ananas|1.0l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|hochriegl rose baby|0.2l", "store": "BILLA", "pct": 33.0, "price": 1.79}
+{"date": "2026-11-05", "key": "billa|milka biscoff|0.09kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|milka happy birthday|0.11kg", "store": "BILLA", "pct": 33.0, "price": 3.26}
+{"date": "2026-11-05", "key": "billa|oro di parma tomatenmark|0.2kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|oro di parma pizzasauce oregano|0.4kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|rauch happy day grapefruitsaft|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza speciale|0.33kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|kotanyi bauernbrot gewurzzubereitung|1.0Stk", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza quatro formaggi|0.34kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|billa heringsalat danisch dill|0.17kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|oro di parma tomatenmark mit basilikum|0.2kg", "store": "BILLA", "pct": 33.0, "price": 1.86}
+{"date": "2026-11-05", "key": "billa|rossbacher krauterlikor|0.7l", "store": "BILLA", "pct": 33.0, "price": 9.99}
+{"date": "2026-11-05", "key": "billa|iglo letscho|0.45kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|kotanyi lebkuchen grossmutter art|1.0Stk", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|iglo rahmfisolen|0.45kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|dr oetker ristorante pizza pepperoni salami|0.32kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|hollinger steirischer apfelsaft naturtrub|1.0l", "store": "BILLA", "pct": 33.0, "price": 2.26}
+{"date": "2026-11-05", "key": "billa|rauch happy day mango|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|rauch happy day amarenakirsche|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|milka sweet winter tafel|0.09kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|bacardi coca cola|0.25l", "store": "BILLA", "pct": 33.0, "price": 2.33}
+{"date": "2026-11-05", "key": "billa|iglo gemuseideen schwedische art|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|iglo gemuseideen gemuse pilz pfanne|0.48kg", "store": "BILLA", "pct": 33.0, "price": 2.66}
+{"date": "2026-11-05", "key": "billa|innocent wake up shot|0.08l", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|innocent shot bauch balance|0.08l", "store": "BILLA", "pct": 33.0, "price": 1.66}
+{"date": "2026-11-05", "key": "billa|billa makrelensalat|0.125kg", "store": "BILLA", "pct": 33.0, "price": 1.19}
+{"date": "2026-11-05", "key": "billa|rauch happy day pfirsich|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|namdong kimchi jjigae k noodles cup|0.083kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|namdong chicken jjigae k noodles cup|0.084kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|namdong beef jjigae k noodles cup|0.083kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|billa eistee pfirsich|0.33l", "store": "BILLA", "pct": 33.0, "price": 0.39}
+{"date": "2026-11-05", "key": "billa|billa eistee zitrone|0.33l", "store": "BILLA", "pct": 33.0, "price": 0.39}
+{"date": "2026-11-05", "key": "billa|billa bio tortellini gemuse|0.25kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|napoli dragee keksi dark side|0.15kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|rauch happy day exotic mix|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|jack link s beef bar|0.022kg", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|voslauer limette yuzu still|1.0l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|voslauer himbeer ingwer still|1.0l", "store": "BILLA", "pct": 33.0, "price": 0.92}
+{"date": "2026-11-05", "key": "billa|hochriegl trocken baby|0.2l", "store": "BILLA", "pct": 33.0, "price": 1.79}
+{"date": "2026-11-05", "key": "billa|rauch happy day erdbeere|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|rauch happy day maracuja|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|rauch happy day cranberry|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|rauch happy day pink grapefruit|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|rauch happy day granatapfel|1.0l", "store": "BILLA", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|oreo original|0.176kg", "store": "BILLA", "pct": 33.0, "price": 2.39}
+{"date": "2026-11-05", "key": "billa|knorr pasta snack gulasch sauce|0.06kg", "store": "BILLA", "pct": 33.0, "price": 1.46}
+{"date": "2026-11-05", "key": "billa|milka oreo sandwich|0.092kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "billa|eco by naty windeln gr 5|22.0Stk", "store": "BILLA", "pct": 33.0, "price": 7.99}
+{"date": "2026-11-05", "key": "billa|tuc cracker classic 3er|0.3kg", "store": "BILLA", "pct": 33.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|inzersdorfer puten chili con carne|0.4kg", "store": "BILLA", "pct": 33.0, "price": 2.32}
+{"date": "2026-11-05", "key": "billa|milka erdnuss crisp|0.09kg", "store": "BILLA", "pct": 33.0, "price": 1.32}
+{"date": "2026-11-05", "key": "penny|ofen grillerdapfel|1.5kg", "store": "PENNY", "pct": 33.0, "price": 1.59}
+{"date": "2026-11-05", "key": "penny|berner wurstel|0.4kg", "store": "PENNY", "pct": 33.0, "price": 2.99}
+{"date": "2026-11-05", "key": "penny|prinzenrolle|0.352kg", "store": "PENNY", "pct": 33.0, "price": 1.99}
+{"date": "2026-11-05", "key": "penny|stracciatella kirsch|0.64kg", "store": "PENNY", "pct": 33.0, "price": 7.99}
+{"date": "2026-11-05", "key": "penny|riegel|0.168kg", "store": "PENNY", "pct": 33.0, "price": 1.79}
+{"date": "2026-11-05", "key": "penny|carta blanca|0.7l", "store": "PENNY", "pct": 33.0, "price": 11.99}
+{"date": "2026-11-05", "key": "penny|karotten|1.0kg", "store": "PENNY", "pct": 33.0, "price": 0.99}
+{"date": "2026-11-05", "key": "penny|rahm camembert|0.25kg", "store": "PENNY", "pct": 33.0, "price": 2.0}
+{"date": "2026-11-05", "key": "penny|muffins|0.36kg", "store": "PENNY", "pct": 33.0, "price": 2.0}
+{"date": "2026-11-05", "key": "lidl|muller joghurt mit der ecke|0.113kg", "store": "Lidl", "pct": 33.0, "price": 0.67}
+{"date": "2026-11-05", "key": "metro|coca cola cola|0.33l", "store": "METRO", "pct": 32.6, "price": 0.6}
+{"date": "2026-11-05", "key": "hofer|lacura mizellenwasser|0.4l", "store": "HOFER", "pct": 32.5, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|billa sirup himbeer zitrone|0.7l", "store": "BILLA", "pct": 32.0, "price": 1.89}
+{"date": "2026-11-05", "key": "billa|billa sirup pfirsich|0.7l", "store": "BILLA", "pct": 32.0, "price": 1.89}
+{"date": "2026-11-05", "key": "billa|billa sirup zitrone|0.7l", "store": "BILLA", "pct": 32.0, "price": 1.89}
+{"date": "2026-11-05", "key": "billa|larsen heringsfilet in paprikacreme|0.2kg", "store": "BILLA", "pct": 32.0, "price": 1.69}
+{"date": "2026-11-05", "key": "hofer|alpro joghurtalternative|0.4kg", "store": "HOFER", "pct": 32.0, "price": 1.49}
+{"date": "2026-11-05", "key": "lagerhaus|julius meinl prasident|1.0kg", "store": "Lagerhaus", "pct": 31.8, "price": 14.99}
+{"date": "2026-11-05", "key": "maximarkt|lavazza crema e aroma|1.0kg", "store": "Maximarkt", "pct": 31.1, "price": 19.99}
+{"date": "2026-11-05", "key": "spar|julius meinl premium collection caffe crema|1.0kg", "store": "SPAR", "pct": 31.1, "price": 19.99}
+{"date": "2026-11-05", "key": "hofer|zuruck zum ursprung bio apfel|1.5kg", "store": "HOFER", "pct": 31.0, "price": 2.29}
+{"date": "2026-11-05", "key": "billa|schlumberger klassik selection baby 3er|0.6l", "store": "BILLA", "pct": 31.0, "price": 9.99}
+{"date": "2026-11-05", "key": "billa|coca cola|2.0l", "store": "BILLA", "pct": 31.0, "price": 1.99}
+{"date": "2026-11-05", "key": "billa|kozel premium|0.5l", "store": "BILLA", "pct": 31.0, "price": 0.99}
+{"date": "2026-11-05", "key": "billa|kozel dark|0.5l", "store": "BILLA", "pct": 31.0, "price": 0.99}
+{"date": "2026-11-05", "key": "penny|mini pralinen|0.09kg", "store": "PENNY", "pct": 31.0, "price": 3.99}
+{"date": "2026-11-05", "key": "lidl|omas backstube weizenmehl|1.0kg", "store": "Lidl", "pct": 31.0, "price": 0.49}
+{"date": "2026-11-05", "key": "xxxlutz|tefal pfannen excellence g7|1.0Stk", "store": "XXXLutz", "pct": 31.0, "price": 37.9}
+{"date": "2026-11-05", "key": "lidl|knabbernossi classic|0.125kg", "store": "Lidl", "pct": 30.7, "price": 4.29}
+{"date": "2026-11-05", "key": "billa plus|eduscho wiener gold|0.5kg", "store": "BILLA PLUS", "pct": 30.5, "price": 7.99}
+{"date": "2026-11-05", "key": "hofer|happy harvest rohrzucker|0.5kg", "store": "HOFER", "pct": 30.3, "price": 0.69}
+{"date": "2026-11-05", "key": "hofer|manner schnitten|0.4kg", "store": "HOFER", "pct": 30.3, "price": 2.99}
+{"date": "2026-11-05", "key": "lagerhaus|voslauer mineralwasser|9.0l", "store": "Lagerhaus", "pct": 30.3, "price": 6.21}
+{"date": "2026-11-05", "key": "hofer|chicoree|0.5kg", "store": "HOFER", "pct": 30.2, "price": 1.99}
+{"date": "2026-11-05", "key": "hofer|matilde vicenzi grisbi kekse|0.27kg", "store": "HOFER", "pct": 30.1, "price": 3.49}
+{"date": "2026-11-05", "key": "lidl|weingut muller riesling kalk steine|0.75l", "store": "Lidl", "pct": 30.1, "price": 4.05}
+{"date": "2026-11-05", "key": "lidl|weingut kolkmann roter veltliner|0.75l", "store": "Lidl", "pct": 30.0, "price": 5.59}
+{"date": "2026-11-05", "key": "lidl|weingut kolkmann zweigelt perfektion|0.75l", "store": "Lidl", "pct": 30.0, "price": 5.59}
+{"date": "2026-11-05", "key": "lidl|weingut tesch blaufrankisch|0.75l", "store": "Lidl", "pct": 30.0, "price": 4.89}
+{"date": "2026-11-05", "key": "lidl|weingut muller gruner veltliner ried himmelreich|0.75l", "store": "Lidl", "pct": 30.0, "price": 6.99}
+{"date": "2026-11-05", "key": "lidl|weingut walter skoff sauvignon blanc|0.75l", "store": "Lidl", "pct": 30.0, "price": 8.39}
+{"date": "2026-11-05", "key": "lidl|domane wachau riesling federspiel|0.75l", "store": "Lidl", "pct": 30.0, "price": 6.29}
+{"date": "2026-11-05", "key": "lidl|domane wachau gruner veltliner smaragd|0.75l", "store": "Lidl", "pct": 30.0, "price": 9.79}
+{"date": "2026-11-05", "key": "lidl|iby lehrner cuvee gold|0.75l", "store": "Lidl", "pct": 30.0, "price": 9.79}
+{"date": "2026-11-05", "key": "billa|tchibo cafe feine milde gemahlen|0.5kg", "store": "BILLA", "pct": 30.0, "price": 7.99}
+{"date": "2026-11-05", "key": "billa|santa maria original tortilla medium|0.32kg", "store": "BILLA", "pct": 30.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|tchibo cafe feine milde ganze bohne|0.5kg", "store": "BILLA", "pct": 30.0, "price": 7.99}
+{"date": "2026-11-05", "key": "billa|eduscho wiener gold ganze bohne|0.5kg", "store": "BILLA", "pct": 30.0, "price": 7.99}
+{"date": "2026-11-05", "key": "billa|eduscho wiener gold gemahlen|0.5kg", "store": "BILLA", "pct": 30.0, "price": 7.99}
+{"date": "2026-11-05", "key": "billa|franziskaner hefe weissbier|0.5l", "store": "BILLA", "pct": 30.0, "price": 18.06}
+{"date": "2026-11-05", "key": "billa|eduscho caffe crema brasilien ganze bohne|1.0kg", "store": "BILLA", "pct": 30.0, "price": 15.99}
+{"date": "2026-11-05", "key": "billa|iglo backrohr kartoffelpuffer|0.6kg", "store": "BILLA", "pct": 30.0, "price": 3.49}
+{"date": "2026-11-05", "key": "billa|santa maria vollkorn tortilla|0.32kg", "store": "BILLA", "pct": 30.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|iglo backrohr mini rosti|0.6kg", "store": "BILLA", "pct": 30.0, "price": 3.49}
+{"date": "2026-11-05", "key": "billa|iglo erdapfel dippers|0.5kg", "store": "BILLA", "pct": 30.0, "price": 3.49}
+{"date": "2026-11-05", "key": "billa|santa maria corn wheat tortilla|0.336kg", "store": "BILLA", "pct": 30.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|martini frizzante rosato|0.75l", "store": "BILLA", "pct": 30.0, "price": 6.99}
+{"date": "2026-11-05", "key": "billa|iglo schinken kase erdapfeltascherl|0.3kg", "store": "BILLA", "pct": 30.0, "price": 3.49}
+{"date": "2026-11-05", "key": "billa|iglo frischkase erdapfeltascherl|0.3kg", "store": "BILLA", "pct": 30.0, "price": 3.49}
+{"date": "2026-11-05", "key": "billa|milka mini cones 8er|0.2l", "store": "BILLA", "pct": 30.0, "price": 3.49}
+{"date": "2026-11-05", "key": "billa|iglo backrohr rostinchen|0.65kg", "store": "BILLA", "pct": 30.0, "price": 3.49}
+{"date": "2026-11-05", "key": "billa|ganic vitamin water wake up|0.5l", "store": "BILLA", "pct": 30.0, "price": 1.53}
+{"date": "2026-11-05", "key": "billa|santa maria original tortilla large|0.371kg", "store": "BILLA", "pct": 30.0, "price": 2.99}
+{"date": "2026-11-05", "key": "billa|fair zum tier polnische spezial|0.1kg", "store": "BILLA", "pct": 30.0, "price": 1.79}
+{"date": "2026-11-05", "key": "billa|milka peanut caramel stick 3er|0.27l", "store": "BILLA", "pct": 30.0, "price": 3.49}
+{"date": "2026-11-05", "key": "billa|oreo mini cones|0.2l", "store": "BILLA", "pct": 30.0, "price": 3.49}
+{"date": "2026-11-05", "key": "billa|milka choco topped cone|0.4l", "store": "BILLA", "pct": 30.0, "price": 3.49}
+{"date": "2026-11-05", "key": "billa|eduscho espresso classico ganze bohne|1.0kg", "store": "BILLA", "pct": 30.0, "price": 15.99}
+{"date": "2026-11-05", "key": "billa|eduscho crema elegante|1.0kg", "store": "BILLA", "pct": 30.0, "price": 15.99}
+{"date": "2026-11-05", "key": "penny|schnitten od tortchen|0.4kg", "store": "PENNY", "pct": 30.0, "price": 2.99}
+{"date": "2026-11-05", "key": "penny|dreamies|0.35kg", "store": "PENNY", "pct": 30.0, "price": 6.29}
+{"date": "2026-11-05", "key": "penny|heurigen od sonntags aufschnitt|0.18kg", "store": "PENNY", "pct": 30.0, "price": 2.99}
+{"date": "2026-11-05", "key": "penny|crema elegante|1.0kg", "store": "PENNY", "pct": 30.0, "price": 15.99}
